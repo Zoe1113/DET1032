@@ -248,7 +248,7 @@ void App_SKeyProcess(void)
     if( uKeyPress.bits.SKeyPress && eMain_Task != Task_Memorymode)									//模式键按下
     {
         uKeyRelease.bits.SKeyRelease = 0;
-
+        #if Nation
         if(	uKeyHold.bits.SKeyHold && !uErrFlag.bits.Er2)			//如果长按三秒
         {
              Auto_TurnOff_Time_Sel();	//按下关机时间清0
@@ -277,6 +277,7 @@ void App_SKeyProcess(void)
                 }
             #endif	
         }	
+        #endif
     }
     //设置键短按
     else

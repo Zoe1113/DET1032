@@ -18,6 +18,7 @@
 // sfr	lcd13 = 0xf0d ;
 // sfr	lcd14 = 0xf0e ;
 
+//¾µÏñÇý¶¯
 sfr	lcd0 = 0xf0e ;
 sfr	lcd1 = 0xf0d ;
 sfr	lcd2 = 0xf0c ;
