@@ -5,260 +5,260 @@ start listing elf file - .\Bin/ETTest.out
 
 Start   Length(Byte)  Type  Name                             Source File
 000000    0X03        Data  crt0@data                        
-0X0003    0X02        Data  _g_TpCount@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0005    0X02        Data  _g_NtcCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0007    0X02        Data  _g_AIN2Count@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0009    0X01        Data  _Drv_I2C_HW_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_I2C_HW.c
-0X000A    0X02        Data  _g_AIN1Count@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X000C    0X02        Data  _g_OpOffsetDoff@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X000E    0X02        Data  _g_OpDoff@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0010    0X02        Data  _g_AdcDoff@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0012    0X02        Data  _g_Cali41Data@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0014    0X02        Data  _g_Cali37Data@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0016    0X02        Data  _g_Cali25TP@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0018    0X01        Data  _g_AgeNode_Men@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
+0X0003    0X02        Data  _g_TpCount@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0005    0X02        Data  _g_NtcCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0007    0X02        Data  _g_AIN2Count@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0009    0X01        Data  _Drv_I2C_HW_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X000A    0X02        Data  _g_AIN1Count@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X000C    0X02        Data  _g_OpOffsetDoff@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X000E    0X02        Data  _g_OpDoff@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0010    0X02        Data  _g_AdcDoff@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0012    0X02        Data  _g_Cali41Data@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0014    0X02        Data  _g_Cali37Data@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0016    0X02        Data  _g_Cali25TP@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0018    0X01        Data  _g_AgeNode_Men@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
 0X0019    0X08        Data  _VirtualReg                      
-0X0021    0X02        Data  _g_RelateTemp@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0023    0X01        Data  _App_CaliMode_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X0024    0X01        Data  _APP_Isr_c_GlobalBitDataPool0    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\APP_Isr.c
+0X0021    0X02        Data  _g_RelateTemp@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0023    0X01        Data  _App_CaliMode_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X0024    0X01        Data  _APP_Isr_c_GlobalBitDataPool0    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
 0X0025    0X0B        Data  _InterruptBackupData             
 0X0030    0X02        Data  _VirtualRegIsr                   
-0X0032    0X01        Data  _App_Memory_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0033    0X01        Data  _eAgemode_num@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0034    0X01        Data  _uErrFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0035    0X01        Data  _uStaFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0036    0X01        Data  _eMain_Task@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0037    0X02        Data  _g_TpStep@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0039    0X02        Data  _g_NtcStep@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X003B    0X01        Data  _App_SetMode_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SetMode.c
-0X003C    0X01        Data  _App_Core_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
+0X0032    0X01        Data  _App_Memory_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0033    0X01        Data  _eAgemode_num@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0034    0X01        Data  _uErrFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0035    0X01        Data  _uStaFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0036    0X01        Data  _eMain_Task@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0037    0X02        Data  _g_TpStep@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0039    0X02        Data  _g_NtcStep@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X003B    0X01        Data  _App_SetMode_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X003C    0X01        Data  _App_Core_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
 0X003D    0X0A        Data  __runtime_arg_isr                
-0X0047    0X01        Data  _App_Time_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0048    0X01        Data  _App_BleMode06_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
+0X0047    0X01        Data  _App_Time_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0048    0X01        Data  _App_BleMode06_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
 0X0049    0X0F        Data  __runtime_arg                    
-0X0058    0X01        Data  _g_Earcap15@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X0059    0X01        Data  _g_Earcap10@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X005A    0X01        Data  _g_PcRatio@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X005B    0X01        Data  _g_Emission@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X005C    0X01        Data  _g_HumanRatio2@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X005D    0X01        Data  _g_HumanRatio1@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X005E    0X03        Data  _Hex2Bcd@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X0061    0X01        Data  _Function_Temp_Resolution_Adjust_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X0062    0X01        Data  _Function_LowTemp_Compensate_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ETOffset.c
-0X0063    0X04        Data  _g_AdcSum@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_ADC.c
-0X0067    0X01        Data  _g_AdcCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_ADC.c
-0X0068    0X02        Data  _g_AdcData@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_ADC.c
-0X006A    0X01        Data  _Function_Adc_Channel_Init_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_ADC.c
-0X006B    0X02        Data  _sdata92@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_ADC.c
-0X006D    0X02        Data  _sdata93@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_ADC.c
-0X006F    0X01        Data  _g_beep_loop@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Buzzer.c
-0X0070    0X01        Data  _g_beep_time@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Buzzer.c
-0X0071    0X01        Data  _eBeep_Status@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Buzzer.c
-0X0072    0X01        Data  _R_I2C_TXDATA@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_I2C_HW.c
-0X0073    0X01        Data  _R_I2C_RXDATA@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_I2C_HW.c
-0X0074    0X01        Data  _R_E2Address@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_I2C_HW.c
-0X0075    0X01        Data  _eKeyVal@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0076    0X01        Data  _eKeySta@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0077    0X01        Data  _uKeyContinue@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0078    0X01        Data  _g_Hour@segment                  D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0079    0X01        Data  _g_Minute@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X007A    0X01        Data  _g_Day@segment                   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X007B    0X01        Data  _g_Month@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X007C    0X02        Data  _g_Year@segment                  D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X007E    0X01        Data  _g_Second@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X007F    0X01        Data  _uSetFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Variable.c
-0X0100    0X05        Data  _sEarcapKey@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0105    0X05        Data  _sSetKey@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X010A    0X05        Data  _sTestKey@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X010F    0X05        Data  _sMemKey@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0114    0X01        Data  _uKeyRelease@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0115    0X01        Data  _uKeyHold@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0116    0X01        Data  _uKeyPress@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0117    0X02        Data  _sdata32@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X0119    0X01        Data  _sdata390@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X011A    0X01        Data  _sdata504@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X011B    0X01        Data  _sdata505@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_Key.c
-0X011C    0X01        Data  _g_MonthMem_momeory@segment      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X011D    0X01        Data  _g_MemCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X011E    0X01        Data  _g_MemTotalNo@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X011F    0X01        Data  _g_MemNo@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0120    0X02        Data  _g_YearMem@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0122    0X01        Data  _g_MonthMem@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0123    0X01        Data  _g_DayMem@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0124    0X01        Data  _g_MinuteMem@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0125    0X01        Data  _g_HourMem@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X0126    0X02        Data  _p@segment                       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\APP_Isr.c
-0X0128    0X01        Data  _eCaliTask@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X0129    0X01        Data  _sdata283@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X012A    0X01        Data  _sdata284@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X012B    0X01        Data  _sdata285@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X012C    0X02        Data  _sdata280@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X012E    0X10        Data  _sdata281@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X013E    0X02        Data  _sdata282@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_CaliMode.c
-0X0140    0X18        Data  _g_NtcStepBuff@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X0158    0X01        Data  _eReadyTask_Sta@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X0159    0X02        Data  _g_NtcStepBuffCount@segment      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X015B    0X01        Data  _sdata69@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X015C    0X01        Data  _sdata256@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X015D    0X01        Data  _Function_Er1_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X015E    0X01        Data  _sdata311@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X015F    0X01        Data  _Function_Er2_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X0160    0X01        Data  _sdata394@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X0161    0X01        Data  _Function_Er6_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X0162    0X01        Data  _Function_Disp_VoiceSign_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ReadyMode.c
-0X0163    0X02        Data  _g_TpStep_Disp@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_TestMode.c
-0X0165    0X01        Data  _eTestTask_Sta@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_TestMode.c
-0X0166    0X01        Data  _eTestmode_num@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_TestMode.c
-0X0167    0X01        Data  _eInitTask_Sta@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_InitMode.c
-0X0168    0X01        Data  _g_Blink_count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SetMode.c
-0X0169    0X01        Data  _g_Blink@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SetMode.c
-0X016A    0X01        Data  _eSetTask@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SetMode.c
-0X016B    0X01        Data  _g_CheckSum@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X016C    0X02        Data  _Time_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X016E    0X02        Data  _g_NtcCount_Before_Press@segment   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0170    0X01        Data  _g_Success_Before_Press@segment   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0171    0X01        Data  _g_Success@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0172    0X0C        Data  _TpMax_Data@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X017E    0X80        Data  _Forehead_array@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X01FE    0X02        Data  _g_TpCount_Max@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0200    0X40        Data  _Ear_array@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0240    0X02        Data  _g_TpCount_avg@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0242    0X01        Data  _g_Earcap40@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X0243    0X01        Data  _sdata298@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0244    0X01        Data  _sdata181@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0245    0X01        Data  _sdata294@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0246    0X01        Data  _sdata295@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0247    0X01        Data  _sdata296@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0248    0X01        Data  _sdata297@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X0249    0X01        Data  _eSleepTask_Sta@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Sleep.c
-0X024A    0X01        Data  _eBondTestTask@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BondTestMode.c
-0X024B    0X01        Data  _g_500ms_Count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X024C    0X01        Data  _g_10ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X024D    0X01        Data  _g_50ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X024E    0X01        Data  _g_Earcap35@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X024F    0X01        Data  _g_3s_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0250    0X02        Data  _g_5s_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0252    0X01        Data  _g_300ms_Count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0253    0X01        Data  _g_20ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0254    0X01        Data  _g_Earcap30@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X0255    0X01        Data  _sdata177@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0256    0X01        Data  _Function_Time_CountDown_5s_timeout_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0257    0X01        Data  _sdata54@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0258    0X01        Data  _Function_Disp_Temp_bitdata0     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X0259    0X01        Data  _Function_Cal_Disp_Temp_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X025A    0X01        Data  _nb_FourSecPhase@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X025B    0X01        Data  _nb_FourSecTick@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X025C    0X01        Data  _nb_FourSecCycle@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X025D    0X01        Data  _nb_FourSecTotal@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X025E    0X01        Data  _sdata1050@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X025F    0X02        Data  _g_Table37C@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X0261    0X02        Data  _g_Table41C@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X0263    0X02        Data  _g_NtcTableDown1@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X0265    0X02        Data  _g_NtcTableUp1@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X0267    0X02        Data  _g_AutoTurnOff_Count@segment     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Time.c
-0X0269    0X02        Data  _g_NtcTableUp2@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X026B    0X02        Data  _g_TpTableDown@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X026D    0X02        Data  _g_TpTableUp@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X026F    0X01        Data  _Function_BlackBodyOffset_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X0270    0X01        Data  _L_MemNo@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0271    0X01        Data  _L_MemTotalNo@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0272    0X01        Data  _Ble_Waittostart@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0273    0X12        Data  _g_Ble_RxData_Buf@segment        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0285    0X12        Data  _g_Ble_RxData@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0297    0X01        Data  _g_ble_ack_timeout@segment       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0298    0X01        Data  _g_ble_timeout@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X0299    0X01        Data  _eBle_Sta@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X029A    0X01        Data  _g_Earcap25@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X029B    0X01        Data  _F_Ble_FirstEnter@segment        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X029C    0X01        Data  _sdata491@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X029D    0X01        Data  _sdata493@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X029E    0X01        Data  _sdata492@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
-0X029F    0X01        Data  _g_Earcap20@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A0    0X02        Data  _g_NtcTableDown2@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_SensorInfoET.c
-0X02A2    0X01        Data  _Function_Interrupt_pro_isr_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\APP_Isr.c
-0X02A3    0X01        Data  _Function_Disp_FourSecLoop_Step_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_ModeSign_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_App_Beep_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_ErN_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_LCD_pc_Show_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_pcchange_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_Age_Segmentation_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Uart_Send_Wakeup_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Drv_Adc_Channel_Set_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_HalKey_ReadKeyVal_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X01        Data  _Function_I2C_Random_R_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Ear_Compensate_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Delayus_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_NtcCount_Determine_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_App_Upload_Time_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_App_Upload_DeviceInfo_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_TpCount_Determine_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Read_Mem_Address_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Disp_MemNo_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Select_Age0_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Select_Age3_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_labs_data              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Select_Age36_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Temp_Resolution_Adjust_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X02        Data  _Function_I2C_Byte_W_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Get_Forehead_Tp_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_LowTemp_Compensate_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Uart_Transmit_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Disp_Ear_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_HalKey_Set_KeyMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Delay50us_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Delay1ms_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X04        Data  _Function_Delay10ms_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X04        Data  _Function_BleData_Check_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X04        Data  _Function_UART_Send_To_Ble_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X04        Data  _Function_HalKey_Scan_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X04        Data  _Function_BlackBodyOffset_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X05        Data  _Function_HexToBcd_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X05        Data  _Function_NTC_StabilityRecurrence_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X05        Data  _Function_TpCount_Relative_25C_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X05        Data  _Function_Get_Ear_Tp_Max_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X06        Data  _Function_Disp_Version_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X06        Data  _Function_TpTable_Find_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X06        Data  _Function_Get_Ear_Tp_Avg_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X07        Data  _Function_Probe_Move_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X08        Data  _Function_Disp_Code_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X08        Data  _Function_NtcTable_Find_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A3    0X09        Data  _Function_Get_Forehead_Tp_Max_Avg_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A4    0X01        Data  _Function_Read_Mem_RecordNo_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ETOffset.c
-0X02A4    0X02        Data  _Function_Probecover_compensate_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ETOffset.c
-0X02A4    0X08        Data  _Function_App_Upload_Temperature_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_ETOffset.c
-0X02A5    0X02        Data  _Function_Temp_Relate_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A5    0X02        Data  _Function_CToF_data              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A5    0X02        Data  _Function_Fever_alarm_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A5    0X03        Data  _Function_S_Adc_Stable_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A5    0X06        Data  _Function_S_Adjust_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A5    0X0C        Data  _Function_Adc_Filter_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A6    0X01        Data  _Function_Drv_Adc_Offset_Set_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A6    0X01        Data  _Function_Drv_PGA_Init_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A6    0X05        Data  _Function_Mem_Store_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A7    0X01        Data  _Function_Parm_AutoCheck_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A7    0X01        Data  _Function_LBT_Chk_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A7    0X01        Data  _Function_LVD_Chk_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A7    0X01        Data  _Function_HalKey_KeyScan_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A7    0X01        Data  _Function_App_ReadyMode_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A7    0X03        Data  _Function_Uart_Receive_Event_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Param.c
-0X02A8    0X02        Data  _Function_LeapYear_Judge_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A8    0X06        Data  _Function_Tp_Caculate_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A8    0X0C        Data  _Function_Cal_Disp_Temp_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02A8    0X0C        Data  _Function_Disp_Temp_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Function.c
-0X02AA    0X01        Data  _Function_Update_SysTime_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X02AB    0X01        Data  _Function_App_InitMode_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X02AC    0X01        Data  _Function_App_UploadData_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\Drv_LCD_ETH.c
-0X02AD    0X01        Data  _Function_App_BleMode_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Core.c
-0X02B4    0X01        Data  _Function_App_BondTestMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X02B4    0X02        Data  _Function_App_TestingMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X02B4    0X03        Data  _Function_Disp_Mem_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X02B4    0X03        Data  _Function_App_SetMode_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X02B4    0X05        Data  _Function_App_CaliMode_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X02B7    0X01        Data  _Function_App_Sleep_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
-0X02B7    0X02        Data  _Function_App_Memory_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_Memory.c
+0X0058    0X01        Data  _g_Earcap15@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X0059    0X01        Data  _g_Earcap10@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005A    0X01        Data  _g_PcRatio@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005B    0X01        Data  _g_Emission@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005C    0X01        Data  _g_HumanRatio2@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005D    0X01        Data  _g_HumanRatio1@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005E    0X03        Data  _Hex2Bcd@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X0061    0X01        Data  _Function_Temp_Resolution_Adjust_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X0062    0X01        Data  _Function_LowTemp_Compensate_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X0063    0X04        Data  _g_AdcSum@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X0067    0X01        Data  _g_AdcCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X0068    0X02        Data  _g_AdcData@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006A    0X01        Data  _Function_Adc_Channel_Init_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006B    0X02        Data  _sdata92@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006D    0X02        Data  _sdata93@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006F    0X01        Data  _g_beep_loop@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
+0X0070    0X01        Data  _g_beep_time@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
+0X0071    0X01        Data  _eBeep_Status@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
+0X0072    0X01        Data  _R_I2C_TXDATA@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0073    0X01        Data  _R_I2C_RXDATA@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0074    0X01        Data  _R_E2Address@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0075    0X01        Data  _eKeyVal@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0076    0X01        Data  _eKeySta@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0077    0X01        Data  _uKeyContinue@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0078    0X01        Data  _g_Hour@segment                  D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0079    0X01        Data  _g_Minute@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007A    0X01        Data  _g_Day@segment                   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007B    0X01        Data  _g_Month@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007C    0X02        Data  _g_Year@segment                  D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007E    0X01        Data  _g_Second@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007F    0X01        Data  _uSetFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0100    0X05        Data  _sEarcapKey@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0105    0X05        Data  _sSetKey@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X010A    0X05        Data  _sTestKey@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X010F    0X05        Data  _sMemKey@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0114    0X01        Data  _uKeyRelease@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0115    0X01        Data  _uKeyHold@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0116    0X01        Data  _uKeyPress@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0117    0X02        Data  _sdata32@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0119    0X01        Data  _sdata390@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011A    0X01        Data  _sdata504@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011B    0X01        Data  _sdata505@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011C    0X01        Data  _g_MonthMem_momeory@segment      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X011D    0X01        Data  _g_MemCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X011E    0X01        Data  _g_MemTotalNo@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X011F    0X01        Data  _g_MemNo@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0120    0X02        Data  _g_YearMem@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0122    0X01        Data  _g_MonthMem@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0123    0X01        Data  _g_DayMem@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0124    0X01        Data  _g_MinuteMem@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0125    0X01        Data  _g_HourMem@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0126    0X02        Data  _p@segment                       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
+0X0128    0X01        Data  _eCaliTask@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X0129    0X01        Data  _sdata283@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012A    0X01        Data  _sdata284@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012B    0X01        Data  _sdata285@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012C    0X02        Data  _sdata280@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012E    0X10        Data  _sdata281@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X013E    0X02        Data  _sdata282@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X0140    0X18        Data  _g_NtcStepBuff@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0158    0X01        Data  _eReadyTask_Sta@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0159    0X02        Data  _g_NtcStepBuffCount@segment      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X015B    0X01        Data  _sdata69@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X015C    0X01        Data  _sdata256@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X015D    0X01        Data  _Function_Er1_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X015E    0X01        Data  _sdata311@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X015F    0X01        Data  _Function_Er2_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0160    0X01        Data  _sdata394@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0161    0X01        Data  _Function_Er6_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0162    0X01        Data  _Function_Disp_VoiceSign_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0163    0X02        Data  _g_TpStep_Disp@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
+0X0165    0X01        Data  _eTestTask_Sta@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
+0X0166    0X01        Data  _eTestmode_num@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
+0X0167    0X01        Data  _eInitTask_Sta@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_InitMode.c
+0X0168    0X01        Data  _g_Blink_count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X0169    0X01        Data  _g_Blink@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X016A    0X01        Data  _eSetTask@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X016B    0X01        Data  _g_CheckSum@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X016C    0X02        Data  _Time_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X016E    0X02        Data  _g_NtcCount_Before_Press@segment   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0170    0X01        Data  _g_Success_Before_Press@segment   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0171    0X01        Data  _g_Success@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0172    0X0C        Data  _TpMax_Data@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X017E    0X80        Data  _Forehead_array@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X01FE    0X02        Data  _g_TpCount_Max@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0200    0X40        Data  _Ear_array@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0240    0X02        Data  _g_TpCount_avg@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0242    0X01        Data  _g_Earcap40@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X0243    0X01        Data  _sdata298@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0244    0X01        Data  _sdata181@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0245    0X01        Data  _sdata294@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0246    0X01        Data  _sdata295@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0247    0X01        Data  _sdata296@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0248    0X01        Data  _sdata297@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0249    0X01        Data  _eSleepTask_Sta@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Sleep.c
+0X024A    0X01        Data  _eBondTestTask@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BondTestMode.c
+0X024B    0X01        Data  _g_500ms_Count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X024C    0X01        Data  _g_10ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X024D    0X01        Data  _g_50ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X024E    0X01        Data  _g_Earcap35@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X024F    0X01        Data  _g_3s_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0250    0X02        Data  _g_5s_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0252    0X01        Data  _g_300ms_Count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0253    0X01        Data  _g_20ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0254    0X01        Data  _g_Earcap30@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X0255    0X01        Data  _sdata177@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0256    0X01        Data  _Function_Time_CountDown_5s_timeout_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0257    0X01        Data  _sdata54@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0258    0X01        Data  _Function_Disp_Temp_bitdata0     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X0259    0X01        Data  _Function_Cal_Disp_Temp_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025A    0X01        Data  _nb_FourSecPhase@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025B    0X01        Data  _nb_FourSecTick@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025C    0X01        Data  _nb_FourSecCycle@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025D    0X01        Data  _nb_FourSecTotal@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025E    0X01        Data  _sdata1050@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025F    0X02        Data  _g_Table37C@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0261    0X02        Data  _g_Table41C@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0263    0X02        Data  _g_NtcTableDown1@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0265    0X02        Data  _g_NtcTableUp1@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0267    0X02        Data  _g_AutoTurnOff_Count@segment     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0269    0X02        Data  _g_NtcTableUp2@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X026B    0X02        Data  _g_TpTableDown@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X026D    0X02        Data  _g_TpTableUp@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X026F    0X01        Data  _Function_BlackBodyOffset_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0270    0X01        Data  _L_MemNo@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0271    0X01        Data  _L_MemTotalNo@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0272    0X01        Data  _Ble_Waittostart@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0273    0X12        Data  _g_Ble_RxData_Buf@segment        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0285    0X12        Data  _g_Ble_RxData@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0297    0X01        Data  _g_ble_ack_timeout@segment       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0298    0X01        Data  _g_ble_timeout@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0299    0X01        Data  _eBle_Sta@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029A    0X01        Data  _g_Earcap25@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X029B    0X01        Data  _F_Ble_FirstEnter@segment        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029C    0X01        Data  _sdata491@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029D    0X01        Data  _sdata493@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029E    0X01        Data  _sdata492@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029F    0X01        Data  _g_Earcap20@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A0    0X02        Data  _g_NtcTableDown2@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X02A2    0X01        Data  _Function_Interrupt_pro_isr_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
+0X02A3    0X01        Data  _Function_Disp_FourSecLoop_Step_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_ModeSign_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_App_Beep_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_ErN_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_LCD_pc_Show_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_pcchange_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_Age_Segmentation_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Uart_Send_Wakeup_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Drv_Adc_Channel_Set_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_HalKey_ReadKeyVal_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_I2C_Random_R_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Ear_Compensate_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Delayus_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_NtcCount_Determine_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_App_Upload_Time_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_App_Upload_DeviceInfo_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_TpCount_Determine_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Read_Mem_Address_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Disp_MemNo_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Select_Age0_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Select_Age3_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_labs_data              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Select_Age36_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Temp_Resolution_Adjust_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_I2C_Byte_W_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Get_Forehead_Tp_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_LowTemp_Compensate_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Uart_Transmit_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Disp_Ear_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_HalKey_Set_KeyMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Delay50us_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Delay1ms_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_Delay10ms_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_BleData_Check_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_UART_Send_To_Ble_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_HalKey_Scan_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_BlackBodyOffset_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_HexToBcd_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_NTC_StabilityRecurrence_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_TpCount_Relative_25C_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_Get_Ear_Tp_Max_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X06        Data  _Function_Disp_Version_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X06        Data  _Function_TpTable_Find_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X06        Data  _Function_Get_Ear_Tp_Avg_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X07        Data  _Function_Probe_Move_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X08        Data  _Function_Disp_Code_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X08        Data  _Function_NtcTable_Find_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X09        Data  _Function_Get_Forehead_Tp_Max_Avg_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A4    0X01        Data  _Function_Read_Mem_RecordNo_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X02A4    0X02        Data  _Function_Probecover_compensate_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X02A4    0X08        Data  _Function_App_Upload_Temperature_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X02A5    0X02        Data  _Function_Temp_Relate_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X02        Data  _Function_CToF_data              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X02        Data  _Function_Fever_alarm_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X03        Data  _Function_S_Adc_Stable_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X06        Data  _Function_S_Adjust_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X0C        Data  _Function_Adc_Filter_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A6    0X01        Data  _Function_Drv_Adc_Offset_Set_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A6    0X01        Data  _Function_Drv_PGA_Init_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A6    0X05        Data  _Function_Mem_Store_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A7    0X01        Data  _Function_Parm_AutoCheck_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_LBT_Chk_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_LVD_Chk_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_HalKey_KeyScan_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_App_ReadyMode_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X03        Data  _Function_Uart_Receive_Event_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A8    0X02        Data  _Function_LeapYear_Judge_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A8    0X06        Data  _Function_Tp_Caculate_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A8    0X0C        Data  _Function_Cal_Disp_Temp_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A8    0X0C        Data  _Function_Disp_Temp_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02AA    0X01        Data  _Function_Update_SysTime_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X02AB    0X01        Data  _Function_App_InitMode_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X02AC    0X01        Data  _Function_App_UploadData_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X02AD    0X01        Data  _Function_App_BleMode_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X02B4    0X01        Data  _Function_App_BondTestMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X02        Data  _Function_App_TestingMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X03        Data  _Function_Disp_Mem_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X03        Data  _Function_App_SetMode_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X05        Data  _Function_App_CaliMode_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B7    0X01        Data  _Function_App_Sleep_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B7    0X02        Data  _Function_App_Memory_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
 0X02B9    0X01        Data  _Function_main_data              
-0X0300    0XFA        Data  _g_Ble_TxData@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032-6 - 副本\Src\App_BleMode06.c
+0X0300    0XFA        Data  _g_Ble_TxData@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
 
 
 crt0@data SEGMENT DATA INBANK
@@ -6302,7 +6302,7 @@ L431:
   93C: 3701       	B0MOV 0x87, #01h
   93D: 4014       	BCLR 0x14.0
 L434:
-                  	                  	
+                  	                  	        #if Nation
                   	                  	        if(	uKeyHold.bits.SKeyHold && !uErrFlag.bits.Er2)			//如果长按三秒
   93E: 5815       	BTS1 0x15.0
   93F: 8985       	JMP 0x0985
@@ -6389,6 +6389,7 @@ L467:
                   	                  	                }
                   	                  	            #endif	
                   	                  	        }	
+                  	                  	        #endif
                   	                  	    }
   967: 8985       	JMP 0x0985
 L391:
