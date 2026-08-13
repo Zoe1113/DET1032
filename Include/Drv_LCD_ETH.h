@@ -2,38 +2,27 @@
 #define _Drv_LCD_ETH_H
 
 //底层驱动  //跟段码表对应关系+5
-// sfr	lcd0 = 0xf00 ;
-// sfr	lcd1 = 0xf01 ;
-// sfr	lcd2 = 0xf02 ;
-// sfr	lcd3 = 0xf03 ;
-// sfr	lcd4 = 0xf04 ;
-// sfr	lcd5 = 0xf05 ;
-// sfr	lcd6 = 0xf06 ;
-// sfr	lcd7 = 0xf07 ;
-// sfr	lcd8 = 0xf08 ;
-// sfr	lcd9 = 0xf09 ;
-// sfr	lcd10 = 0xf0a ;
-// sfr	lcd11 = 0xf0b ;
-// sfr	lcd12 = 0xf0c ;
-// sfr	lcd13 = 0xf0d ;
-// sfr	lcd14 = 0xf0e ;
-
-//镜像驱动
-sfr	lcd0 = 0xf0e ;
-sfr	lcd1 = 0xf0d ;
-sfr	lcd2 = 0xf0c ;
-sfr	lcd3 = 0xf0b ;
-sfr	lcd4 = 0xf0a ;
-sfr	lcd5 = 0xf09 ;
-sfr	lcd6 = 0xf08 ;
+sfr	lcd0 = 0xf00 ;
+sfr	lcd1 = 0xf01 ;
+sfr	lcd2 = 0xf02 ;
+sfr	lcd3 = 0xf03 ;
+sfr	lcd4 = 0xf04 ;
+sfr	lcd5 = 0xf05 ;
+sfr	lcd6 = 0xf06 ;
 sfr	lcd7 = 0xf07 ;
-sfr	lcd8 = 0xf06 ;
-sfr	lcd9 = 0xf05 ;
-sfr	lcd10 = 0xf04 ;
-sfr	lcd11 = 0xf03 ;
-sfr	lcd12 = 0xf02 ;
-sfr	lcd13 = 0xf01 ;
-sfr	lcd14 = 0xf00 ;
+sfr	lcd8 = 0xf08 ;
+sfr	lcd9 = 0xf09 ;
+sfr	lcd10 = 0xf0a ;
+sfr	lcd11 = 0xf0b ;
+sfr	lcd12 = 0xf0c ;
+sfr	lcd13 = 0xf0d ;
+sfr	lcd14 = 0xf0e ;
+sfr	lcd15 = 0xf0f ;
+sfr lcd16 = 0xf10 ;
+sfr	lcd17 = 0xf11 ;
+sfr	lcd18 = 0xf12 ;
+sfr	lcd19 = 0xf13 ;
+sfr lcd20 = 0xf14 ;
 //只在本文件内使用的宏定义
 #define	SA	8			//0000000000001000B
 #define	SB	4			//0000000000000100B
@@ -63,41 +52,49 @@ sfr	lcd14 = 0xf00 ;
 #define S_J (SD+SC+SB)
 
 //常用lcd符号宏定义
-#define lcd_mem             0x01        //记忆符号 S4
-#define lcd_bat             0x01        //电池符号 N4
-#define lcd_bat_left        0x08        //满电压符号1 N1
-#define lcd_bat_right       0x04        //满电压符号2 N3
-#define lcd_bat_mid         0x02        //满电压符号3 N2
-#define lcd_pc              0x01        //耳道探头 S8
-#define lcd_earcap          0x02        //耳套 S7
-#define lcd_dash            0x04        //温度的负号 3G
-#define lcd_point           0x01        //温度的点的符号 P1
-#define lcd_badface         0x08        //哭脸符号 S12
-#define lcd_smileface       0x04        //笑脸符号 S11
-#define lcd_ear             0x01        //耳朵符号 S9
-#define lcd_obj             0x02        //物温符号 S10
-#define lcd_Voice           0x04        //语音符号 S2
-#define lcd_ble             0x08        //蓝牙符号 S1
+#define lcd_mem             0x01        //记忆符号
+#define lcd_bat             0x08        //电池符号    取消
+#define lcd_bat_left        0x04        //满电压符号1
+#define lcd_bat_right       0x02        //满电压符号2
+#define lcd_bat_mid         0x01        //满电压符号3
+#define lcd_pc              0x01        //耳道探头
+#define lcd_earcap          0x02        //耳套
+// #define lcd_colon           0x01        //时间的冒号
+#define lcd_dash            0x04        //温度的负号
+// #define lcd_am              0x01        //AM
+// #define lcd_pm              0x01        //PM
+// #define lcd_timedash        0x01        //日期的 -
+#define lcd_point           0x01        //温度的点的符号
+#define lcd_badface         0x08        //哭脸符号
+#define lcd_smileface       0x04        //笑脸符号
+#define lcd_ear             0x01        //耳朵符号
+#define lcd_obj             0x02        //物温符号
+#define lcd_Voice           0x04        //语音符号
+#define lcd_ble             0x08        //蓝牙符号
 
-#define lcd_age 0x08        //年龄符号边框 S17
-#define lcd_little_age 0x04     //小年龄符号 W1
-#define lcd_mid_age 0x02        //中年龄符号 W2
-#define lcd_big_age 0x01        //大年龄符号 W3
+#define lcd_age 0x08
+#define lcd_little_age 0x04
+#define lcd_mid_age 0x02
+#define lcd_big_age 0x01
 
 //显示指定lcd图标
 #define lcd_mem_en()        { lcd0 |= lcd_mem; }	    //M点亮
-#define lcd_bat_en()        { lcd11 |= lcd_bat; }
-#define lcd_bat_full_en()    { lcd11 |= lcd_bat_left|lcd_bat_right|lcd_bat_mid; }
-#define lcd_bat_lack_en()    { lcd11 &= lcd_bat;lcd11 |= lcd_bat_right; }
+#define lcd_bat_en()        { lcd14 |= lcd_bat; }
+#define lcd_bat_full_en()    { lcd14 |= lcd_bat_left|lcd_bat_right|lcd_bat_mid; }
+#define lcd_bat_lack_en()    { lcd14 &= lcd_bat;lcd14 |= lcd_bat_right; }
 #define lcd_pc_en()         { lcd1 |= lcd_pc; }
 #define lcd_earcap_en()         { lcd1 |= lcd_earcap; }
+// #define lcd_colon_en()      { lcd5 |= lcd_colon; }
+// #define lcd_am_en()         { lcd1 |= lcd_am; }        //AM 
+// #define lcd_pm_en()         { lcd16 |= lcd_pm; }        //PM
+// #define lcd_timedash_en()   { lcd3 |= lcd_timedash; }    //time - sign
 #define lcd_point_en()      { lcd5 |= lcd_point; }
 #define lcd_badface_en()    { lcd2 |= lcd_badface; }
 #define lcd_smileface_en()  { lcd2 |= lcd_smileface; }
 #define lcd_ear_en()        { lcd2 |= lcd_ear; }
 #define lcd_obj_en()        { lcd2 |= lcd_obj; }
-#define lcd_unit_c_en()     { lcd3 &= 0x00; lcd3 |= 0x0A; } //S13 S15
-#define lcd_unit_f_en()     { lcd3 &= 0x00; lcd3 |= 0x06; } //S13 S14
+#define lcd_unit_c_en()     { lcd3 &= 0x00; lcd3 |= 0x0A; }
+#define lcd_unit_f_en()     { lcd3 &= 0x00; lcd3 |= 0x06; }
 #define lcd_Voice_en()      { lcd0 &= 0X09;lcd0 |= lcd_Voice; }
 #define lcd_ble_en()        { lcd0 |= lcd_ble; }
 
@@ -109,10 +106,14 @@ sfr	lcd14 = 0xf00 ;
 
 //清除指定lcd图标
 #define lcd_mem_clr() 	    { lcd0 &= ~lcd_mem; }	//M点亮
-#define lcd_bat_clr()       { lcd11 &= ~lcd_bat; }
-#define lcd_bat_full_clr()    { lcd11 &= ~(lcd_bat_left|lcd_bat_right|lcd_bat_mid); }
+#define lcd_bat_clr()       { lcd14 &= ~lcd_bat; }
+#define lcd_bat_full_clr()    { lcd14 &= ~(lcd_bat_left|lcd_bat_right|lcd_bat_mid); }
 #define lcd_pc_clr()        { lcd1 = 0x00; }
 #define lcd_earcap_clr()        { lcd1 = 0x00; }
+// #define lcd_colon_clr()     { lcd5 &= ~lcd_colon; }
+// #define lcd_am_clr()        { lcd1 &= ~lcd_am; }   //AM
+// #define lcd_pm_clr()        { lcd16 &= ~lcd_pm; }   //PM
+// #define lcd_timedash_clr()  { lcd3 &= ~lcd_timedash; }   //time - sign
 #define lcd_point_clr()     { lcd5 &= ~lcd_point; }
 #define lcd_badface_clr()   { lcd2 &= ~lcd_badface; }
 #define lcd_smileface_clr() { lcd2 &= ~lcd_smileface; }
