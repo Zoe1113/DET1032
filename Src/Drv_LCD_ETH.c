@@ -334,7 +334,11 @@ void Clr_Disp(void)
     lcd12 = 0x00;
     lcd13 = 0x00;
     lcd14 = 0x00;
-
+    lcd15 = 0x00;
+    lcd16 = 0x00;
+    lcd17 = 0x00;
+    lcd18 = 0x00;
+    lcd19 = 0x00;
 }
 
 /**************************************************************************
@@ -382,6 +386,13 @@ void Disp_All(void)
     lcd12 = 0xff;
     lcd13 = 0xff;
     lcd14 = 0xff;
+    lcd15 = 0xff;
+    lcd16 = 0xff;
+    lcd17 = 0xff;
+    lcd18 = 0xff;
+	lcd19 = 0xff;
+	lcd20 = 0xff;
+
 	if( uSetFlag.bits.Unit_Change )
 	{
 		Disp_Unit();
@@ -922,7 +933,11 @@ void Disp_Debug1(void)
     lcd12 = 0x0A;
     lcd13 = 0x06;
     lcd14 = 0x0A;
-
+    lcd15 = 0x06;
+    lcd16 = 0x0B;
+	lcd17 = 0x00;
+	lcd18 = 0x03;
+	lcd19 = 0x00;
 }
 
 /**************************************************************************
@@ -951,7 +966,72 @@ void Disp_Debug2(void)
     lcd12 = 0x05;
     lcd13 = 0x09;
     lcd14 = 0x05;
+    lcd15 = 0x09;
+    lcd16 = 0x06;
+	lcd17 = 0x0f;
+	lcd18 = 0x01;
+	lcd19 = 0x00;
+}
 
+/**************************************************************************
+函数名称：	void Disp_DebugPASn(uint8 num)
+函数功能：	绑定检测模式显示PASn(n为：0-9)
+输入参数：	无
+输出参数：	LCD
+返回值  ：	无
+占用空间：	TBD
+备    注：	无
+**************************************************************************/
+// void Disp_DebugPASn(uint8 num)
+// {
+// 	lcd7 = S_P>>8;
+//     lcd6 = S_P;
+//     lcd5 = S_A>>8;
+//     lcd4 = S_A;
+//     lcd3 = S_S>>8;
+//     lcd2 = S_S;
+// 	lcd1 = DispTable[ num ] >> 8;
+//     lcd0 = DispTable[ num ];
+// }
+
+/**************************************************************************
+函数名称：	Disp_12H()
+函数功能：	设置态显示12H
+输入参数：	无
+输出参数：	LCD
+返回值  ：	无
+占用空间：	TBD
+备    注：	无
+**************************************************************************/
+void Disp_12H(void)
+{
+	/*Clr_Disp();
+    lcd7 = DispTable[1]>>8;
+    lcd6 = DispTable[1];
+    lcd5 = DispTable[2]>>8;
+    lcd4 = DispTable[2];
+	lcd3 = S_H>>8;
+	lcd2 = S_H;*/
+}
+
+/**************************************************************************
+函数名称：	Disp_24H()
+函数功能：	设置态显示24H
+输入参数：	无
+输出参数：	LCD
+返回值  ：	无
+占用空间：	TBD
+备    注：	无
+**************************************************************************/
+void Disp_24H(void)
+{
+	/*Clr_Disp();
+    lcd7 = DispTable[2]>>8;
+    lcd6 = DispTable[2];
+    lcd5 = DispTable[4]>>8;
+    lcd4 = DispTable[4];
+	lcd3 = S_H>>8;
+	lcd2 = S_H;*/
 }
 
 /**************************************************************************
@@ -1018,10 +1098,15 @@ void LCD_pc_Show(uint8 Earcap)
             L_Mode++;
             L_Mode %= 48;
         }
+		// else
+        // {
+        //     lcd1 &= 0x01;
+        // }
 	}
     else if(1 == Earcap)
     {
-        lcd1 = 0x01;
+        lcd1 = 0x00;
+        lcd1 |= 0x01;
 
         if( L_Mode<48 )
             lcd1 |= 0x08;
@@ -1089,5 +1174,5 @@ void Disp_Ear(uint8 L_buf)
     lcd2 = DispTable[ R_LCD1 ];
 	lcd1 = DispTable[ R_LCD2 ] >> 8;
 	lcd0 = DispTable[ R_LCD2 ];
+	lcd16= 0;
 }
-
