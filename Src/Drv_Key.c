@@ -285,7 +285,7 @@ void App_SKeyProcess(void)
         if( uKeyRelease.bits.SKeyRelease )							//判断开机键按下后是否抬起（3s内非长按抬起关机）
         {
             uKeyRelease.bits.SKeyRelease = 0;	
-            if( !F_SKey_Deal && !uErrFlag.bits.Er2)
+            if( !F_SKey_Deal && !uErrFlag.bits.Er2&&(eTestmode_num==Earmode||eTestmode_num==Blackbodymode) )
             {
                 Auto_TurnOff_Time_Sel();	//按下关机时间清0
                 eAgemode_num++;

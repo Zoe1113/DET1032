@@ -41,7 +41,7 @@
 #define Ear_Forehead_Central_Offset         3  // 耳额温枪的额温模式补偿部位为额头中央
 #define ForeheadOffset         1   //选择补偿模式 ，如果同一程序含两个及以上补偿方式，此定义可放进每个程序code
 #endif
-#define CAP_CHECK               0
+#define CAP_CHECK               1
 
 #define Soft_Code 672
 
@@ -52,7 +52,7 @@
     #define Func_Ble                1			//0：关闭蓝牙 1：开启蓝牙
     #define Func_Obj	            1 	        //1：有物温功能，0：无物温功能
     #define Func_3color	            1	        //1：开启3色背光，0：无背光或单色背光
-    #define Func_White				1			//1：开启白色背光，0：关闭白色背光
+    #define Func_White				0			//1：开启白色背光，0：关闭白色背光
 	#define CF_Change_Enable        1           //1：单位可切换，0：单位不可切换
     #define Electricity_poweroff    1			//0:上电不自动关机，并进入设置态； 1.上电自动关机
     #define HumanRatio_Num          1           //1：棒米算法45 0：健拓常规20

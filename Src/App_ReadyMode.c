@@ -370,7 +370,9 @@ void CAP_Display_Sound(bit cmd)
         Adc_Channel_Init(TPTONTC);		//重新采集ntc
         Disp_CAP();
         LED_CloseAll();
-        LED_Red_En();               //开启红色背光
+        #if Func_3color
+			LED_Red_En();
+		#endif
         g_3s_Count = CountDown_3s;	//开启背光3s倒计时
         Auto_TurnOff_Time_Sel();
 
