@@ -141,7 +141,7 @@ void App_MemKeyProcess(void)
         if(uKeyRelease.bits.MemKeyRelease)
         {
             uKeyRelease.bits.MemKeyRelease = 0;
-            if( !F_MemKey_Deal && !uErrFlag.bits.Er2 && !uErrFlag.bits.Er1 && eTestmode_num != Insptectmode )//生产模式无记忆
+            if( !F_MemKey_Deal && !uErrFlag.bits.Er2 && !uErrFlag.bits.Er6 && eTestmode_num != Insptectmode )//生产模式无记忆
             {
                 Auto_TurnOff_Time_Sel();	//按下关机时间清0
                 F_Mem_FirstEnter = 0;	//清首次进入记忆模式标志位
@@ -245,7 +245,7 @@ void App_SKeyProcess(void)
 {
     static uint8 F_SKey_Deal=0;		//设置键长按处理
     //设置键长按
-    if( uKeyPress.bits.SKeyPress && eMain_Task != Task_Memorymode)									//模式键按下
+    if( uKeyPress.bits.SKeyPress && eMain_Task != Task_Memorymode)									//设置键按下
     {
         uKeyRelease.bits.SKeyRelease = 0;
         #if Nation
@@ -285,7 +285,7 @@ void App_SKeyProcess(void)
         if( uKeyRelease.bits.SKeyRelease )							//判断开机键按下后是否抬起（3s内非长按抬起关机）
         {
             uKeyRelease.bits.SKeyRelease = 0;	
-            if( !F_SKey_Deal && !uErrFlag.bits.Er2&&(eTestmode_num==Earmode||eTestmode_num==Blackbodymode) )
+            if( !F_SKey_Deal && !uErrFlag.bits.Er2&& !uErrFlag.bits.Er1&&(eTestmode_num==Earmode||eTestmode_num==Blackbodymode) )
             {
                 Auto_TurnOff_Time_Sel();	//按下关机时间清0
                 eAgemode_num++;

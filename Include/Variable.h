@@ -55,7 +55,7 @@
     #define Func_White				0			//1：开启白色背光，0：关闭白色背光
 	#define CF_Change_Enable        1           //1：单位可切换，0：单位不可切换
     #define Electricity_poweroff    1			//0:上电不自动关机，并进入设置态； 1.上电自动关机
-    #define HumanRatio_Num          1           //1：棒米算法45 0：健拓常规20
+    #define HumanRatio_Num          0           //1：棒米算法45 0：健拓常规20
 #endif
 
 

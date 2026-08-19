@@ -221,6 +221,7 @@ void App_TestingMode(void)
                     Ear_Compensate();
                     Temp_Relate();
                     LowTemp_Compensate();
+                    //g_TpStep = 3200;
                     Body_MeasureRange_Check();
                     g_TpStep_Disp = CToF(g_TpStep);
                     g_TpStep_Disp = Temp_Resolution_Adjust(g_TpStep_Disp);
@@ -228,6 +229,7 @@ void App_TestingMode(void)
                     break;
                 case Objectmode:
                     Temp_Relate();
+                    //g_TpStep = 10000;
                     Obj_MeasureRange_Check();
                     g_TpStep_Disp = CToF(g_TpStep);
                     g_TpStep_Disp = Temp_Resolution_Adjust(g_TpStep_Disp);
@@ -241,12 +243,14 @@ void App_TestingMode(void)
                     if( uStaFlag.bits.ProbeCover )
                         Probecover_compensate();
                     Temp_Relate();
+                    //g_TpStep = 3200;
                     Body_MeasureRange_Check();
                     g_TpStep_Disp = CToF(g_TpStep);
                     g_TpStep_Disp = Temp_Resolution_Adjust(g_TpStep_Disp);
                     Fever_alarm(g_TpStep_Disp);
                     break;
                 case Insptectmode:
+                    //g_TpStep = 10000;
                     Obj_MeasureRange_Check();
                     g_TpStep_Disp = g_TpStep;
                     break;

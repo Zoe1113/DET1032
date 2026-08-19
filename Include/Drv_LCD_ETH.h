@@ -131,18 +131,16 @@ sfr	lcd14 = 0xf00 ;
 
 extern uint16 __ROM	DispTable[];
 
+// 显示函数
 void Lcd_Init(void);
 void Disp_Version(uint16 num);
 void Disp_Code(uint16 num);
-void Clr_Disp(void);
-void Clr_Disp888(void);
 void Disp_All(void);
 void Disp_Unit(void);
 void Disp_LowBat(void);
 void Disp_BadFace(void);
 void Disp_SmileFace(void);
 void Disp_ModeSign(void);
-void Clr_ModeSign(void);
 void Disp_OFF(void);
 void Disp_Lo(void);
 void Disp_Hi(void);
@@ -163,12 +161,17 @@ void Disp_Table1(void);
 void Disp_Table2(void);
 void Disp_Temp(bit Point, bit High, bit Unit, int16 Temp);
 void Disp_Year(uint16 L_buf);
-void Clr_SetTime(uint8 L_Blink);
 void LCD_pc_Show(uint8 Earcap);
 void Disp_CAP(void);
 void Disp_Age_Segmentation(void);
 void Cal_Disp_Temp(int16 Temp);
 void Disp_Ear(uint8 L_buf);
+
+// 清除函数
+void Clr_Disp(void);
+void Clr_Disp888(void);
+void Clr_ModeSign(void);
+void Clr_SetTime(uint8 L_Blink);
 
 void Disp_FourSecLoop_Init(void);
 uint8 Disp_FourSecLoop_Step(void);

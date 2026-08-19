@@ -99,8 +99,7 @@ void main(void)
 	// 绑定检测，因为修改上电进入模式的原因，移到此处；
 	Cal_Inspect_Detect();
 	
-	// FP10 = 0;           // 拉低 → 点亮白灯（灌电流/低电平有效）
-	// FP55=0;
+	// Param_Init();
 	// while(1)
 	// {
 	// 	WDTR = 0x5A;        // Clear WDTR Dog

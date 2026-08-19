@@ -739,6 +739,7 @@ uint8 Disp_FourSecLoop_Step(void)
 void Disp_Null(void)
 {
     Clr_Disp888();
+	lcd_pc_clr();
     lcd9 = 0x04;
     lcd8 = 0x00;
     lcd7 = 0x04;

@@ -324,6 +324,7 @@ void Er6_Display_Sound(bit cmd)
         goto END;                          //使用跳转语句跳到函数末尾，复位程序时蜂鸣
     }
     Disp_ErrMsg();	//显示错误信息
+    lcd_age_clr();
     if(Er6_First_Enter == 0)
     {
         Er6_First_Enter = 1;
