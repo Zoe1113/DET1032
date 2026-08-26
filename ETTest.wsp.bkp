@@ -1,8 +1,8 @@
 [General]
 TableSize=-1, -1, -1
-BreakpointCount=1
+BreakpointCount=2
 [Breakpoint_0]
-State=1
+State=0
 LocationType=0
 FileName=.\Src\App_BleMode06.c
 FileLine=545
@@ -17,8 +17,8 @@ DumpRamRegions=
 [Breakpoint_1]
 State=1
 LocationType=0
-FileName=.\Src\Main.c
-FileLine=184
+FileName=.\Src\App_Sleep.c
+FileLine=147
 HitCountType=0
 HitThreshold=1
 Visible=1

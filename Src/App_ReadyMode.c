@@ -10,6 +10,7 @@
 #include "Include.h"
 
 eReadyModeTask eReadyTask_Sta;
+static uint8 Er1_Nb_InitDone = 0;
 
 /*************** 关于本程序的说明 *******************
 修改前请仔细阅读！！！
@@ -39,6 +40,12 @@ void App_ReadyMode(void)
     Disp_Unit();	//显示单位
     App_MemKeyProcess();
     Cal_Inspect_Detect();                  //绑定检测模式、校准模式判断
+
+    // Restart the Er1 scroll after another task interrupts it.
+    if(eMain_Task != Task_ReadyMode)
+    {
+        Er1_Nb_InitDone = 0;
+    }
     
     Disp_VoiceSign(uSetFlag.bits.VoiceEnable);
     switch( eReadyTask_Sta )
@@ -133,7 +140,6 @@ void App_ReadyMode(void)
 
         case Ready_DisEr1:	
         {
-            static uint8 Er1_Nb_InitDone = 0;
 			if(!Er1_Nb_InitDone)
 			{
 				// 初始化 Er1 显示 + 非阻塞动画

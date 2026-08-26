@@ -133,6 +133,12 @@ void App_MemKeyProcess(void)
             }	
             lcd5 = DispTable[ 1 ] >> 8;
 		    lcd4 = DispTable[ 1 ];
+            LED_CloseAll();
+            #if Func_White
+                LED_White_En();
+            #elif Func_3color
+                LED_Green_En();		
+            #endif
         }
     }
     //记忆键短按进入记忆查看

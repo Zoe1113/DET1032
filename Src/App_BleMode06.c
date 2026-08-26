@@ -25,13 +25,15 @@ eBleModeTask eBle_Sta;
 bit F_Ble_En;		//蓝牙使能
 bit F_Uart_Receive;		//uart接收成功
 bit F_Ble_Blink;		//蓝牙标志闪烁
+bit F_Ble_FirstEnter = 0;
+bit F_BleTimeReceivedSuccess; //蓝牙时间接收成功
+
 uint8 g_ble_timeout;	//蓝牙超时变量
 uint8 g_ble_ack_timeout;	//蓝牙数据传输超时变量
 uint8 g_Ble_RxData[DataLenth];		//蓝牙接收数据缓冲区
 uint8 g_Ble_RxData_Buf[DataLenth];	//蓝牙接收数据缓冲区备份区
 uint8 g_Ble_TxData[250];	//蓝牙发送数据缓冲区（最大30组记忆*8byte + 10 byte = 250byte）
 uint8 Ble_Waittostart;      //等待重连的延时
-bit F_BleTimeReceivedSuccess; //蓝牙时间接收成功
 
 void App_BleMode(void)
 {
@@ -44,12 +46,13 @@ void App_BleMode(void)
 		case Ble_Standby:
 			if( F_Ble_En )
 			{
+				Port_Power = 0;			//蓝牙上电
 				Port_Ble_En = 1;		//使能蓝牙
 				Drv_UartTX_Init();		//使能UART
 				Drv_UartRX_Init();
-                F_BleTimeReceivedSuccess = 0;
 				g_ble_timeout = 0;
 				g_ble_ack_timeout = 0;
+				F_BleTimeReceivedSuccess = 0;
 				F_Ble_Blink = Enable;	//开启蓝牙标志闪烁
 				eBle_Sta = Ble_DeviceInfo;
 			}
@@ -77,7 +80,14 @@ void App_BleMode(void)
 				lcd_ble_en();
 				g_ble_timeout = 0;
 				g_ble_ack_timeout = 0;
-				g_AutoTurnOff_Count = CountDown_1min;   //此处可能为OTA时候造成的断线，然他保持至少一分钟在线的时间完成OTA
+				if(eTestmode_num == Blackbodymode)
+				{
+					g_AutoTurnOff_Count = CountDown_6min;   //此处可能为OTA时候造成的断线，然他保持至少一分钟在线的时间完成OTA
+				}
+				else
+				{
+					g_AutoTurnOff_Count = CountDown_30s;
+				}
 				eBle_Sta = BLE_UpdateTime;
 			}
 			break;
@@ -128,7 +138,7 @@ void App_BleMode(void)
 			{
 				eBle_Sta = Ble_LinkErr;
 			}
-            //蓝牙连接成功，但没有时间同步；不发送本次数据，跳转到时间同步
+			//蓝牙连接成功，但没有时间同步；不发送本次数据，跳转到时间同步
 			if(!Port_Ble_Link && !F_BleTimeReceivedSuccess)
 			{
 				eBle_Sta = Ble_Advertising;
@@ -249,8 +259,8 @@ uint8 Uart_Receive_Event(void)
 				g_Hour = g_Ble_RxData_Buf[Index_data + 3];
 				g_Minute = g_Ble_RxData_Buf[Index_data + 4];
 				g_Second = 0;
-                F_BleTimeReceivedSuccess = 1; //时间同步成功
 				eBle_Sta = Ble_Idle;
+				F_BleTimeReceivedSuccess = 1; //时间同步成功
 				break;
 
 			//收到温度应答则跳到空闲等待
@@ -421,7 +431,6 @@ void App_Upload_DeviceInfo(void)
 	g_Ble_TxData[3] = 0x55;
 	g_Ble_TxData[Index_func] = TxFunc_DeviceInfo;
 	L_Checksum += TxFunc_DeviceInfo;
-#if Soft_Code!=324
 	//发送产品名
 	g_Ble_TxData[L_lenth++] = ASCII_D;
 	L_Checksum += ASCII_D;
@@ -436,22 +445,6 @@ void App_Upload_DeviceInfo(void)
 	L_Checksum += Ble_Name;
 	g_Ble_TxData[L_lenth++] = ASCII_b;
 	L_Checksum += ASCII_b;
-#else
-	//发送产品名
-	g_Ble_TxData[L_lenth++] = ASCII_D;
-	L_Checksum += ASCII_D;
-	g_Ble_TxData[L_lenth++] = ASCII_R;
-	L_Checksum += ASCII_R;
-	g_Ble_TxData[L_lenth++] = ASCII_S;
-	L_Checksum += ASCII_S;
-	//发送型号名
-	g_Ble_TxData[L_lenth++] = Ble_Name>>8;
-	L_Checksum += Ble_Name>>8;
-	g_Ble_TxData[L_lenth++] = Ble_Name;
-	L_Checksum += Ble_Name;
-	g_Ble_TxData[L_lenth++] = ASCII_T;
-	L_Checksum += ASCII_T;
-#endif
 	//发送程序编码
 	g_Ble_TxData[L_lenth++] = Soft_Code >> 8;
 	L_Checksum += Soft_Code >> 8;
@@ -486,28 +479,34 @@ void App_Upload_DeviceInfo(void)
 **************************************************************************/
 uint8 L_MemTotalNo;
 uint8 L_MemNo;
-uint8 F_Ble_FirstEnter = 0;
-uint8 App_Upload_Temperature(void)
+uint8 App_Upload_Temperature()
 {
 	static uint8 index = 1;
 	static uint8 L_datalenth;
+
 	static uint8 L_Checksum = 0;
 	uint16 L_Temp;
+	uint8 L_mode;
     uint8 L_MemAdd;
-    uint8 ble_HourMen, ble_MinuteMen, ble_MonthMen, ble_DayMen, ble_YearMen;
+	uint8 L_HourMem;		//用于表示记忆态下显示测量时间小时寄存器
+	uint8 L_MinuteMem;		//用于表示记忆态下显示测量时间分钟寄存器
+	uint8 L_DayMem;			//用于表示记忆态下显示测量时间日期寄存器
+	uint8 L_MonthMem;		//用于表示记忆态下显示测量时间月份寄存器
+	uint16 L_YearMem;		//用于表示记忆态下显示测量时间年份寄存器
 
 	//读取总记录号和记忆号的EEPROM存放地址（注意耳温、额温、物温不是每款都有）
     if(F_Ble_FirstEnter == 0)
     {
         //计算数组的数据段标号
 	    L_datalenth = Index_data;
-        L_Checksum = 0;
+		L_Checksum = 0;
         L_MemAdd = I2C_Add_EarMem;   //记忆混存，直接读取改地址作为开始地址就可       
         I2C_masterInit();
         L_MemTotalNo = I2C_Random_R(L_MemAdd);		//读取总记录号
         L_MemNo = I2C_Random_R(L_MemAdd + I2C_Add_Offset);		//读取记忆号
         I2C_Disable();
         F_Ble_FirstEnter = 1;
+		index = 1;
     }
 
     if ( index <= L_MemTotalNo )      //读取总数
@@ -526,37 +525,32 @@ uint8 App_Upload_Temperature(void)
         L_Temp |= I2C_Random_R(L_MemAdd);
         //获取时
         L_MemAdd++;
-        ble_HourMen = I2C_Random_R(L_MemAdd);
+        L_HourMem = I2C_Random_R(L_MemAdd);
         //获取分
         L_MemAdd++;
-        ble_MinuteMen = I2C_Random_R(L_MemAdd);
+        L_MinuteMem = I2C_Random_R(L_MemAdd);
         //获取月
         L_MemAdd++;
-        ble_MonthMen = I2C_Random_R(L_MemAdd);
+        L_MonthMem = I2C_Random_R(L_MemAdd);
         //获取日
         L_MemAdd++;
-        ble_DayMen = I2C_Random_R(L_MemAdd);
+        L_DayMem = I2C_Random_R(L_MemAdd);
         //获取年
         L_MemAdd++;
-        ble_YearMen = I2C_Random_R(L_MemAdd);		//只传20xx-2000后的值
+        L_YearMem = I2C_Random_R(L_MemAdd);		//只传20xx-2000后的值
         I2C_Disable();
-
-        //测量部位
-        if( (ble_MonthMen & 0x20) == 0x20 )		//耳温
-        {
-            g_Ble_TxData[L_datalenth++] = 0x01;
-            L_Checksum += 0x01;
-        }
-        else if( (ble_MonthMen & 0x40) == 0x40 )	//额温
-        {
-            g_Ble_TxData[L_datalenth++] = 0x02;
-            L_Checksum += 0x02;
-        }
-        else
-        {
-            g_Ble_TxData[L_datalenth++] = 0x03;	//物温
-            L_Checksum += 0x03;
-        }
+		L_mode = L_MonthMem >> 5;
+		//EEPROM中bit5置1表示耳温，未置位表示物温
+		if( L_mode == 1 )
+		{
+			g_Ble_TxData[L_datalenth++] = 0x01;	//耳温
+			L_Checksum += 0x01;
+		}
+		else
+		{
+			g_Ble_TxData[L_datalenth++] = 0x03;	//物温
+			L_Checksum += 0x03;
+		}
 
         //华氏第7位置1
         if( uSetFlag.bits.Unit )
@@ -568,16 +562,16 @@ uint8 App_Upload_Temperature(void)
         L_Checksum += L_Temp >> 8;
         g_Ble_TxData[L_datalenth++] = L_Temp;
         L_Checksum += L_Temp;
-        g_Ble_TxData[L_datalenth++] = ble_YearMen;
-        L_Checksum += ble_YearMen;
-        g_Ble_TxData[L_datalenth++] = ble_MonthMen & 0x0F;
-        L_Checksum += ble_MonthMen & 0x0F;
-        g_Ble_TxData[L_datalenth++] = ble_DayMen;
-        L_Checksum += ble_DayMen;
-        g_Ble_TxData[L_datalenth++] = ble_HourMen;
-        L_Checksum += ble_HourMen;
-        g_Ble_TxData[L_datalenth++] = ble_MinuteMen;
-        L_Checksum += ble_MinuteMen;
+        g_Ble_TxData[L_datalenth++] = L_YearMem;
+        L_Checksum += L_YearMem;
+        g_Ble_TxData[L_datalenth++] = L_MonthMem & 0x1F;
+        L_Checksum += L_MonthMem & 0x1F;
+        g_Ble_TxData[L_datalenth++] = L_DayMem & 0x3F;
+        L_Checksum += L_DayMem & 0x3F;
+        g_Ble_TxData[L_datalenth++] = L_HourMem;
+        L_Checksum += L_HourMem;
+        g_Ble_TxData[L_datalenth++] = L_MinuteMem;
+        L_Checksum += L_MinuteMem;
 
         //计算下个查询地址
         L_MemNo --;
@@ -621,4 +615,6 @@ uint8 App_Upload_Temperature(void)
         return 1;
     }
 }
+
+
 #endif

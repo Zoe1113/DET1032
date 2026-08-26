@@ -10,8 +10,6 @@
 #define ASCII_E 69
 #define ASCII_G 71
 #define ASCII_M 77
-#define ASCII_R 82
-#define ASCII_S 83
 #define ASCII_T 84
 #define ASCII_b 98
 #define ASCII_0 48
@@ -31,7 +29,7 @@
 #define Port_Ble_En FP23	//蓝牙使能脚（低电平有效，输出使能口）
 #define Port_Ble_Link FP24	//蓝牙连接成功脚（低电平有效，输入检测口）
 #define Port_Ble_Busy FP22	//蓝牙忙闲脚（低电平有效，输入检测口）
-
+#define Port_Power  FP20   //spi ce（power使能脚）
 //功能码
 //mcu to ble的命令码
 #define TxFunc_Default 0x00		//空闲
@@ -110,6 +108,7 @@ extern eBleModeTask eBle_Sta;
 extern bit F_Ble_En;	//蓝牙使能
 extern bit F_Uart_Receive;	//uart接收成功
 extern bit F_Ble_Blink;		//蓝牙标志闪烁
+extern bit F_Ble_FirstEnter;
 extern uint8 g_ble_timeout;	//蓝牙超时变量
 extern uint8 g_ble_ack_timeout;	//蓝牙数据传输超时变量
 extern uint8 g_Ble_RxData[DataLenth];	//蓝牙接收数据缓冲区
@@ -117,13 +116,15 @@ extern uint8 g_Ble_RxData_Buf[DataLenth];	//蓝牙接收数据缓冲区
 extern uint8 g_Ble_TxData[250];		//蓝牙发送数据缓冲区（ET218需要）
 extern uint8 Ble_Waittostart;      //等待重连的延时
 
+
+
 //函数声明
 void App_BleMode(void);
 uint8 Uart_Receive_Event(void);
 void Uart_Ack_Event(uint8 L_ble_func);
 void UART_Send_To_Ble(void);
 uint8 BleData_Check(void);
-uint8 App_Upload_Temperature(void);
+uint8 App_Upload_Temperature();
 void App_Upload_DeviceInfo(void);
 void App_Upload_Time(void);
 uint8 App_UploadData(uint8 L_Upload_func);

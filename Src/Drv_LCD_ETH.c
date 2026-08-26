@@ -37,7 +37,7 @@ void Lcd_Init( void )
 {
 	P4SEG = 0x00 ;
 	P3SEG = 0X00 ;
-	P2SEG = 0x00 ;			//设置LCD显示IO
+	P2SEG = 0x1F ;			//P2.0-P2.4为GPIO，P2.5-P2.7为LCD
 
 	LCDM1 = 0x03 ;			//1/3Bias,C-Type LCD Mode.
 	LCDM2 = 0x04 ;			//VLCD = 3.0V,

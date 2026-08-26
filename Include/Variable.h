@@ -28,7 +28,7 @@
 #define Have_Voice_Func 0 	//H款无语音
 //请仔细核对基础特性编码表！！！！！！
 #define Ble_Name 1032	//型号名（不可超过4字节）
-#define Soft_Internal_Version 13 //对内程序版本
+#define Soft_Internal_Version 10 //对内程序版本
 #define Soft_External_Version 10 //对外程序版本
 
 #define ET_FT 0 	//0:耳温枪，1:额温枪，2：耳额温             //ET_FT定义为1时，必须再加Distence_En的宏定义
@@ -41,12 +41,12 @@
 #define Ear_Forehead_Central_Offset         3  // 耳额温枪的额温模式补偿部位为额头中央
 #define ForeheadOffset         1   //选择补偿模式 ，如果同一程序含两个及以上补偿方式，此定义可放进每个程序code
 #endif
-#define CAP_CHECK               1
+#define CAP_CHECK               0
 
-#define Soft_Code 672
+#define Soft_Code 684
 
-//国外,有耳套自动侦测,三色背光,有物温;人体系数由20改为45
-#if Soft_Code == 672
+//国外,有耳套自动侦测,四色背光,有物温;人体系数由20
+#if Soft_Code == 684
     #define Nation                  1	        //1：国外 0：国内
     #define Second_LVD              1           //0:一级电压 1：二级电压
     #define Func_Ble                1			//0：关闭蓝牙 1：开启蓝牙
@@ -108,7 +108,7 @@ extern uint16 g_NtcCount;		//NTC ADC COUNT
 extern int16 g_TpCount;			//TP ADC COUNT
 extern uint16 g_NtcStep;		//NTC查表步长的高字节(NTC温度)
 extern int16 g_TpStep;			//TP查表步长的高字节(目标温度)
-extern uint8 F_Ble_FirstEnter;
+//extern uint8 F_Ble_FirstEnter;
 
 //掉电不能清除
 typedef union
