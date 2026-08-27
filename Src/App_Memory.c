@@ -44,6 +44,7 @@ uint8 g_MonthMem_momeory;  //记忆更新下的模式记忆
 **************************************************************************/
 void App_Memory(void)
 {
+	static bit F_MemKey_ReleaseAfterEnter;
 	int16 L_Temp;
 
     // App_PCKeyProcess();
@@ -56,7 +57,7 @@ void App_Memory(void)
 		F_MemNo_Disp = 0;		//
 		Mem_Init();			//初始化记忆参数
 
-		//首次进入记忆模式，直接显示第一组数据（序号+温度值）
+		//首次进入记忆模式，只显示第一组序号，松开记忆键后再显示第一组数据
 		if(!F_MemNull)
 		{
 			//显示记忆序号（第一组：M 1）
@@ -69,32 +70,19 @@ void App_Memory(void)
 			#endif
 			
 			g_3s_Count = CountDown_3s;	//开启背光3s倒计时
-
-			//显示记忆值（第一组温度）
-			L_Temp = Disp_Mem();
-			if( L_Temp )
-			{
-				if( g_MonthMem_momeory & 0x20 )                  //耳温
-					Fever_alarm(L_Temp);
-				else
-				{
-					LED_CloseAll();
-					#if Func_3color
-						LED_Green_En();
-					#endif
-					
-				}
-				g_3s_Count = CountDown_3s;		//开启背光3s倒计时
-			}
 		}
 		else
 		{
 			//记忆为空，显示---
 			Disp_MemNo();
 		}
-		//设置标志位，等效于完成一次"按下→抬起"循环
-		F_MemNo_Disp = 0;	//允许下次按键按下时刷新序号
-		F_Mem_Disp = 1;		//防止残留的MemKeyRelease重复触发显示
+		F_MemNo_Disp = 1;	//保持当前按下过程不再刷新到下一组序号
+		F_Mem_Disp = F_MemNull;	//有记忆时等待松开后显示第一组数据，空记忆时不触发数据显示
+		F_MemKey_ReleaseAfterEnter = 0;	//首次进入后必须先松开，后续长按才允许关机
+	}
+	if(!uKeyPress.bits.MemKeyPress)
+	{
+		F_MemKey_ReleaseAfterEnter = 1;
 	}
 
 	//如果按下，且未更新过记忆序号，则更新记忆序号
@@ -139,7 +127,7 @@ void App_Memory(void)
 			g_3s_Count = CountDown_3s;		//开启背光3s倒计时
 		}
 	}
-	else if(uKeyHold.bits.MemKeyHold)
+	else if(F_MemKey_ReleaseAfterEnter && uKeyHold.bits.MemKeyHold)
 	{
 		//长按3s进入关机模式，并清除必要设定
         sMemKey.g_Key_Hold_cnt = 0;	//按键计时清0保证再次长按3s
