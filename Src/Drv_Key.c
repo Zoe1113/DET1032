@@ -113,13 +113,6 @@ void App_MemKeyProcess(void)
                 {
                     lcd_Voice_clr();
                 }
-                if(eTestmode_num!=Insptectmode)
-                {
-                    Disp_Ready();	//首次开机必须显示_ _._
-                    Disp_ModeSign();	//显示模式符号
-                }
-                if(eTestmode_num==Earmode||eTestmode_num==Blackbodymode)
-                    Disp_Age_Segmentation();
             }
             F_MemKey_Deal =0;
         }
