@@ -67,6 +67,13 @@ strKey sMemKey, sTestKey, sSetKey, sEarcapKey;
 void App_MemKeyProcess(void)
 {
     static uint8 F_MemKey_Deal=0;		//记忆键长按处理
+
+    //长按进入记忆后，松开事件由App_Memory处理；返回Ready时主动解除长按锁定
+    if( !uKeyPress.bits.MemKeyPress && !uKeyHold.bits.MemKeyHold && !uKeyRelease.bits.MemKeyRelease )
+    {
+        F_MemKey_Deal = 0;
+    }
+
     //记忆键长按3s进入记忆查看
     if( uKeyPress.bits.MemKeyPress )									//开机键按下
     {
@@ -93,7 +100,7 @@ void App_MemKeyProcess(void)
         if(uKeyRelease.bits.MemKeyRelease)
         {
             uKeyRelease.bits.MemKeyRelease = 0;
-            if( !F_MemKey_Deal && !uErrFlag.bits.Er2 && !uErrFlag.bits.Er6 )			//如果长按三秒
+            if( !F_MemKey_Deal && !uErrFlag.bits.Er2 && !uErrFlag.bits.Er6 )			//短按释放
             {
                 Auto_TurnOff_Time_Sel();
                 uSetFlag.bits.VoiceEnable = !uSetFlag.bits.VoiceEnable;
