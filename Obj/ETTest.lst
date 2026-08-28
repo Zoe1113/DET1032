@@ -9144,10 +9144,12 @@ L91:
                   	                  				LED_CloseAll();
   DF0: CBB1       	CALL 0x0BB1
 L92:
-                  	                  				#if Func_3color
-                  	                  					LED_Green_En();
-  DF1: 66D5       	B0BCLR 0xD5.6
+                  	                  				#if Func_White
+                  	                  					LED_White_En();
+  DF1: 60D1       	B0BCLR 0xD1.0
 L95:
+                  	                  				#elif Func_3color
+                  	                  					LED_Green_En();		//开启绿光
                   	                  				#endif
                   	                  				
                   	                  				g_3s_Count = CountDown_3s;	//开启背光3s倒计时

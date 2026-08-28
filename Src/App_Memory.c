@@ -65,8 +65,10 @@ void App_Memory(void)
 			lcd_ear_clr();									//清除耳温标志
 			Disp_MemNo();
 			LED_CloseAll();
-			#if Func_3color
-				LED_Green_En();
+			#if Func_White
+				LED_White_En();
+			#elif Func_3color
+				LED_Green_En();		//开启绿光
 			#endif
 			
 			g_3s_Count = CountDown_3s;	//开启背光3s倒计时
