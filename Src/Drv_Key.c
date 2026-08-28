@@ -230,11 +230,13 @@ void App_SKeyProcess(void)
                     if( eTestmode_num == Earmode )
                     {
                         eTestmode_num = Objectmode;
+                        
                         lcd_pc_clr();
                     }
                     else
                     {
                         eTestmode_num = Earmode;
+                        eAgemode_num=BigAge;
                     }	
                     eReadyTask_Sta = Ready_Refresh;
                 }
