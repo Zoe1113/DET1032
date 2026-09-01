@@ -658,7 +658,7 @@ uint8 Disp_FourSecLoop_Step(void)
 				lcd_obj_clr();
 				lcd9 = 0x04;
 				lcd8 = 0x00;
-			if(eTestmode_num == Insptectmode)
+			if(eTestmode_num == Insptectmode || eTestmode_num == Blackbodymode)
 			{
 				lcd_obj_en();
 			}
@@ -679,7 +679,7 @@ uint8 Disp_FourSecLoop_Step(void)
 			{
 				lcd7 = 0x04;
 				lcd6 = 0x00;
-			if(eTestmode_num == Insptectmode)
+			if(eTestmode_num == Insptectmode || eTestmode_num == Blackbodymode)
 			{
 				lcd_obj_clr();
 			}

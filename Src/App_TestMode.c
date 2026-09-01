@@ -262,7 +262,11 @@ void App_TestingMode(void)
         //显示处理
         case Test_Disp:
             Clr_Disp888();
-			Disp_ModeSign();
+            //耳温、黑体和生产检验模式需等待5s就绪后再显示模式符号
+            if(eTestmode_num == Foreheadmode || eTestmode_num == Objectmode)
+            {
+                Disp_ModeSign();
+            }
             if( eTestmode_num == Insptectmode )
             {
                 lcd6 = 0;
