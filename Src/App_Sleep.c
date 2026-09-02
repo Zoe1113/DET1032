@@ -52,7 +52,7 @@ void App_Sleep(void)
 			Clr_Disp();
             //Er1_Display_Sound(RESET);//复位Er2错误
             Er2_Display_Sound(RESET);//复位Er2错误
-            #if Func_Obj	 
+			#if Func_Probecover && Func_Obj	 
                 Er6_Display_Sound(RESET);//复位Er6错误
             #endif
 			eSleepTask_Sta = Sleep_waitkey;
@@ -235,7 +235,9 @@ void App_Sleep(void)
             eAgemode_num = BigAge;
 			HalKey_Set_KeyMode(Func_Long, &sTestKey);		//开机&测量键设为长按
 			HalKey_Set_KeyMode(Func_Long, &sMemKey);			    //记忆键设为短长按
+#if Func_Probecover
 			HalKey_Set_KeyMode(Func_Short, &sEarcapKey);		    //耳套键为短按
+#endif
 			HalKey_Set_KeyMode(Func_Long, &sSetKey);				//设置键为长按
 
 		default:

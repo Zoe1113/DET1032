@@ -5,6 +5,8 @@ void Forehead_Compensate(void);
 void LowTemp_Compensate(void);
 uint16 S_NtcFTValue(uint8 R_NtcSection, uint8 R_FTSection);
 void Ear_Compensate(void);
+#if Func_Probecover
 void Probecover_compensate(void);
+#endif
 
 #endif

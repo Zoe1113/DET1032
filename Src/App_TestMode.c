@@ -39,7 +39,9 @@ probe move¶îÎÂ¿ÉÄÜ»áÓĞÒ»¶¨Í¶Ëß£¬ÒòÎª×î´óÖµÒÑ¾­³öÀ´ÁË£¬Er3»áµ¼ÖÂÇåÆÁ£¬¶úÎÂ²»»á³öÏ
 
 void App_TestingMode(void)
 {
+#if Func_Probecover
     App_PCKeyProcess();
+#endif
     switch(eTestTask_Sta)
     {
         //°´ÏÂ²âÁ¿¼üÁ¢¼´³õÊ¼»¯ÈÎÎñ
@@ -216,8 +218,10 @@ void App_TestingMode(void)
             switch( eTestmode_num )
             {
                 case Earmode:
+#if Func_Probecover
                     if( uStaFlag.bits.ProbeCover )
                         Probecover_compensate();
+#endif
                     Ear_Compensate();
                     Temp_Relate();
                     LowTemp_Compensate();
@@ -240,8 +244,10 @@ void App_TestingMode(void)
                     #endif
                     break;
                 case Blackbodymode:
+#if Func_Probecover
                     if( uStaFlag.bits.ProbeCover )
                         Probecover_compensate();
+#endif
                     Temp_Relate();
                     //g_TpStep = 3200;
                     Body_MeasureRange_Check();

@@ -104,12 +104,17 @@ extern uKey2 uKeyHold;
 extern uKey3 uKeyRelease;
 extern uKey4 uKeyContinue;
 
-extern strKey sMemKey, sTestKey, sSetKey, sEarcapKey;
+extern strKey sMemKey, sTestKey, sSetKey;
+#if Func_Probecover
+extern strKey sEarcapKey;
+#endif
 
 void App_MemKeyProcess(void);
 void App_TKeyProcess(void);
 void App_SKeyProcess(void);
+#if Func_Probecover
 void App_PCKeyProcess(void);
+#endif
 
 uint8 HalKey_ReadKeyVal(void);
 void HalKey_KeyScan(void);

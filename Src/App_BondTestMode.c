@@ -136,6 +136,7 @@ void App_BondTestMode(void)
 			while( Port_Test )
 			{
                 WDTR = 0x5A;        // Clear WDTR Dog
+				#if Func_Probecover
 				// 耳套检测项
 				if( Port_Earcap )
 				{
@@ -145,6 +146,7 @@ void App_BondTestMode(void)
 				{
 					lcd_pc_en();
 				}
+				#endif
 
 				// 设定绑定厂无法进入
 				if( !Port_Cal )

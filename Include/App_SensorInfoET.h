@@ -19,6 +19,8 @@ int16 TpCount_Relative_25C(void);
 void TpTable_Find(void);
 void Ntc_Caculate(void);
 void Disp_Sensor_Name(void);
+#if Func_Probecover
 void pcchange(void);
+#endif
 
 #endif

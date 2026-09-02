@@ -36,7 +36,9 @@ void App_ReadyMode(void)
 {	
     App_SKeyProcess();
     App_TKeyProcess();
+#if Func_Probecover
     App_PCKeyProcess();
+#endif
     Disp_Unit();	//显示单位
     App_MemKeyProcess();
     Cal_Inspect_Detect();                  //绑定检测模式、校准模式判断
@@ -170,25 +172,25 @@ void App_ReadyMode(void)
             //break;
 
         case Ready_DisEr2:
-			#if Func_Obj	 
+            #if Func_Probecover && Func_Obj	 
             	Er6_Display_Sound(RESET);     //复位Er6错误。防止Er6产生时，Er2也产生，但是Er2先恢复。会导致首次Er6无蜂鸣
 			#endif
             Er2_Display_Sound(RUN);      //Er2的声音显示
             break;
         
-        #if Func_Obj
+        #if Func_Probecover && Func_Obj
         case Ready_DisEr6:
             Er2_Display_Sound(RESET);     //复位Er6错误。防止Er6产生时，Er2也产生，但是Er2先恢复。会导致首次Er6无蜂鸣
             Er6_Display_Sound(RUN);      //Er6的声音显示
             break;
         #endif
 
-        case Ready_DispCap: 
-        #if CAP_CHECK 
+        #if Func_Probecover && CAP_CHECK
+        case Ready_DispCap:
             Er2_Display_Sound(RESET);     //复位Er6错误。防止Er6产生时，Er2也产生，但是Er2先恢复。会导致首次Er6无蜂鸣
             CAP_Display_Sound(RUN);
-        #endif
             break;
+        #endif
         default:
             break;
     }
@@ -303,10 +305,12 @@ void Er2_Display_Sound(bit cmd)
         {
             Er2_First_Enter = 0;
             eReadyTask_Sta = Ready_Refresh;         //Er2恢复，更新显示
+            #if Func_Probecover
             if(uErrFlag.bits.Er6 == 1)
             {
                 eReadyTask_Sta = Ready_DisEr6;         //Er2恢复，更新显示
             }
+            #endif
         }
     }
 END: ;        //跳转到此处。结束程序
@@ -320,7 +324,7 @@ END: ;        //跳转到此处。结束程序
 返回值  ：	无
 占用空间：	TBD
 **************************************************************************/
-#if Func_Obj	 
+#if Func_Probecover && Func_Obj	 
 void Er6_Display_Sound(bit cmd)
 {
     static uint8 Er6_First_Enter = 0;      //注意该标志需要在关机时清零，否则在报Er6时关机，开机后第一次出现Er6时没有蜂鸣。
@@ -369,7 +373,7 @@ END: ;                           //空语句结束程序
 返回值  ：	无
 占用空间：	TBD
 **************************************************************************/
-#if CAP_CHECK	 
+#if Func_Probecover && CAP_CHECK	 
 void CAP_Display_Sound(bit cmd)
 {
     if(cmd == RESET)

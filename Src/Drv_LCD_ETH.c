@@ -398,6 +398,10 @@ void Disp_All(void)
 	#if !Func_Ble
 		lcd_ble_clr();
 	#endif
+
+	#if !Func_Probecover
+		lcd_pc_clr();
+	#endif
 }
 
 /**************************************************************************
@@ -633,6 +637,8 @@ static uint8  nb_FourSecTotal = 0;   // 总周期数
 
 void Disp_FourSecLoop_Init(void)
 {
+	lcd_badface_clr();
+	lcd_smileface_clr();
 	nb_FourSecPhase = 0;
 	nb_FourSecTick  = 0;
 	nb_FourSecCycle = 0;

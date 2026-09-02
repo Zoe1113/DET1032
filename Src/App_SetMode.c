@@ -158,6 +158,7 @@ void App_SetMode(void)
 				break;
             
             //人体系数
+			#if Func_Probecover
 			case Set_HumanRatio2:
 				g_HumanRatio2 ++;
 				if( g_HumanRatio2 > 60 )
@@ -212,6 +213,7 @@ void App_SetMode(void)
 				if( g_Earcap40 > 200 )
 					g_Earcap40 = 0;
 				break;
+			#endif
 
  			//表格选项
 			case Set_TableNum:
@@ -247,6 +249,7 @@ void App_SetMode(void)
 				Disp_Temp(0,0,0, (uint16)g_HumanRatio1*10);
 				break;
             //人体系数
+			#if Func_Probecover
 			case Set_HumanRatio2:   //有耳套
                 lcd_pc_en();
                 lcd_ear_en();
@@ -309,6 +312,7 @@ void App_SetMode(void)
                 lcd_earcap_en();
 				Disp_Temp(0,0,0,(uint16)g_Earcap40*10);
 				break;
+			#endif
 
  			//表格选项
 			case Set_TableNum:
@@ -331,6 +335,7 @@ void App_SetMode(void)
 				Delay1ms(5);
 				I2C_Byte_W(I2C_Add_HumanRatio1, g_HumanRatio1);	//保存人体系数
 				Delay1ms(5);
+				#if Func_Probecover
 				I2C_Byte_W(I2C_Add_HumanRatio2, g_HumanRatio2);	//保存人体系数
 				Delay1ms(5);
                 I2C_Byte_W(I2C_Add_Earcap10, g_Earcap10);		//g_Earcap10=100
@@ -347,6 +352,7 @@ void App_SetMode(void)
                 Delay1ms(5);
                 I2C_Byte_W(I2C_Add_Earcap40, g_Earcap40);		//g_Earcap15=100
                 Delay1ms(5);
+				#endif
 				I2C_Disable();
 
 				//还原变量，保证下次进入首先初始化起始设置项

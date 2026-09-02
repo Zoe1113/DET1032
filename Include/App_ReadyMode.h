@@ -23,6 +23,10 @@ void App_ReadyMode(void);
 void Disp_VoiceSign(bit State);
 void Er1_Display_Sound(bit cmd);
 void Er2_Display_Sound(bit cmd);
+#if Func_Probecover && Func_Obj
 void Er6_Display_Sound(bit cmd);
+#endif
+#if Func_Probecover && CAP_CHECK
 void CAP_Display_Sound(bit cmd);
+#endif
 #endif

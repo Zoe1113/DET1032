@@ -24,7 +24,9 @@ enum eKeyValue
     SetKey = 0x01,		 //设置键   p00
     TestKey = 0x02,		 //开机键&测量键   p01
     MemKey = 0x10,		 	 //记忆键  p04
+#if Func_Probecover
     EarcapKey = 0x20,		 //耳套键  p17
+#endif
     KeyMask = 0x33		 //按键掩码（p00 p01 p04 p17）
 }eKeyVal;
 
@@ -33,7 +35,10 @@ uKey2 uKeyHold;
 uKey3 uKeyRelease;
 uKey4 uKeyContinue;
 
-strKey sMemKey, sTestKey, sSetKey, sEarcapKey;
+strKey sMemKey, sTestKey, sSetKey;
+#if Func_Probecover
+strKey sEarcapKey;
+#endif
 
 /**************************************************************************
 函数名称：	void App_KeyProcess(void)
@@ -144,7 +149,7 @@ void App_TKeyProcess(void)
                 if(eTestmode_num == Earmode || eTestmode_num == Blackbodymode)    //耳温切换通道
                 {
                     Disp_Age_Segmentation();
-                    #if CAP_CHECK
+                    #if Func_Probecover && CAP_CHECK
                     if(uStaFlag.bits.ProbeCover)
                     {
                         Adc_Channel_Init(NTCTOTP);
@@ -166,7 +171,7 @@ void App_TKeyProcess(void)
                 eMain_Task = Task_Testingmode;
             }
 
-            #if CAP_CHECK
+            #if Func_Probecover && CAP_CHECK
                 if((uStaFlag.bits.ProbeCover == 0) && (eTestmode_num  != Objectmode) && (eTestmode_num  != Insptectmode))
                 {
                     CAP_Display_Sound(RESET);
@@ -174,7 +179,11 @@ void App_TKeyProcess(void)
             #endif
 
             //未准备好按下则Er1报错
-            if( eTestmode_num != Objectmode && !uErrFlag.bits.Er6 && eReadyTask_Sta != Ready_DispCap&&eReadyTask_Sta == Ready_Timeout)
+            if( eTestmode_num != Objectmode
+                #if Func_Probecover
+                && !uErrFlag.bits.Er6 && eReadyTask_Sta != Ready_DispCap
+                #endif
+                && eReadyTask_Sta == Ready_Timeout)
             {
                 uErrFlag.g_ErrFlag = 0;	//清其他错误标志位
                 uErrFlag.bits.Er1 = 1;
@@ -223,15 +232,20 @@ void App_SKeyProcess(void)
                 {
                     //切换模式状态标志处理
                     Adc_Channel_Init(TPTONTC);			//重新采集ntc
+                    #if Func_Probecover
                     Er6_Display_Sound(RESET);
+                    #endif
                     g_5s_Count = 0;       //切换模式，清零计数器。马上可以测量
                     uErrFlag.g_ErrFlag = 0;			//清除所有错误					
+                    #if Func_Probecover
                     uErrFlag.bits.Er6 = 0;			//恢复原Er6产生的错误标志位
+                    #endif
                     if( eTestmode_num == Earmode )
                     {
                         eTestmode_num = Objectmode;
-                        
+                        #if Func_Probecover
                         lcd_pc_clr();
+                        #endif
                     }
                     else
                     {
@@ -276,6 +290,7 @@ void App_SKeyProcess(void)
 返回值  ：	无
 占用空间：	TBD
 **************************************************************************/
+#if Func_Probecover
 void App_PCKeyProcess(void)
 {
     static uint8 F_Enevt = 0, F_Lsat_Eenvt = 0;
@@ -365,6 +380,7 @@ void App_PCKeyProcess(void)
     }
     F_Lsat_Eenvt = F_Enevt;	                //保存本次耳套杆事件
 }
+#endif
 
 /**************************************************************************
 函数名称：	uint8 HalKey_ReadKeyVal(void)
@@ -381,11 +397,13 @@ uint8 HalKey_ReadKeyVal(void)
 	L_keydata = P0 & 0x13;	//只读取P00,P01,P04，P05不再使用
 	L_keydata ^= 0x13;	//低电平有效按键取反
 	
-	//读取P17作为耳套键
+#if Func_Probecover
+    //读取P17作为耳套键
 	if(!FP17)	//P17低电平表示按键按下
 	{
 		L_keydata |= EarcapKey;	//耳套键标志
 	}
+#endif
 	return L_keydata;
 }
 
@@ -405,7 +423,9 @@ void HalKey_KeyScan(void)
     HalKey_Scan(L_Keydata & MemKey , &sMemKey);  //判断记忆按键的状态
     HalKey_Scan(L_Keydata & TestKey , &sTestKey); //判断开机&测量键的状态
     HalKey_Scan(L_Keydata & SetKey ,  &sSetKey);    //判断设置按键的状态
+#if Func_Probecover
     HalKey_Scan(L_Keydata & EarcapKey , &sEarcapKey); //判断耳套键的状态
+#endif
 }
 
 /**************************************************************************
@@ -546,10 +566,14 @@ void HalKey_KeyClr(void)
     sMemKey.g_Key_Val = 0;
     sTestKey.g_Key_Val = 0;
     sSetKey.g_Key_Val = 0;
+#if Func_Probecover
     sEarcapKey.g_Key_Val = 0;
+#endif
 
     sMemKey.g_Key_Status = 0;
     sTestKey.g_Key_Status = 0;
     sSetKey.g_Key_Status = 0;
+#if Func_Probecover
     sEarcapKey.g_Key_Status = 0;
+#endif
 }

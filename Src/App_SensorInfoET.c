@@ -831,6 +831,7 @@ void BlackBodyOffset(void)
 占用空间:	TBD
 备    注:	无
 **************************************************************************/
+#if Func_Probecover
 void pcchange(void)
 {
     uint8 a;
@@ -852,3 +853,4 @@ void pcchange(void)
 	else
 		g_PcRatio = g_Earcap40;    //40
 }
+#endif

@@ -93,7 +93,9 @@ void main(void)
 	// 初始化按键信息
 	HalKey_Set_KeyMode(Func_Long, &sTestKey);		//开机&测量键设为长按
 	HalKey_Set_KeyMode(Func_Long, &sMemKey);			    //记忆键设为长按
+#if Func_Probecover
 	HalKey_Set_KeyMode(Func_Short, &sEarcapKey);		    //耳套键为短按
+#endif
 	HalKey_Set_KeyMode(Func_Long, &sSetKey);				//设置键为长按
 
 	// 绑定检测，因为修改上电进入模式的原因，移到此处；
@@ -158,8 +160,10 @@ void main(void)
 			#if Func_Ble
 				g_ble_ack_timeout ++;
 			#endif	
+			#if Func_Probecover
 			if(eMain_Task == Task_ReadyMode)
 				LCD_pc_Show(0);	
+			#endif
 
             #if Second_LVD == 1
 			/*低电压显示*/

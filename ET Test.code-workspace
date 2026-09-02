@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../DET2132/代码/DET2132"
 		}
 	],
 	"settings": {

@@ -15,6 +15,7 @@ typedef enum
 	Set_Unit = 0,		//设置单位
 	Set_Emission ,		//设置发射率
 	Set_HumanRatio1 ,	//设置人体系数1 不戴耳套的
+#if Func_Probecover
     Set_HumanRatio2 ,	//设置人体系数1 戴耳套的
     Set_Earcap10,		//设置cap15系数
     Set_Earcap15,		//设置cap15系数
@@ -23,6 +24,7 @@ typedef enum
 	Set_Earcap30,		//设置cap30系数
 	Set_Earcap35,		//设置cap35系数
 	Set_Earcap40,		//设置cap40系数
+#endif
 	Set_TableNum ,		//设置黑体表格
 	Set_End 			//设置退出保存
 }eSetModeTask;

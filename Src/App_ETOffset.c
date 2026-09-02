@@ -211,6 +211,7 @@ void Ear_Compensate(void)
 	int16 a;
 
 	a = g_TpStep - g_NtcStep;
+#if Func_Probecover
 	if(uStaFlag.bits.ProbeCover)//戴耳套了用系数2
     {
         a = (int32)a * g_HumanRatio2 /1000;
@@ -219,6 +220,9 @@ void Ear_Compensate(void)
     {
         a = (int32)a * g_HumanRatio1 /1000;
     }
+#else
+	a = (int32)a * g_HumanRatio1 /1000;
+#endif
 	g_TpStep += a;
 }
 
@@ -231,6 +235,7 @@ void Ear_Compensate(void)
 占用空间：	TBD
 备    注：	最终温度=(目标温度-环境温度)*补偿系数/1000+目标温度
 **************************************************************************/
+#if Func_Probecover
 void Probecover_compensate(void)
 {
 	int16 a;
@@ -239,6 +244,7 @@ void Probecover_compensate(void)
 	a = (int32)a * g_PcRatio /1000;
 	g_TpStep += a;
 }
+#endif
 
 
 #if ET_FT
