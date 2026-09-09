@@ -2,38 +2,38 @@
 #define _Drv_LCD_ETH_H
 
 //底层驱动  //跟段码表对应关系+5
-// sfr	lcd0 = 0xf00 ;
-// sfr	lcd1 = 0xf01 ;
-// sfr	lcd2 = 0xf02 ;
-// sfr	lcd3 = 0xf03 ;
-// sfr	lcd4 = 0xf04 ;
-// sfr	lcd5 = 0xf05 ;
-// sfr	lcd6 = 0xf06 ;
-// sfr	lcd7 = 0xf07 ;
-// sfr	lcd8 = 0xf08 ;
-// sfr	lcd9 = 0xf09 ;
-// sfr	lcd10 = 0xf0a ;
-// sfr	lcd11 = 0xf0b ;
-// sfr	lcd12 = 0xf0c ;
-// sfr	lcd13 = 0xf0d ;
-// sfr	lcd14 = 0xf0e ;
+sfr	lcd0 = 0xf00 ;
+sfr	lcd1 = 0xf01 ;
+sfr	lcd2 = 0xf02 ;
+sfr	lcd3 = 0xf03 ;
+sfr	lcd4 = 0xf04 ;
+sfr	lcd5 = 0xf05 ;
+sfr	lcd6 = 0xf06 ;
+sfr	lcd7 = 0xf07 ;
+sfr	lcd8 = 0xf08 ;
+sfr	lcd9 = 0xf09 ;
+sfr	lcd10 = 0xf0a ;
+sfr	lcd11 = 0xf0b ;
+sfr	lcd12 = 0xf0c ;
+sfr	lcd13 = 0xf0d ;
+sfr	lcd14 = 0xf0e ;
 
 //镜像驱动
-sfr	lcd0 = 0xf0e ;
-sfr	lcd1 = 0xf0d ;
-sfr	lcd2 = 0xf0c ;
-sfr	lcd3 = 0xf0b ;
-sfr	lcd4 = 0xf0a ;
-sfr	lcd5 = 0xf09 ;
-sfr	lcd6 = 0xf08 ;
-sfr	lcd7 = 0xf07 ;
-sfr	lcd8 = 0xf06 ;
-sfr	lcd9 = 0xf05 ;
-sfr	lcd10 = 0xf04 ;
-sfr	lcd11 = 0xf03 ;
-sfr	lcd12 = 0xf02 ;
-sfr	lcd13 = 0xf01 ;
-sfr	lcd14 = 0xf00 ;
+// sfr	lcd0 = 0xf0e ;
+// sfr	lcd1 = 0xf0d ;
+// sfr	lcd2 = 0xf0c ;
+// sfr	lcd3 = 0xf0b ;
+// sfr	lcd4 = 0xf0a ;
+// sfr	lcd5 = 0xf09 ;
+// sfr	lcd6 = 0xf08 ;
+// sfr	lcd7 = 0xf07 ;
+// sfr	lcd8 = 0xf06 ;
+// sfr	lcd9 = 0xf05 ;
+// sfr	lcd10 = 0xf04 ;
+// sfr	lcd11 = 0xf03 ;
+// sfr	lcd12 = 0xf02 ;
+// sfr	lcd13 = 0xf01 ;
+// sfr	lcd14 = 0xf00 ;
 //只在本文件内使用的宏定义
 #define	SA	8			//0000000000001000B
 #define	SB	4			//0000000000000100B

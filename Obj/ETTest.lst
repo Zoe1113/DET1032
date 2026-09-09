@@ -5,259 +5,259 @@ start listing elf file - .\Bin/ETTest.out
 
 Start   Length(Byte)  Type  Name                             Source File
 000000    0X03        Data  crt0@data                        
-0X0003    0X02        Data  _g_AIN2Count@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0005    0X02        Data  _g_AIN1Count@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0007    0X01        Data  _Drv_I2C_HW_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
-0X0008    0X02        Data  _g_OpOffsetDoff@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X000A    0X02        Data  _g_OpDoff@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X000C    0X02        Data  _g_AdcDoff@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X000E    0X02        Data  _g_Cali41Data@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0010    0X02        Data  _g_Cali37Data@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0012    0X02        Data  _g_Cali25TP@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0014    0X01        Data  _g_AgeNode_Men@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0015    0X02        Data  _g_RelateTemp@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0017    0X01        Data  _App_SetMode_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X0003    0X02        Data  _g_AIN2Count@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0005    0X02        Data  _g_AIN1Count@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0007    0X01        Data  _Drv_I2C_HW_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0008    0X02        Data  _g_OpOffsetDoff@segment          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X000A    0X02        Data  _g_OpDoff@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X000C    0X02        Data  _g_AdcDoff@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X000E    0X02        Data  _g_Cali41Data@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0010    0X02        Data  _g_Cali37Data@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0012    0X02        Data  _g_Cali25TP@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0014    0X01        Data  _g_AgeNode_Men@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0015    0X02        Data  _g_RelateTemp@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0017    0X01        Data  _App_SetMode_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
 0X0018    0X08        Data  _VirtualReg                      
-0X0020    0X01        Data  _APP_Isr_c_GlobalBitDataPool0    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
+0X0020    0X01        Data  _APP_Isr_c_GlobalBitDataPool0    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
 0X0021    0X0B        Data  _InterruptBackupData             
 0X002C    0X02        Data  _VirtualRegIsr                   
-0X002E    0X01        Data  _App_Memory_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X002F    0X01        Data  _App_CaliMode_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X0030    0X01        Data  _eAgemode_num@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0031    0X01        Data  _uErrFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0032    0X01        Data  _uStaFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0033    0X01        Data  _eMain_Task@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0034    0X02        Data  _g_TpStep@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0036    0X02        Data  _g_NtcStep@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0038    0X02        Data  _g_TpCount@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X003A    0X02        Data  _g_NtcCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X003C    0X01        Data  _App_Core_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X002E    0X01        Data  _App_Memory_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X002F    0X01        Data  _App_CaliMode_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X0030    0X01        Data  _eAgemode_num@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0031    0X01        Data  _uErrFlag@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0032    0X01        Data  _uStaFlag@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0033    0X01        Data  _eMain_Task@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0034    0X02        Data  _g_TpStep@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0036    0X02        Data  _g_NtcStep@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0038    0X02        Data  _g_TpCount@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X003A    0X02        Data  _g_NtcCount@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X003C    0X01        Data  _App_Core_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
 0X003D    0X0A        Data  __runtime_arg_isr                
-0X0047    0X01        Data  _App_Time_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0048    0X01        Data  _App_BleMode06_c_GlobalBitDataPool0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0047    0X01        Data  _App_Time_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0048    0X01        Data  _App_BleMode06_c_GlobalBitDataPool0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
 0X0049    0X0F        Data  __runtime_arg                    
-0X0058    0X01        Data  _g_Earcap20@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X0059    0X01        Data  _g_Earcap15@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X005A    0X01        Data  _g_Earcap10@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X005B    0X01        Data  _g_PcRatio@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X005C    0X01        Data  _g_Emission@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X005D    0X01        Data  _g_HumanRatio2@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X005E    0X01        Data  _g_HumanRatio1@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X005F    0X03        Data  _Hex2Bcd@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X0062    0X01        Data  _Function_Temp_Resolution_Adjust_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X0063    0X01        Data  _Function_LowTemp_Compensate_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
-0X0064    0X04        Data  _g_AdcSum@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
-0X0068    0X01        Data  _g_AdcCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
-0X0069    0X02        Data  _g_AdcData@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
-0X006B    0X01        Data  _Function_Adc_Channel_Init_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
-0X006C    0X02        Data  _sdata92@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
-0X006E    0X02        Data  _sdata93@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
-0X0070    0X01        Data  _g_beep_loop@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
-0X0071    0X01        Data  _g_beep_time@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
-0X0072    0X01        Data  _eBeep_Status@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
-0X0073    0X01        Data  _R_I2C_TXDATA@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
-0X0074    0X01        Data  _R_I2C_RXDATA@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
-0X0075    0X01        Data  _R_E2Address@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
-0X0076    0X01        Data  _eKeyVal@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0077    0X01        Data  _eKeySta@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0078    0X01        Data  _g_Hour@segment                  D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0079    0X01        Data  _g_Minute@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X007A    0X01        Data  _g_Day@segment                   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X007B    0X01        Data  _g_Month@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X007C    0X02        Data  _g_Year@segment                  D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X007E    0X01        Data  _g_Second@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X007F    0X01        Data  _uSetFlag@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
-0X0100    0X05        Data  _sEarcapKey@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0105    0X05        Data  _sSetKey@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X010A    0X05        Data  _sTestKey@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X010F    0X05        Data  _sMemKey@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0114    0X01        Data  _uKeyContinue@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0115    0X01        Data  _uKeyRelease@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0116    0X01        Data  _uKeyHold@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0117    0X01        Data  _uKeyPress@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X0118    0X03        Data  _sdata32@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X011B    0X01        Data  _sdata263@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X011C    0X01        Data  _sdata381@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X011D    0X01        Data  _sdata382@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
-0X011E    0X01        Data  _g_MemCount@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X011F    0X01        Data  _g_MemTotalNo@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0120    0X01        Data  _g_MemNo@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0121    0X02        Data  _g_YearMem@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0123    0X01        Data  _g_MonthMem@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0124    0X01        Data  _g_DayMem@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0125    0X01        Data  _g_MinuteMem@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0126    0X01        Data  _g_HourMem@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0127    0X02        Data  _p@segment                       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
-0X0129    0X01        Data  _eCaliTask@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X012A    0X01        Data  _sdata283@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X012B    0X01        Data  _sdata284@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X012C    0X01        Data  _sdata285@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X012D    0X02        Data  _sdata280@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X012F    0X01        Data  _g_MonthMem_momeory@segment      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X0130    0X02        Data  _sdata282@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X0132    0X18        Data  _g_NtcStepBuff@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X014A    0X01        Data  _eReadyTask_Sta@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X014B    0X01        Data  _Er1_Nb_InitDone@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X014C    0X02        Data  _g_NtcStepBuffCount@segment      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X014E    0X01        Data  _sdata261@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X014F    0X01        Data  _Function_Er1_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X0150    0X01        Data  _sdata316@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X0151    0X01        Data  _Function_Er2_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X0152    0X01        Data  _sdata399@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X0153    0X01        Data  _Function_Er6_Display_Sound_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X0154    0X01        Data  _Function_Disp_VoiceSign_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
-0X0155    0X02        Data  _g_TpStep_Disp@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
-0X0157    0X01        Data  _eTestTask_Sta@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
-0X0158    0X01        Data  _eTestmode_num@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
-0X0159    0X01        Data  _eInitTask_Sta@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_InitMode.c
-0X015A    0X01        Data  _g_Blink_count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
-0X015B    0X01        Data  _g_Blink@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
-0X015C    0X01        Data  _eSetTask@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
-0X015D    0X10        Data  _sdata281@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
-0X016D    0X02        Data  _Time_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X016F    0X02        Data  _g_NtcCount_Before_Press@segment   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0171    0X01        Data  _g_Success_Before_Press@segment   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0172    0X01        Data  _g_Success@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0173    0X0C        Data  _TpMax_Data@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X017F    0X80        Data  _Forehead_array@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X01FF    0X01        Data  _g_CheckSum@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X0200    0X40        Data  _Ear_array@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0240    0X02        Data  _g_TpCount_Max@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0242    0X02        Data  _g_TpCount_avg@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0244    0X01        Data  _sdata298@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0245    0X01        Data  _sdata181@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0246    0X01        Data  _sdata294@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0247    0X01        Data  _sdata295@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0248    0X01        Data  _sdata296@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X0249    0X01        Data  _sdata297@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X024A    0X01        Data  _eSleepTask_Sta@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Sleep.c
-0X024B    0X01        Data  _eBondTestTask@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BondTestMode.c
-0X024C    0X01        Data  _g_500ms_Count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X024D    0X01        Data  _g_10ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X024E    0X01        Data  _g_Earcap40@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X024F    0X02        Data  _g_AutoTurnOff_Count@segment     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0251    0X01        Data  _g_3s_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0252    0X02        Data  _g_5s_Count@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0254    0X01        Data  _g_300ms_Count@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0255    0X01        Data  _g_20ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0256    0X01        Data  _g_Earcap35@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X0257    0X01        Data  _sdata184@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0258    0X01        Data  _Function_Time_CountDown_5s_timeout_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0259    0X01        Data  _sdata54@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X025A    0X01        Data  _Function_Disp_Temp_bitdata0     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X025B    0X01        Data  _Function_Cal_Disp_Temp_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X025C    0X01        Data  _nb_FourSecPhase@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X025D    0X01        Data  _nb_FourSecTick@segment          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X025E    0X01        Data  _nb_FourSecCycle@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X025F    0X01        Data  _nb_FourSecTotal@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X0260    0X01        Data  _sdata1070@segment               D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X0261    0X02        Data  _g_Table37C@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X0263    0X02        Data  _g_Table41C@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X0265    0X02        Data  _g_NtcTableDown1@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X0267    0X01        Data  _g_50ms_Count@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
-0X0268    0X02        Data  _g_NtcTableDown2@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X026A    0X02        Data  _g_NtcTableUp2@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X026C    0X02        Data  _g_TpTableDown@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X026E    0X02        Data  _g_TpTableUp@segment             D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X0270    0X01        Data  _Function_BlackBodyOffset_bitdata0   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X0271    0X01        Data  _L_MemNo@segment                 D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X0272    0X01        Data  _L_MemTotalNo@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X0273    0X01        Data  _Ble_Waittostart@segment         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X0274    0X12        Data  _g_Ble_RxData_Buf@segment        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X0286    0X12        Data  _g_Ble_RxData@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X0298    0X01        Data  _g_ble_ack_timeout@segment       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X0299    0X01        Data  _g_ble_timeout@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X029A    0X01        Data  _eBle_Sta@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X029B    0X01        Data  _g_Earcap30@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X029C    0X01        Data  _sdata504@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X029D    0X01        Data  _sdata506@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X029E    0X01        Data  _sdata505@segment                D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
-0X029F    0X01        Data  _g_Earcap25@segment              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A0    0X02        Data  _g_NtcTableUp1@segment           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
-0X02A2    0X01        Data  _Function_Interrupt_pro_isr_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
-0X02A3    0X01        Data  _Function_LCD_pc_Show_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_I2C_Random_R_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_ErN_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_HalKey_ReadKeyVal_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_FourSecLoop_Step_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_App_Beep_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_pcchange_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Uart_Send_Wakeup_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_Age_Segmentation_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Drv_Adc_Channel_Set_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X01        Data  _Function_Disp_ModeSign_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Delayus_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_NtcCount_Determine_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_labs_data              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Read_Mem_Address_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Temp_Resolution_Adjust_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Select_Age0_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Select_Age3_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Select_Age36_alarm_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Disp_MemNo_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_I2C_Byte_W_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_App_Upload_DeviceInfo_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_App_Upload_Time_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_TpCount_Determine_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X02        Data  _Function_Ear_Compensate_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Disp_Ear_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_HalKey_Set_KeyMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_LowTemp_Compensate_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Uart_Transmit_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Get_Forehead_Tp_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Delay50us_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X03        Data  _Function_Delay1ms_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X04        Data  _Function_HalKey_Scan_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X04        Data  _Function_BlackBodyOffset_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X04        Data  _Function_Delay10ms_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X04        Data  _Function_BleData_Check_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X04        Data  _Function_UART_Send_To_Ble_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X05        Data  _Function_HexToBcd_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X05        Data  _Function_NTC_StabilityRecurrence_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X05        Data  _Function_Get_Ear_Tp_Max_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X05        Data  _Function_TpCount_Relative_25C_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X06        Data  _Function_Get_Ear_Tp_Avg_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X06        Data  _Function_Disp_Version_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X06        Data  _Function_TpTable_Find_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X07        Data  _Function_Probe_Move_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X08        Data  _Function_Disp_Code_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X08        Data  _Function_NtcTable_Find_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A3    0X09        Data  _Function_Get_Forehead_Tp_Max_Avg_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A4    0X01        Data  _Function_Read_Mem_RecordNo_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
-0X02A4    0X02        Data  _Function_Probecover_compensate_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
-0X02A4    0X0A        Data  _Function_App_Upload_Temperature_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
-0X02A5    0X02        Data  _Function_CToF_data              D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A5    0X02        Data  _Function_Fever_alarm_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A5    0X02        Data  _Function_Temp_Relate_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A5    0X03        Data  _Function_S_Adc_Stable_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A5    0X06        Data  _Function_S_Adjust_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A5    0X0C        Data  _Function_Adc_Filter_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A6    0X01        Data  _Function_Drv_PGA_Init_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A6    0X01        Data  _Function_Drv_Adc_Offset_Set_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A6    0X05        Data  _Function_Mem_Store_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A7    0X01        Data  _Function_Parm_AutoCheck_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A7    0X01        Data  _Function_HalKey_KeyScan_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A7    0X01        Data  _Function_LVD_Chk_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A7    0X01        Data  _Function_LBT_Chk_data           D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A7    0X01        Data  _Function_App_ReadyMode_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A7    0X03        Data  _Function_Uart_Receive_Event_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
-0X02A8    0X02        Data  _Function_LeapYear_Judge_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A8    0X06        Data  _Function_Tp_Caculate_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A8    0X0C        Data  _Function_Cal_Disp_Temp_data     D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02A8    0X0C        Data  _Function_Disp_Temp_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
-0X02AA    0X01        Data  _Function_Update_SysTime_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X02AB    0X01        Data  _Function_App_InitMode_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X02AE    0X01        Data  _Function_App_UploadData_data    D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
-0X02AF    0X01        Data  _Function_App_BleMode_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
-0X02B4    0X01        Data  _Function_App_BondTestMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X02B4    0X02        Data  _Function_App_TestingMode_data   D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X02B4    0X03        Data  _Function_App_SetMode_data       D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X02B4    0X03        Data  _Function_Disp_Mem_data          D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X02B4    0X05        Data  _Function_App_CaliMode_data      D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X02B7    0X01        Data  _Function_App_Sleep_data         D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
-0X02B7    0X02        Data  _Function_App_Memory_data        D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0058    0X01        Data  _g_Earcap20@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X0059    0X01        Data  _g_Earcap15@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005A    0X01        Data  _g_Earcap10@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005B    0X01        Data  _g_PcRatio@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005C    0X01        Data  _g_Emission@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005D    0X01        Data  _g_HumanRatio2@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005E    0X01        Data  _g_HumanRatio1@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X005F    0X03        Data  _Hex2Bcd@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X0062    0X01        Data  _Function_Temp_Resolution_Adjust_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X0063    0X01        Data  _Function_LowTemp_Compensate_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X0064    0X04        Data  _g_AdcSum@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X0068    0X01        Data  _g_AdcCount@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X0069    0X02        Data  _g_AdcData@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006B    0X01        Data  _Function_Adc_Channel_Init_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006C    0X02        Data  _sdata92@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X006E    0X02        Data  _sdata93@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_ADC.c
+0X0070    0X01        Data  _g_beep_loop@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
+0X0071    0X01        Data  _g_beep_time@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
+0X0072    0X01        Data  _eBeep_Status@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Buzzer.c
+0X0073    0X01        Data  _R_I2C_TXDATA@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0074    0X01        Data  _R_I2C_RXDATA@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0075    0X01        Data  _R_E2Address@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_I2C_HW.c
+0X0076    0X01        Data  _eKeyVal@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0077    0X01        Data  _eKeySta@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0078    0X01        Data  _g_Hour@segment                  D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0079    0X01        Data  _g_Minute@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007A    0X01        Data  _g_Day@segment                   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007B    0X01        Data  _g_Month@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007C    0X02        Data  _g_Year@segment                  D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007E    0X01        Data  _g_Second@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X007F    0X01        Data  _uSetFlag@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Variable.c
+0X0100    0X05        Data  _sEarcapKey@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0105    0X05        Data  _sSetKey@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X010A    0X05        Data  _sTestKey@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X010F    0X05        Data  _sMemKey@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0114    0X01        Data  _uKeyContinue@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0115    0X01        Data  _uKeyRelease@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0116    0X01        Data  _uKeyHold@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0117    0X01        Data  _uKeyPress@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X0118    0X03        Data  _sdata32@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011B    0X01        Data  _sdata263@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011C    0X01        Data  _sdata381@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011D    0X01        Data  _sdata382@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_Key.c
+0X011E    0X01        Data  _g_MemCount@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X011F    0X01        Data  _g_MemTotalNo@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0120    0X01        Data  _g_MemNo@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0121    0X02        Data  _g_YearMem@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0123    0X01        Data  _g_MonthMem@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0124    0X01        Data  _g_DayMem@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0125    0X01        Data  _g_MinuteMem@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0126    0X01        Data  _g_HourMem@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0127    0X02        Data  _p@segment                       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
+0X0129    0X01        Data  _eCaliTask@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012A    0X01        Data  _sdata283@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012B    0X01        Data  _sdata284@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012C    0X01        Data  _sdata285@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012D    0X02        Data  _sdata280@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X012F    0X01        Data  _g_MonthMem_momeory@segment      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X0130    0X02        Data  _sdata282@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X0132    0X18        Data  _g_NtcStepBuff@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X014A    0X01        Data  _eReadyTask_Sta@segment          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X014B    0X01        Data  _Er1_Nb_InitDone@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X014C    0X02        Data  _g_NtcStepBuffCount@segment      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X014E    0X01        Data  _sdata261@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X014F    0X01        Data  _Function_Er1_Display_Sound_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0150    0X01        Data  _sdata316@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0151    0X01        Data  _Function_Er2_Display_Sound_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0152    0X01        Data  _sdata399@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0153    0X01        Data  _Function_Er6_Display_Sound_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0154    0X01        Data  _Function_Disp_VoiceSign_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ReadyMode.c
+0X0155    0X02        Data  _g_TpStep_Disp@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
+0X0157    0X01        Data  _eTestTask_Sta@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
+0X0158    0X01        Data  _eTestmode_num@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_TestMode.c
+0X0159    0X01        Data  _eInitTask_Sta@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_InitMode.c
+0X015A    0X01        Data  _g_Blink_count@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X015B    0X01        Data  _g_Blink@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X015C    0X01        Data  _eSetTask@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SetMode.c
+0X015D    0X10        Data  _sdata281@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_CaliMode.c
+0X016D    0X02        Data  _Time_Count@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X016F    0X02        Data  _g_NtcCount_Before_Press@segment   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0171    0X01        Data  _g_Success_Before_Press@segment   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0172    0X01        Data  _g_Success@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0173    0X0C        Data  _TpMax_Data@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X017F    0X80        Data  _Forehead_array@segment          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X01FF    0X01        Data  _g_CheckSum@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X0200    0X40        Data  _Ear_array@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0240    0X02        Data  _g_TpCount_Max@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0242    0X02        Data  _g_TpCount_avg@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0244    0X01        Data  _sdata298@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0245    0X01        Data  _sdata181@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0246    0X01        Data  _sdata294@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0247    0X01        Data  _sdata295@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0248    0X01        Data  _sdata296@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X0249    0X01        Data  _sdata297@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X024A    0X01        Data  _eSleepTask_Sta@segment          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Sleep.c
+0X024B    0X01        Data  _eBondTestTask@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BondTestMode.c
+0X024C    0X01        Data  _g_500ms_Count@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X024D    0X01        Data  _g_10ms_Count@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X024E    0X01        Data  _g_Earcap40@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X024F    0X02        Data  _g_AutoTurnOff_Count@segment     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0251    0X01        Data  _g_3s_Count@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0252    0X02        Data  _g_5s_Count@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0254    0X01        Data  _g_300ms_Count@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0255    0X01        Data  _g_20ms_Count@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0256    0X01        Data  _g_Earcap35@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X0257    0X01        Data  _sdata184@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0258    0X01        Data  _Function_Time_CountDown_5s_timeout_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0259    0X01        Data  _sdata54@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X025A    0X01        Data  _Function_Disp_Temp_bitdata0     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025B    0X01        Data  _Function_Cal_Disp_Temp_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025C    0X01        Data  _nb_FourSecPhase@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025D    0X01        Data  _nb_FourSecTick@segment          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025E    0X01        Data  _nb_FourSecCycle@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X025F    0X01        Data  _nb_FourSecTotal@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X0260    0X01        Data  _sdata1070@segment               D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X0261    0X02        Data  _g_Table37C@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0263    0X02        Data  _g_Table41C@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0265    0X02        Data  _g_NtcTableDown1@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0267    0X01        Data  _g_50ms_Count@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Time.c
+0X0268    0X02        Data  _g_NtcTableDown2@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X026A    0X02        Data  _g_NtcTableUp2@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X026C    0X02        Data  _g_TpTableDown@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X026E    0X02        Data  _g_TpTableUp@segment             D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0270    0X01        Data  _Function_BlackBodyOffset_bitdata0   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X0271    0X01        Data  _L_MemNo@segment                 D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0272    0X01        Data  _L_MemTotalNo@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0273    0X01        Data  _Ble_Waittostart@segment         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0274    0X12        Data  _g_Ble_RxData_Buf@segment        D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0286    0X12        Data  _g_Ble_RxData@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0298    0X01        Data  _g_ble_ack_timeout@segment       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0299    0X01        Data  _g_ble_timeout@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029A    0X01        Data  _eBle_Sta@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029B    0X01        Data  _g_Earcap30@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X029C    0X01        Data  _sdata504@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029D    0X01        Data  _sdata506@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029E    0X01        Data  _sdata505@segment                D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X029F    0X01        Data  _g_Earcap25@segment              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A0    0X02        Data  _g_NtcTableUp1@segment           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_SensorInfoET.c
+0X02A2    0X01        Data  _Function_Interrupt_pro_isr_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\APP_Isr.c
+0X02A3    0X01        Data  _Function_LCD_pc_Show_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_I2C_Random_R_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_ErN_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_HalKey_ReadKeyVal_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_FourSecLoop_Step_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_App_Beep_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_pcchange_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Uart_Send_Wakeup_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_Age_Segmentation_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Drv_Adc_Channel_Set_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X01        Data  _Function_Disp_ModeSign_data     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Delayus_data           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_NtcCount_Determine_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_labs_data              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Read_Mem_Address_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Temp_Resolution_Adjust_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Select_Age0_alarm_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Select_Age3_alarm_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Select_Age36_alarm_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Disp_MemNo_data        D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_I2C_Byte_W_data        D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_App_Upload_DeviceInfo_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_App_Upload_Time_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_TpCount_Determine_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X02        Data  _Function_Ear_Compensate_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Disp_Ear_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_HalKey_Set_KeyMode_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_LowTemp_Compensate_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Uart_Transmit_data     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Get_Forehead_Tp_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Delay50us_data         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X03        Data  _Function_Delay1ms_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_HalKey_Scan_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_BlackBodyOffset_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_Delay10ms_data         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_BleData_Check_data     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X04        Data  _Function_UART_Send_To_Ble_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_HexToBcd_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_NTC_StabilityRecurrence_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_Get_Ear_Tp_Max_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X05        Data  _Function_TpCount_Relative_25C_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X06        Data  _Function_Get_Ear_Tp_Avg_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X06        Data  _Function_Disp_Version_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X06        Data  _Function_TpTable_Find_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X07        Data  _Function_Probe_Move_data        D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X08        Data  _Function_Disp_Code_data         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X08        Data  _Function_NtcTable_Find_data     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A3    0X09        Data  _Function_Get_Forehead_Tp_Max_Avg_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A4    0X01        Data  _Function_Read_Mem_RecordNo_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X02A4    0X02        Data  _Function_Probecover_compensate_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X02A4    0X0A        Data  _Function_App_Upload_Temperature_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_ETOffset.c
+0X02A5    0X02        Data  _Function_CToF_data              D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X02        Data  _Function_Fever_alarm_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X02        Data  _Function_Temp_Relate_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X03        Data  _Function_S_Adc_Stable_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X06        Data  _Function_S_Adjust_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A5    0X0C        Data  _Function_Adc_Filter_data        D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A6    0X01        Data  _Function_Drv_PGA_Init_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A6    0X01        Data  _Function_Drv_Adc_Offset_Set_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A6    0X05        Data  _Function_Mem_Store_data         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A7    0X01        Data  _Function_Parm_AutoCheck_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_HalKey_KeyScan_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_LVD_Chk_data           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_LBT_Chk_data           D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X01        Data  _Function_App_ReadyMode_data     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A7    0X03        Data  _Function_Uart_Receive_Event_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Param.c
+0X02A8    0X02        Data  _Function_LeapYear_Judge_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A8    0X06        Data  _Function_Tp_Caculate_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A8    0X0C        Data  _Function_Cal_Disp_Temp_data     D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02A8    0X0C        Data  _Function_Disp_Temp_data         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Function.c
+0X02AA    0X01        Data  _Function_Update_SysTime_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X02AB    0X01        Data  _Function_App_InitMode_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X02AE    0X01        Data  _Function_App_UploadData_data    D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\Drv_LCD_ETH.c
+0X02AF    0X01        Data  _Function_App_BleMode_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Core.c
+0X02B4    0X01        Data  _Function_App_BondTestMode_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X02        Data  _Function_App_TestingMode_data   D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X03        Data  _Function_App_SetMode_data       D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X03        Data  _Function_Disp_Mem_data          D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B4    0X05        Data  _Function_App_CaliMode_data      D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B7    0X01        Data  _Function_App_Sleep_data         D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
+0X02B7    0X02        Data  _Function_App_Memory_data        D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_Memory.c
 0X02B9    0X01        Data  _Function_main_data              
-0X0300    0XFA        Data  _g_Ble_TxData@segment            D:\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
+0X0300    0XFA        Data  _g_Ble_TxData@segment            D:\Work\项目\DET-1032、DET-2132耳额温计\DET1032\代码\DET1032\Src\App_BleMode06.c
 
 
 crt0@data SEGMENT DATA INBANK
@@ -3457,11 +3457,11 @@ L640:
                   	                  	            lcd_bat_full_en();
   48B: 2D0E       	MOV A, #0eh
   48C: 370F       	B0MOV 0x87, #0Fh
-  48D: 1903       	OR 0x03, A
+  48D: 190B       	OR 0x0B, A
 L645:
                   	                  	            lcd_bat_en();
   48E: 2D01       	MOV A, #01h
-  48F: 1903       	OR 0x03, A
+  48F: 190B       	OR 0x0B, A
 L651:
                   	                  	        }
   490: 849B       	JMP 0x049B
@@ -3477,14 +3477,14 @@ L657:
                   	                  	            lcd_bat_en();
   495: 2D01       	MOV A, #01h
   496: 370F       	B0MOV 0x87, #0Fh
-  497: 1903       	OR 0x03, A
+  497: 190B       	OR 0x0B, A
 L662:
                   	                  	            lcd_bat_lack_en();
-  498: 2903       	AND 0x03, A
+  498: 290B       	AND 0x0B, A
 L668:
                   	                  	            lcd_bat_lack_en();
   499: 2D04       	MOV A, #04h
-  49A: 1903       	OR 0x03, A
+  49A: 190B       	OR 0x0B, A
 L669:
                   	                  	        }
                   	                  	    #endif
@@ -5900,11 +5900,11 @@ L124:
                   	                  	                    lcd_Voice_en();
   871: 2D09       	MOV A, #09h
   872: 370F       	B0MOV 0x87, #0Fh
-  873: 290E       	AND 0x0E, A
+  873: 2900       	AND 0x00, A
 L129:
                   	                  	                    lcd_Voice_en();
   874: 2D04       	MOV A, #04h
-  875: 190E       	OR 0x0E, A
+  875: 1900       	OR 0x00, A
 L130:
                   	                  	                    BZ_Beep125();		//蜂鸣打开响一声
   876: C758       	CALL 0x0758
@@ -5917,7 +5917,7 @@ L77:
                   	                  	                    lcd_Voice_clr();
   878: 2D06       	MOV A, #06h
   879: 370F       	B0MOV 0x87, #0Fh
-  87A: 190E       	OR 0x0E, A
+  87A: 1900       	OR 0x00, A
 L141:
                   	                  	                }
                   	                  	            }
@@ -5978,7 +5978,7 @@ L203:
                   	                  	                lcd_mem_clr();
   890: 2DFE       	MOV A, #feh
   891: 370F       	B0MOV 0x87, #0Fh
-  892: 290E       	AND 0x0E, A
+  892: 2900       	AND 0x00, A
 L206:
                   	                  	                g_5s_Count = 0;
   893: 3702       	B0MOV 0x87, #02h
@@ -6016,7 +6016,7 @@ L170:
                   	                  	                {
                   	                  	                    lcd_age_clr();
   8A1: 370F       	B0MOV 0x87, #0Fh
-  8A2: 2B04       	CLR 0x04
+  8A2: 2B0A       	CLR 0x0A
 L222:
                   	                  	                }
                   	                  	            }
@@ -6232,7 +6232,7 @@ L329:
                   	                  	                        #if Func_Probecover
                   	                  	                        lcd_pc_clr();
   904: 370F       	B0MOV 0x87, #0Fh
-  905: 2B0D       	CLR 0x0D
+  905: 2B01       	CLR 0x01
 L332:
                   	                  	                        #endif
                   	                  	                    }
@@ -6430,15 +6430,15 @@ L459:
 L462:
                   	                  	            lcd_pc_clr();
   957: 370F       	B0MOV 0x87, #0Fh
-  958: 2B0D       	CLR 0x0D
+  958: 2B01       	CLR 0x01
 L465:
                   	                  	            lcd_pc_en();	//显示耳套符号
   959: 2D01       	MOV A, #01h
-  95A: 190D       	OR 0x0D, A
+  95A: 1901       	OR 0x01, A
 L471:
                   	                  	            lcd_earcap_en();//耳套
   95B: 2D02       	MOV A, #02h
-  95C: 190D       	OR 0x0D, A
+  95C: 1901       	OR 0x01, A
 L477:
                   	                  	            uStaFlag.bits.ProbeCover = 1;
   95D: 3700       	B0MOV 0x87, #00h
@@ -6473,7 +6473,7 @@ L413:
                   	                  	                    lcd_pc_en();	//显示耳温锥符号
   96D: 2D01       	MOV A, #01h
   96E: 370F       	B0MOV 0x87, #0Fh
-  96F: 190D       	OR 0x0D, A
+  96F: 1901       	OR 0x01, A
 L493:
                   	                  	                uStaFlag.bits.ProbeCover = 0;
   970: 3700       	B0MOV 0x87, #00h
@@ -6486,7 +6486,7 @@ L410:
                   	                  	            {
                   	                  	                lcd_pc_clr();	//消隐耳套符号
   973: 370F       	B0MOV 0x87, #0Fh
-  974: 2B0D       	CLR 0x0D
+  974: 2B01       	CLR 0x01
 L504:
                   	                  	            }
                   	                  	            F_Enevt = 0;        //没带耳套
@@ -6511,11 +6511,11 @@ L516:
                   	                  	                lcd_pc_en();	//显示耳套符号
   97F: 2D01       	MOV A, #01h
   980: 370F       	B0MOV 0x87, #0Fh
-  981: 190D       	OR 0x0D, A
+  981: 1901       	OR 0x01, A
 L521:
                   	                  	                lcd_earcap_en();//耳套
   982: 2D02       	MOV A, #02h
-  983: 190D       	OR 0x0D, A
+  983: 1901       	OR 0x01, A
 L527:
                   	                  	            }
   984: 8988       	JMP 0x0988
@@ -6524,10 +6524,10 @@ L419:
                   	                  	            {
                   	                  	                lcd_pc_clr();
   985: 370F       	B0MOV 0x87, #0Fh
-  986: 2B0D       	CLR 0x0D
+  986: 2B01       	CLR 0x01
 L537:
                   	                  	                lcd_earcap_clr();
-  987: 2B0D       	CLR 0x0D
+  987: 2B01       	CLR 0x01
 L543:
                   	                  	            }
                   	                  	        }
@@ -7402,6 +7402,9 @@ _Function_LBT_Chk_code:
                   	                  	**************************************************************************/
                   	                  	void LBT_Chk(void)
                   	                  	{
+                  	                  		// uStaFlag.bits.MidBat = 0;		
+                  	                  		// uStaFlag.bits.LowBat = 1 ;
+                  	                  		// return;		
                   	                  		uint8 i=0 ;				
   B71: 3702       	B0MOV 0x87, #02h
   B72: 2BA7       	CLR 0xA7
@@ -8527,7 +8530,7 @@ L147:
 L150:
                   	                  			lcd_bat_en();
   CD3: 2D01       	MOV A, #01h
-  CD4: 1903       	OR 0x03, A
+  CD4: 190B       	OR 0x0B, A
 L153:
                   	                  			eMain_Task = Task_InitMode;
   CD5: 3700       	B0MOV 0x87, #00h
@@ -8829,11 +8832,11 @@ L91:
                   	                  					lcd_bat_clr();
   D6E: 2DFE       	MOV A, #feh
   D6F: 370F       	B0MOV 0x87, #0Fh
-  D70: 2903       	AND 0x03, A
+  D70: 290B       	AND 0x0B, A
 L238:
                   	                  					lcd_bat_full_clr();
   D71: 2DF1       	MOV A, #f1h
-  D72: 2903       	AND 0x03, A
+  D72: 290B       	AND 0x0B, A
 L244:
                   	                  				}
   D73: 8D75       	JMP 0x0D75
@@ -8914,7 +8917,7 @@ L265:
                   	                  						lcd_ble_xor();
   D9C: 2D08       	MOV A, #08h
   D9D: 370F       	B0MOV 0x87, #0Fh
-  D9E: 1C0E       	XOR 0x0E, A
+  D9E: 1C00       	XOR 0x00, A
 L268:
                   	                  					if( Ble_TimeoutErr==eBle_Sta )    	//如果在断线状态，长时间拉低
   D9F: 3702       	B0MOV 0x87, #02h
@@ -9173,11 +9176,11 @@ L76:
                   	                  				lcd_obj_clr();										//清除物温标志
   DEB: 2DFD       	MOV A, #fdh
   DEC: 370F       	B0MOV 0x87, #0Fh
-  DED: 290C       	AND 0x0C, A
+  DED: 2902       	AND 0x02, A
 L81:
                   	                  				lcd_ear_clr();									//清除耳温标志
   DEE: 2DFE       	MOV A, #feh
-  DEF: 290C       	AND 0x0C, A
+  DEF: 2902       	AND 0x02, A
 L87:
                   	                  				Disp_MemNo();
   DF0: CE5E       	CALL 0x0E5E
@@ -9252,11 +9255,11 @@ L121:
                   	                  			lcd_obj_clr();										//清除物温标志
   E0D: 2DFD       	MOV A, #fdh
   E0E: 370F       	B0MOV 0x87, #0Fh
-  E0F: 290C       	AND 0x0C, A
+  E0F: 2902       	AND 0x02, A
 L124:
                   	                  			lcd_ear_clr();									//清除耳温标志			
   E10: 2DFE       	MOV A, #feh
-  E11: 290C       	AND 0x0C, A
+  E11: 2902       	AND 0x02, A
 L130:
                   	                  			F_MemNo_Disp = 1;		//清记忆值刷新标志位
   E12: 3700       	B0MOV 0x87, #00h
@@ -9504,7 +9507,7 @@ L209:
                   	                  				lcd_ble_en();//防止连接上之后进入记忆模式蓝牙符号丢失
   E78: 2D08       	MOV A, #08h
   E79: 370F       	B0MOV 0x87, #0Fh
-  E7A: 190E       	OR 0x0E, A
+  E7A: 1900       	OR 0x00, A
 L251:
                   	                  			#endif
                   	                  	
@@ -9522,11 +9525,11 @@ L255:
                   	                  	            lcd_bat_full_en();
   E80: 2D0E       	MOV A, #0eh
   E81: 370F       	B0MOV 0x87, #0Fh
-  E82: 1903       	OR 0x03, A
+  E82: 190B       	OR 0x0B, A
 L260:
                   	                  	            lcd_bat_en();
   E83: 2D01       	MOV A, #01h
-  E84: 1903       	OR 0x03, A
+  E84: 190B       	OR 0x0B, A
 L266:
                   	                  	        }
   E85: 8E90       	JMP 0x0E90
@@ -9542,14 +9545,14 @@ L272:
                   	                  				lcd_bat_en();
   E8A: 2D01       	MOV A, #01h
   E8B: 370F       	B0MOV 0x87, #0Fh
-  E8C: 1903       	OR 0x03, A
+  E8C: 190B       	OR 0x0B, A
 L277:
                   	                  				lcd_bat_lack_en();
-  E8D: 2903       	AND 0x03, A
+  E8D: 290B       	AND 0x0B, A
 L283:
                   	                  				lcd_bat_lack_en();
   E8E: 2D04       	MOV A, #04h
-  E8F: 1903       	OR 0x03, A
+  E8F: 190B       	OR 0x0B, A
 L284:
                   	                  			}
                   	                  			#endif
@@ -9562,11 +9565,11 @@ L290:
                   	                  				lcd_Voice_en();
   E93: 2D09       	MOV A, #09h
   E94: 370F       	B0MOV 0x87, #0Fh
-  E95: 290E       	AND 0x0E, A
+  E95: 2900       	AND 0x00, A
 L295:
                   	                  				lcd_Voice_en();
   E96: 2D04       	MOV A, #04h
-  E97: 190E       	OR 0x0E, A
+  E97: 1900       	OR 0x00, A
 L296:
                   	                  			} 	
   E98: 8E9C       	JMP 0x0E9C
@@ -9575,7 +9578,7 @@ L222:
                   	                  				lcd_Voice_clr();
   E99: 2D06       	MOV A, #06h
   E9A: 370F       	B0MOV 0x87, #0Fh
-  E9B: 190E       	OR 0x0E, A
+  E9B: 1900       	OR 0x00, A
 L306:
                   	                  			}	
                   	                  			j = i/10;
@@ -9614,7 +9617,7 @@ L316:
   EB5: 3347       	B0MOV 0x83, #47h
   EB6: FB1E       	CALL 0x3B1E
   EB7: 370F       	B0MOV 0x87, #0Fh
-  EB8: 1F08       	MOV 0x08, A
+  EB8: 1F06       	MOV 0x06, A
   EB9: 2E82       	B0MOV A, R
   EBA: 2F19       	B0MOV 0x19, A
 L317:
@@ -9642,7 +9645,7 @@ L320:
   ECB: 2F19       	B0MOV 0x19, A
   ECC: 2E82       	B0MOV A, R
   ECD: 370F       	B0MOV 0x87, #0Fh
-  ECE: 1F09       	MOV 0x09, A
+  ECE: 1F05       	MOV 0x05, A
 L321:
                   	                  			lcd4 = DispTable[ j ];
   ECF: 3702       	B0MOV 0x87, #02h
@@ -9651,13 +9654,13 @@ L321:
   ED2: 3347       	B0MOV 0x83, #47h
   ED3: FB1E       	CALL 0x3B1E
   ED4: 370F       	B0MOV 0x87, #0Fh
-  ED5: 1F0A       	MOV 0x0A, A
+  ED5: 1F04       	MOV 0x04, A
   ED6: 2E82       	B0MOV A, R
   ED7: 2F19       	B0MOV 0x19, A
 L322:
                   	                  			lcd_mem_en();	//M点亮
   ED8: 2D01       	MOV A, #01h
-  ED9: 190E       	OR 0x0E, A
+  ED9: 1900       	OR 0x00, A
 L325:
                   	                  			//Disp_ModeSign();
                   	                  		}
@@ -9782,11 +9785,11 @@ L369:
                   	                  				lcd_obj_clr();		//清除物温标志
   F18: 2DFD       	MOV A, #fdh
   F19: 370F       	B0MOV 0x87, #0Fh
-  F1A: 290C       	AND 0x0C, A
+  F1A: 2902       	AND 0x02, A
 L374:
                   	                  				lcd_ear_en();	//显示耳温标志
   F1B: 2D01       	MOV A, #01h
-  F1C: 190C       	OR 0x0C, A
+  F1C: 1902       	OR 0x02, A
 L380:
                   	                  			}
   F1D: 8F23       	JMP 0x0F23
@@ -9796,11 +9799,11 @@ L335:
                   	                  				lcd_ear_clr();	//清除耳温标志
   F1E: 2DFE       	MOV A, #feh
   F1F: 370F       	B0MOV 0x87, #0Fh
-  F20: 290C       	AND 0x0C, A
+  F20: 2902       	AND 0x02, A
 L390:
                   	                  				lcd_obj_en();       //显示物体温度			
   F21: 2D02       	MOV A, #02h
-  F22: 190C       	OR 0x0C, A
+  F22: 1902       	OR 0x02, A
 L396:
                   	                  			}
                   	                  			g_MonthMem &= 0x0F;	
@@ -9917,7 +9920,7 @@ L415:
                   	                  			lcd_mem_en();	//M点亮
   F72: 2D01       	MOV A, #01h
   F73: 370F       	B0MOV 0x87, #0Fh
-  F74: 190E       	OR 0x0E, A
+  F74: 1900       	OR 0x00, A
 L420:
                   	                  	        Disp_Unit();
   F75: E99C       	CALL 0x299C
@@ -9941,7 +9944,7 @@ L343:
                   	                  	        {
                   	                  	            lcd_age_clr();
   F7E: 370F       	B0MOV 0x87, #0Fh
-  F7F: 2B04       	CLR 0x04
+  F7F: 2B0A       	CLR 0x0A
 L435:
                   	                  	        }
                   	                  			//Disp_ModeSign();	//显示模式符号
@@ -12333,7 +12336,7 @@ L60:
                   	                  	            {
                   	                  	                lcd_age_clr();
  14B3: 370F       	B0MOV 0x87, #0Fh
- 14B4: 2B04       	CLR 0x04
+ 14B4: 2B0A       	CLR 0x0A
 L147:
                   	                  	            }
                   	                  	            LED_CloseAll();
@@ -12789,14 +12792,14 @@ L346:
                   	                  	        lcd_ear_clr();
  157E: 2DFE       	MOV A, #feh
  157F: 370F       	B0MOV 0x87, #0Fh
- 1580: 290C       	AND 0x0C, A
+ 1580: 2902       	AND 0x02, A
 L349:
                   	                  	        lcd_obj_clr();
  1581: 2DFD       	MOV A, #fdh
- 1582: 290C       	AND 0x0C, A
+ 1582: 2902       	AND 0x02, A
 L355:
                   	                  	        lcd_age_clr();
- 1583: 2B04       	CLR 0x04
+ 1583: 2B0A       	CLR 0x0A
 L361:
                   	                  	        Auto_TurnOff_Time_Sel();
  1584: E2AF       	CALL 0x22AF
@@ -12902,7 +12905,7 @@ L420:
 L423:
                   	                  	    lcd_age_clr();
  15A4: 370F       	B0MOV 0x87, #0Fh
- 15A5: 2B04       	CLR 0x04
+ 15A5: 2B0A       	CLR 0x0A
 L426:
                   	                  	    if(Er6_First_Enter == 0)
  15A6: 3701       	B0MOV 0x87, #01h
@@ -12921,19 +12924,19 @@ L434:
                   	                  	        lcd_pc_en();	//显示耳套符号
  15AD: 2D01       	MOV A, #01h
  15AE: 370F       	B0MOV 0x87, #0Fh
- 15AF: 190D       	OR 0x0D, A
+ 15AF: 1901       	OR 0x01, A
 L437:
                   	                  	        lcd_earcap_en();//耳套
  15B0: 2D02       	MOV A, #02h
- 15B1: 190D       	OR 0x0D, A
+ 15B1: 1901       	OR 0x01, A
 L443:
                   	                  	        lcd_ear_clr();
  15B2: 2DFE       	MOV A, #feh
- 15B3: 290C       	AND 0x0C, A
+ 15B3: 2902       	AND 0x02, A
 L449:
                   	                  	        lcd_obj_clr();
  15B4: 2DFD       	MOV A, #fdh
- 15B5: 290C       	AND 0x0C, A
+ 15B5: 2902       	AND 0x02, A
 L455:
                   	                  	        if( uSetFlag.bits.VoiceEnable == 1 )
  15B6: 3700       	B0MOV 0x87, #00h
@@ -12962,7 +12965,7 @@ L403:
                   	                  	        lcd_pc_en();
  15BE: 2D01       	MOV A, #01h
  15BF: 370F       	B0MOV 0x87, #0Fh
- 15C0: 190D       	OR 0x0D, A
+ 15C0: 1901       	OR 0x01, A
 L474:
                   	                  	        if(uErrFlag.bits.Er6 == 0)
  15C1: 3700       	B0MOV 0x87, #00h
@@ -12976,7 +12979,7 @@ L478:
 L481:
                   	                  	            lcd_pc_clr();	//消隐耳套符号
  15C6: 370F       	B0MOV 0x87, #0Fh
- 15C7: 2B0D       	CLR 0x0D
+ 15C7: 2B01       	CLR 0x01
 L484:
                   	                  	            eReadyTask_Sta = Ready_Refresh;
  15C8: 2D04       	MOV A, #04h
@@ -13053,11 +13056,11 @@ L501:
                   	                  	        lcd_Voice_en();
  15CF: 2D09       	MOV A, #09h
  15D0: 370F       	B0MOV 0x87, #0Fh
- 15D1: 290E       	AND 0x0E, A
+ 15D1: 2900       	AND 0x00, A
 L506:
                   	                  	        lcd_Voice_en();
  15D2: 2D04       	MOV A, #04h
- 15D3: 190E       	OR 0x0E, A
+ 15D3: 1900       	OR 0x00, A
 L507:
                   	                  	    }
  15D4: 95D8       	JMP 0x15D8
@@ -13067,7 +13070,7 @@ L496:
                   	                  	        lcd_Voice_clr();
  15D5: 2D06       	MOV A, #06h
  15D6: 370F       	B0MOV 0x87, #0Fh
- 15D7: 190E       	OR 0x0E, A
+ 15D7: 1900       	OR 0x00, A
 L517:
                   	                  	    }
                   	                  	}
@@ -13157,11 +13160,11 @@ L135:
 L136:
                   	                  	            lcd_badface_clr();
  15EE: 2DF7       	MOV A, #f7h
- 15EF: 290C       	AND 0x0C, A
+ 15EF: 2902       	AND 0x02, A
 L139:
                   	                  	            lcd_smileface_clr();
  15F0: 2DFB       	MOV A, #fbh
- 15F1: 290C       	AND 0x0C, A
+ 15F1: 2902       	AND 0x02, A
 L145:
                   	                  	            uStaFlag.bits.Fever = 0;        //清除发烧标志位
  15F2: 3700       	B0MOV 0x87, #00h
@@ -13847,7 +13850,7 @@ L330:
                   	                  	            {
                   	                  	                lcd6 = 0;
  175B: 370F       	B0MOV 0x87, #0Fh
- 175C: 2B08       	CLR 0x08
+ 175C: 2B06       	CLR 0x06
 L333:
                   	                  	                lcd7 &= 0x01;				
  175D: 2D01       	MOV A, #01h
@@ -15226,7 +15229,7 @@ L140:
                   	                  	                lcd_ear_en();
  19C8: 2D01       	MOV A, #01h
  19C9: 370F       	B0MOV 0x87, #0Fh
- 19CA: 190C       	OR 0x0C, A
+ 19CA: 1902       	OR 0x02, A
 L327:
                   	                  					Disp_Temp(0,0,0, (uint16)g_HumanRatio1*10);
  19CB: 3700       	B0MOV 0x87, #00h
@@ -15261,14 +15264,14 @@ L141:
                   	                  	                lcd_pc_en();
  19E2: 2D01       	MOV A, #01h
  19E3: 370F       	B0MOV 0x87, #0Fh
- 19E4: 190D       	OR 0x0D, A
+ 19E4: 1901       	OR 0x01, A
 L335:
                   	                  	                lcd_ear_en();
- 19E5: 190C       	OR 0x0C, A
+ 19E5: 1902       	OR 0x02, A
 L341:
                   	                  	                lcd_earcap_en();
  19E6: 2D02       	MOV A, #02h
- 19E7: 190D       	OR 0x0D, A
+ 19E7: 1901       	OR 0x01, A
 L347:
                   	                  					Disp_Temp(0,0,0, (uint16)g_HumanRatio2*10);
  19E8: 3700       	B0MOV 0x87, #00h
@@ -15304,15 +15307,15 @@ L142:
                   	                  	                lcd_ear_clr();
  19FF: 2DFE       	MOV A, #feh
  1A00: 370F       	B0MOV 0x87, #0Fh
- 1A01: 290C       	AND 0x0C, A
+ 1A01: 2902       	AND 0x02, A
 L355:
                   	                  	                lcd_pc_en();
  1A02: 2D01       	MOV A, #01h
- 1A03: 190D       	OR 0x0D, A
+ 1A03: 1901       	OR 0x01, A
 L361:
                   	                  	                lcd_earcap_en();
  1A04: 2D02       	MOV A, #02h
- 1A05: 190D       	OR 0x0D, A
+ 1A05: 1901       	OR 0x01, A
 L367:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap10*10);
  1A06: 3700       	B0MOV 0x87, #00h
@@ -15347,11 +15350,11 @@ L143:
                   	                  	                lcd_pc_en();
  1A1D: 2D01       	MOV A, #01h
  1A1E: 370F       	B0MOV 0x87, #0Fh
- 1A1F: 190D       	OR 0x0D, A
+ 1A1F: 1901       	OR 0x01, A
 L375:
                   	                  	                lcd_earcap_en();
  1A20: 2D02       	MOV A, #02h
- 1A21: 190D       	OR 0x0D, A
+ 1A21: 1901       	OR 0x01, A
 L381:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap15*10);
  1A22: 3700       	B0MOV 0x87, #00h
@@ -15387,11 +15390,11 @@ L144:
                   	                  	                lcd_pc_en();
  1A39: 2D01       	MOV A, #01h
  1A3A: 370F       	B0MOV 0x87, #0Fh
- 1A3B: 190D       	OR 0x0D, A
+ 1A3B: 1901       	OR 0x01, A
 L389:
                   	                  	                lcd_earcap_en();
  1A3C: 2D02       	MOV A, #02h
- 1A3D: 190D       	OR 0x0D, A
+ 1A3D: 1901       	OR 0x01, A
 L395:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap20*10);
  1A3E: 3700       	B0MOV 0x87, #00h
@@ -15427,11 +15430,11 @@ L145:
                   	                  	                lcd_pc_en();
  1A55: 2D01       	MOV A, #01h
  1A56: 370F       	B0MOV 0x87, #0Fh
- 1A57: 190D       	OR 0x0D, A
+ 1A57: 1901       	OR 0x01, A
 L403:
                   	                  	                lcd_earcap_en();
  1A58: 2D02       	MOV A, #02h
- 1A59: 190D       	OR 0x0D, A
+ 1A59: 1901       	OR 0x01, A
 L409:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap25*10);
  1A5A: 3702       	B0MOV 0x87, #02h
@@ -15468,11 +15471,11 @@ L146:
                   	                  	                lcd_pc_en();
  1A72: 2D01       	MOV A, #01h
  1A73: 370F       	B0MOV 0x87, #0Fh
- 1A74: 190D       	OR 0x0D, A
+ 1A74: 1901       	OR 0x01, A
 L417:
                   	                  	                lcd_earcap_en();
  1A75: 2D02       	MOV A, #02h
- 1A76: 190D       	OR 0x0D, A
+ 1A76: 1901       	OR 0x01, A
 L423:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap30*10);
  1A77: 3702       	B0MOV 0x87, #02h
@@ -15509,11 +15512,11 @@ L147:
                   	                  	                lcd_pc_en();
  1A8F: 2D01       	MOV A, #01h
  1A90: 370F       	B0MOV 0x87, #0Fh
- 1A91: 190D       	OR 0x0D, A
+ 1A91: 1901       	OR 0x01, A
 L431:
                   	                  	                lcd_earcap_en();
  1A92: 2D02       	MOV A, #02h
- 1A93: 190D       	OR 0x0D, A
+ 1A93: 1901       	OR 0x01, A
 L437:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap35*10);
  1A94: 3702       	B0MOV 0x87, #02h
@@ -15550,11 +15553,11 @@ L148:
                   	                  	                lcd_pc_en();
  1AAC: 2D01       	MOV A, #01h
  1AAD: 370F       	B0MOV 0x87, #0Fh
- 1AAE: 190D       	OR 0x0D, A
+ 1AAE: 1901       	OR 0x01, A
 L445:
                   	                  	                lcd_earcap_en();
  1AAF: 2D02       	MOV A, #02h
- 1AB0: 190D       	OR 0x0D, A
+ 1AB0: 1901       	OR 0x01, A
 L451:
                   	                  					Disp_Temp(0,0,0,(uint16)g_Earcap40*10);
  1AB1: 3702       	B0MOV 0x87, #02h
@@ -17979,7 +17982,7 @@ L121:
                   	                  						lcd_point_en();	//显示小数点
  201B: 2D01       	MOV A, #01h
  201C: 370F       	B0MOV 0x87, #0Fh
- 201D: 1909       	OR 0x09, A
+ 201D: 1905       	OR 0x05, A
 L126:
                   	                  	
                   	                  						BZ_Beep400();		//进入黑体模式，蜂鸣4声
@@ -18751,15 +18754,15 @@ L163:
                   	                  						lcd_ear_en();
  2174: 2D01       	MOV A, #01h
  2175: 370F       	B0MOV 0x87, #0Fh
- 2176: 190C       	OR 0x0C, A
+ 2176: 1902       	OR 0x02, A
 L168:
                   	                  						lcd_obj_en();
  2177: 2D02       	MOV A, #02h
- 2178: 190C       	OR 0x0C, A
+ 2178: 1902       	OR 0x02, A
 L174:
                   	                  						lcd_smileface_en();
  2179: 2D04       	MOV A, #04h
- 217A: 190C       	OR 0x0C, A
+ 217A: 1902       	OR 0x02, A
 L180:
                   	                  					}
                   	                  				}
@@ -18876,7 +18879,7 @@ L232:
                   	                  					{
                   	                  						lcd_pc_clr();
  21B3: 370F       	B0MOV 0x87, #0Fh
- 21B4: 2B0D       	CLR 0x0D
+ 21B4: 2B01       	CLR 0x01
 L237:
                   	                  					}
  21B5: A1B9       	JMP 0x21B9
@@ -18886,7 +18889,7 @@ L67:
                   	                  						lcd_pc_en();
  21B6: 2D01       	MOV A, #01h
  21B7: 370F       	B0MOV 0x87, #0Fh
- 21B8: 190D       	OR 0x0D, A
+ 21B8: 1901       	OR 0x01, A
 L247:
                   	                  					}
                   	                  					#endif
@@ -20029,7 +20032,7 @@ L100:
                   	                  	    lcd9 &= 0x01;
  23D5: 2D01       	MOV A, #01h
  23D6: 370F       	B0MOV 0x87, #0Fh
- 23D7: 2905       	AND 0x05, A
+ 23D7: 2909       	AND 0x09, A
 L101:
                   	                  		if( R_LCD2 !=0 || R_LCD1!=0)
  23D8: 3702       	B0MOV 0x87, #02h
@@ -20072,7 +20075,7 @@ L58:
  23FA: FDA5       	CALL 0x3DA5
  23FB: 2E18       	B0MOV A, 0x18
  23FC: 370F       	B0MOV 0x87, #0Fh
- 23FD: 1F05       	MOV 0x05, A
+ 23FD: 1F09       	MOV 0x09, A
 L105:
                   	                  	    	lcd8 = DispTable[ R_LCD2 ];
  23FE: 6286       	B0BCLR 0x86.2
@@ -20099,7 +20102,7 @@ L105:
  2413: 2F83       	B0MOV Z, A
  2414: FD17       	CALL 0x3D17
  2415: 370F       	B0MOV 0x87, #0Fh
- 2416: 1F06       	MOV 0x06, A
+ 2416: 1F08       	MOV 0x08, A
 L106:
                   	                  		}
  2417: A41B       	JMP 0x241B
@@ -20108,10 +20111,10 @@ L56:
                   	                  		{
                   	                  			lcd9 = 0x00;
  2418: 370F       	B0MOV 0x87, #0Fh
- 2419: 2B05       	CLR 0x05
+ 2419: 2B09       	CLR 0x09
 L111:
                   	                  			lcd8 = 0x00;
- 241A: 2B06       	CLR 0x06
+ 241A: 2B08       	CLR 0x08
 L112:
                   	                  		}
                   	                  	
@@ -20173,12 +20176,12 @@ L115:
  244E: 2F83       	B0MOV Z, A
  244F: FD17       	CALL 0x3D17
  2450: 370F       	B0MOV 0x87, #0Fh
- 2451: 1F08       	MOV 0x08, A
+ 2451: 1F06       	MOV 0x06, A
 L116:
                   	                  	
                   	                  	    lcd5 &= 0x01;
  2452: 2D01       	MOV A, #01h
- 2453: 2909       	AND 0x09, A
+ 2453: 2905       	AND 0x05, A
 L117:
                   	                  		lcd5 = (DispTable[ R_LCD4 ] >> 8);
  2454: 6286       	B0BCLR 0x86.2
@@ -20210,7 +20213,7 @@ L117:
  246E: FDA5       	CALL 0x3DA5
  246F: 2E18       	B0MOV A, 0x18
  2470: 370F       	B0MOV 0x87, #0Fh
- 2471: 1F09       	MOV 0x09, A
+ 2471: 1F05       	MOV 0x05, A
 L118:
                   	                  	    lcd4 = DispTable[ R_LCD4 ];
  2472: 6286       	B0BCLR 0x86.2
@@ -20237,7 +20240,7 @@ L118:
  2487: 2F83       	B0MOV Z, A
  2488: FD17       	CALL 0x3D17
  2489: 370F       	B0MOV 0x87, #0Fh
- 248A: 1F0A       	MOV 0x0A, A
+ 248A: 1F04       	MOV 0x04, A
 L119:
                   	                  	
                   	                  		//最高位置1
@@ -20252,7 +20255,7 @@ L120:
                   	                  			lcd9 |= 0x01;
  2490: 2D01       	MOV A, #01h
  2491: 370F       	B0MOV 0x87, #0Fh
- 2492: 1905       	OR 0x05, A
+ 2492: 1909       	OR 0x09, A
 L123:
                   	                  		}
                   	                  	
@@ -20266,7 +20269,7 @@ L126:
                   	                  			lcd_point_en();
  2496: 2D01       	MOV A, #01h
  2497: 370F       	B0MOV 0x87, #0Fh
- 2498: 1909       	OR 0x09, A
+ 2498: 1905       	OR 0x05, A
 L131:
                   	                  		}
                   	                  	
@@ -20280,7 +20283,7 @@ L137:
                   	                  	        lcd_point_clr();
  249C: 2DFE       	MOV A, #feh
  249D: 370F       	B0MOV 0x87, #0Fh
- 249E: 2909       	AND 0x09, A
+ 249E: 2905       	AND 0x05, A
 L142:
                   	                  	        if(R_LCD2 > 3)
  249F: 3402       	B0MOV 0x84, #02h
@@ -20325,11 +20328,11 @@ L146:
  24C3: FDA5       	CALL 0x3DA5
  24C4: 2E18       	B0MOV A, 0x18
  24C5: 370F       	B0MOV 0x87, #0Fh
- 24C6: 1F05       	MOV 0x05, A
+ 24C6: 1F09       	MOV 0x09, A
 L149:
                   	                  	            lcd9 |= 0x01;
  24C7: 2D01       	MOV A, #01h
- 24C8: 1905       	OR 0x05, A
+ 24C8: 1909       	OR 0x09, A
 L150:
                   	                  	    	    lcd8 = DispTable[ R_LCD3 ];
  24C9: 6286       	B0BCLR 0x86.2
@@ -20356,7 +20359,7 @@ L150:
  24DE: 2F83       	B0MOV Z, A
  24DF: FD17       	CALL 0x3D17
  24E0: 370F       	B0MOV 0x87, #0Fh
- 24E1: 1F06       	MOV 0x06, A
+ 24E1: 1F08       	MOV 0x08, A
 L151:
                   	                  	            lcd7 = DispTable[ R_LCD4 ] >> 8;
  24E2: 6286       	B0BCLR 0x86.2
@@ -20415,11 +20418,11 @@ L152:
  2515: 2F83       	B0MOV Z, A
  2516: FD17       	CALL 0x3D17
  2517: 370F       	B0MOV 0x87, #0Fh
- 2518: 1F08       	MOV 0x08, A
+ 2518: 1F06       	MOV 0x06, A
 L153:
                   	                  	            lcd5 &= 0x01;
  2519: 2D01       	MOV A, #01h
- 251A: 2909       	AND 0x09, A
+ 251A: 2905       	AND 0x05, A
 L154:
                   	                  	            lcd5 = (DispTable[ R_LCD5 ] >> 8);
  251B: 6286       	B0BCLR 0x86.2
@@ -20451,7 +20454,7 @@ L154:
  2535: FDA5       	CALL 0x3DA5
  2536: 2E18       	B0MOV A, 0x18
  2537: 370F       	B0MOV 0x87, #0Fh
- 2538: 1F09       	MOV 0x09, A
+ 2538: 1F05       	MOV 0x05, A
 L155:
                   	                  	            lcd4 = DispTable[ R_LCD5 ];
  2539: 6286       	B0BCLR 0x86.2
@@ -20478,7 +20481,7 @@ L155:
  254E: 2F83       	B0MOV Z, A
  254F: FD17       	CALL 0x3D17
  2550: 370F       	B0MOV 0x87, #0Fh
- 2551: 1F0A       	MOV 0x0A, A
+ 2551: 1F04       	MOV 0x04, A
 L156:
                   	                  	        }
  2552: A5FA       	JMP 0x25FA
@@ -20515,7 +20518,7 @@ L65:
  256D: FDA5       	CALL 0x3DA5
  256E: 2E18       	B0MOV A, 0x18
  256F: 370F       	B0MOV 0x87, #0Fh
- 2570: 1F05       	MOV 0x05, A
+ 2570: 1F09       	MOV 0x09, A
 L161:
                   	                  	    	    lcd8 = DispTable[ R_LCD3 ];
  2571: 6286       	B0BCLR 0x86.2
@@ -20542,7 +20545,7 @@ L161:
  2586: 2F83       	B0MOV Z, A
  2587: FD17       	CALL 0x3D17
  2588: 370F       	B0MOV 0x87, #0Fh
- 2589: 1F06       	MOV 0x06, A
+ 2589: 1F08       	MOV 0x08, A
 L162:
                   	                  	            lcd7 = DispTable[ R_LCD4 ] >> 8;
  258A: 6286       	B0BCLR 0x86.2
@@ -20601,11 +20604,11 @@ L163:
  25BD: 2F83       	B0MOV Z, A
  25BE: FD17       	CALL 0x3D17
  25BF: 370F       	B0MOV 0x87, #0Fh
- 25C0: 1F08       	MOV 0x08, A
+ 25C0: 1F06       	MOV 0x06, A
 L164:
                   	                  	            lcd5 &= 0x01;
  25C1: 2D01       	MOV A, #01h
- 25C2: 2909       	AND 0x09, A
+ 25C2: 2905       	AND 0x05, A
 L165:
                   	                  	            lcd5 = (DispTable[ R_LCD5 ] >> 8);
  25C3: 6286       	B0BCLR 0x86.2
@@ -20637,7 +20640,7 @@ L165:
  25DD: FDA5       	CALL 0x3DA5
  25DE: 2E18       	B0MOV A, 0x18
  25DF: 370F       	B0MOV 0x87, #0Fh
- 25E0: 1F09       	MOV 0x09, A
+ 25E0: 1F05       	MOV 0x05, A
 L166:
                   	                  	            lcd4 = DispTable[ R_LCD5 ];
  25E1: 6286       	B0BCLR 0x86.2
@@ -20664,7 +20667,7 @@ L166:
  25F6: 2F83       	B0MOV Z, A
  25F7: FD17       	CALL 0x3D17
  25F8: 370F       	B0MOV 0x87, #0Fh
- 25F9: 1F0A       	MOV 0x0A, A
+ 25F9: 1F04       	MOV 0x04, A
 L167:
                   	                  	        }
                   	                  		}
@@ -20679,7 +20682,7 @@ L172:
                   	                  			lcd9 |= lcd_dash;
  25FD: 2D04       	MOV A, #04h
  25FE: 370F       	B0MOV 0x87, #0Fh
- 25FF: 1905       	OR 0x05, A
+ 25FF: 1909       	OR 0x09, A
 L175:
                   	                  		}
                   	                  	}
@@ -20825,7 +20828,7 @@ L221:
                   	                  	    lcd9 &= 0x01;
  265C: 2D01       	MOV A, #01h
  265D: 370F       	B0MOV 0x87, #0Fh
- 265E: 2905       	AND 0x05, A
+ 265E: 2909       	AND 0x09, A
 L222:
                   	                  		if( R_LCD2 !=0 || R_LCD1!=0)
  265F: 3702       	B0MOV 0x87, #02h
@@ -20868,7 +20871,7 @@ L191:
  2681: FDA5       	CALL 0x3DA5
  2682: 2E18       	B0MOV A, 0x18
  2683: 370F       	B0MOV 0x87, #0Fh
- 2684: 1F05       	MOV 0x05, A
+ 2684: 1F09       	MOV 0x09, A
 L226:
                   	                  	    	lcd8 = DispTable[ R_LCD2 ];
  2685: 6286       	B0BCLR 0x86.2
@@ -20895,7 +20898,7 @@ L226:
  269A: 2F83       	B0MOV Z, A
  269B: FD17       	CALL 0x3D17
  269C: 370F       	B0MOV 0x87, #0Fh
- 269D: 1F06       	MOV 0x06, A
+ 269D: 1F08       	MOV 0x08, A
 L227:
                   	                  		}
  269E: A6A2       	JMP 0x26A2
@@ -20904,10 +20907,10 @@ L189:
                   	                  		{
                   	                  			lcd9 = 0x00;
  269F: 370F       	B0MOV 0x87, #0Fh
- 26A0: 2B05       	CLR 0x05
+ 26A0: 2B09       	CLR 0x09
 L232:
                   	                  			lcd8 = 0x00;
- 26A1: 2B06       	CLR 0x06
+ 26A1: 2B08       	CLR 0x08
 L233:
                   	                  		}
                   	                  	
@@ -20923,14 +20926,14 @@ L236:
                   	                  			lcd9 |= 0x01;
  26A7: 2D01       	MOV A, #01h
  26A8: 370F       	B0MOV 0x87, #0Fh
- 26A9: 1905       	OR 0x05, A
+ 26A9: 1909       	OR 0x09, A
 L239:
                   	                  		}
                   	                  	
                   	                  	    lcd_point_clr();
  26AA: 2DFE       	MOV A, #feh
  26AB: 370F       	B0MOV 0x87, #0Fh
- 26AC: 2909       	AND 0x09, A
+ 26AC: 2905       	AND 0x05, A
 L244:
                   	                  	    if(R_LCD2 > 3)
  26AD: 3402       	B0MOV 0x84, #02h
@@ -20975,11 +20978,11 @@ L248:
  26D1: FDA5       	CALL 0x3DA5
  26D2: 2E18       	B0MOV A, 0x18
  26D3: 370F       	B0MOV 0x87, #0Fh
- 26D4: 1F05       	MOV 0x05, A
+ 26D4: 1F09       	MOV 0x09, A
 L251:
                   	                  	        lcd9 |= 0x01;
  26D5: 2D01       	MOV A, #01h
- 26D6: 1905       	OR 0x05, A
+ 26D6: 1909       	OR 0x09, A
 L252:
                   	                  	        lcd8 = DispTable[ R_LCD3 ];
  26D7: 6286       	B0BCLR 0x86.2
@@ -21006,7 +21009,7 @@ L252:
  26EC: 2F83       	B0MOV Z, A
  26ED: FD17       	CALL 0x3D17
  26EE: 370F       	B0MOV 0x87, #0Fh
- 26EF: 1F06       	MOV 0x06, A
+ 26EF: 1F08       	MOV 0x08, A
 L253:
                   	                  	        lcd7 = DispTable[ R_LCD4 ] >> 8;
  26F0: 6286       	B0BCLR 0x86.2
@@ -21065,11 +21068,11 @@ L254:
  2723: 2F83       	B0MOV Z, A
  2724: FD17       	CALL 0x3D17
  2725: 370F       	B0MOV 0x87, #0Fh
- 2726: 1F08       	MOV 0x08, A
+ 2726: 1F06       	MOV 0x06, A
 L255:
                   	                  	        lcd5 &= 0x01;
  2727: 2D01       	MOV A, #01h
- 2728: 2909       	AND 0x09, A
+ 2728: 2905       	AND 0x05, A
 L256:
                   	                  	        lcd5 = (DispTable[ R_LCD5 ] >> 8);
  2729: 6286       	B0BCLR 0x86.2
@@ -21101,7 +21104,7 @@ L256:
  2743: FDA5       	CALL 0x3DA5
  2744: 2E18       	B0MOV A, 0x18
  2745: 370F       	B0MOV 0x87, #0Fh
- 2746: 1F09       	MOV 0x09, A
+ 2746: 1F05       	MOV 0x05, A
 L257:
                   	                  	        lcd4 = DispTable[ R_LCD5 ];
  2747: 6286       	B0BCLR 0x86.2
@@ -21128,7 +21131,7 @@ L257:
  275C: 2F83       	B0MOV Z, A
  275D: FD17       	CALL 0x3D17
  275E: 370F       	B0MOV 0x87, #0Fh
- 275F: 1F0A       	MOV 0x0A, A
+ 275F: 1F04       	MOV 0x04, A
 L258:
                   	                  	    }
  2760: A808       	JMP 0x2808
@@ -21165,7 +21168,7 @@ L194:
  277B: FDA5       	CALL 0x3DA5
  277C: 2E18       	B0MOV A, 0x18
  277D: 370F       	B0MOV 0x87, #0Fh
- 277E: 1F05       	MOV 0x05, A
+ 277E: 1F09       	MOV 0x09, A
 L263:
                   	                  	        lcd8 = DispTable[ R_LCD3 ];
  277F: 6286       	B0BCLR 0x86.2
@@ -21192,7 +21195,7 @@ L263:
  2794: 2F83       	B0MOV Z, A
  2795: FD17       	CALL 0x3D17
  2796: 370F       	B0MOV 0x87, #0Fh
- 2797: 1F06       	MOV 0x06, A
+ 2797: 1F08       	MOV 0x08, A
 L264:
                   	                  	        lcd7 = DispTable[ R_LCD4 ] >> 8;
  2798: 6286       	B0BCLR 0x86.2
@@ -21251,11 +21254,11 @@ L265:
  27CB: 2F83       	B0MOV Z, A
  27CC: FD17       	CALL 0x3D17
  27CD: 370F       	B0MOV 0x87, #0Fh
- 27CE: 1F08       	MOV 0x08, A
+ 27CE: 1F06       	MOV 0x06, A
 L266:
                   	                  	        lcd5 &= 0x01;
  27CF: 2D01       	MOV A, #01h
- 27D0: 2909       	AND 0x09, A
+ 27D0: 2905       	AND 0x05, A
 L267:
                   	                  	        lcd5 = (DispTable[ R_LCD5 ] >> 8);
  27D1: 6286       	B0BCLR 0x86.2
@@ -21287,7 +21290,7 @@ L267:
  27EB: FDA5       	CALL 0x3DA5
  27EC: 2E18       	B0MOV A, 0x18
  27ED: 370F       	B0MOV 0x87, #0Fh
- 27EE: 1F09       	MOV 0x09, A
+ 27EE: 1F05       	MOV 0x05, A
 L268:
                   	                  	        lcd4 = DispTable[ R_LCD5 ];
  27EF: 6286       	B0BCLR 0x86.2
@@ -21314,7 +21317,7 @@ L268:
  2804: 2F83       	B0MOV Z, A
  2805: FD17       	CALL 0x3D17
  2806: 370F       	B0MOV 0x87, #0Fh
- 2807: 1F0A       	MOV 0x0A, A
+ 2807: 1F04       	MOV 0x04, A
 L269:
                   	                  	    }
                   	                  	
@@ -21328,7 +21331,7 @@ L272:
                   	                  			lcd_obj_en();
  280B: 2D02       	MOV A, #02h
  280C: 370F       	B0MOV 0x87, #0Fh
- 280D: 190C       	OR 0x0C, A
+ 280D: 1902       	OR 0x02, A
 L277:
                   	                  		}
  280E: A812       	JMP 0x2812
@@ -21338,7 +21341,7 @@ L196:
                   	                  	        lcd_obj_clr();
  280F: 2DFD       	MOV A, #fdh
  2810: 370F       	B0MOV 0x87, #0Fh
- 2811: 290C       	AND 0x0C, A
+ 2811: 2902       	AND 0x02, A
 L287:
                   	                  	    }
                   	                  	}
@@ -21433,7 +21436,7 @@ L301:
  284D: FDA5       	CALL 0x3DA5
  284E: 2E18       	B0MOV A, 0x18
  284F: 370F       	B0MOV 0x87, #0Fh
- 2850: 1F05       	MOV 0x05, A
+ 2850: 1F09       	MOV 0x09, A
 L302:
                   	                  	    lcd8 = DispTable[ R_LCD1 ];
  2851: 6286       	B0BCLR 0x86.2
@@ -21460,7 +21463,7 @@ L302:
  2866: 2F83       	B0MOV Z, A
  2867: FD17       	CALL 0x3D17
  2868: 370F       	B0MOV 0x87, #0Fh
- 2869: 1F06       	MOV 0x06, A
+ 2869: 1F08       	MOV 0x08, A
 L303:
                   	                  		lcd7 = DispTable[ R_LCD2 ] >> 8;
  286A: 6286       	B0BCLR 0x86.2
@@ -21519,7 +21522,7 @@ L304:
  289D: 2F83       	B0MOV Z, A
  289E: FD17       	CALL 0x3D17
  289F: 370F       	B0MOV 0x87, #0Fh
- 28A0: 1F08       	MOV 0x08, A
+ 28A0: 1F06       	MOV 0x06, A
 L305:
                   	                  		lcd5 = DispTable[ R_LCD3 ] >> 8;
  28A1: 6286       	B0BCLR 0x86.2
@@ -21551,7 +21554,7 @@ L305:
  28BB: FDA5       	CALL 0x3DA5
  28BC: 2E18       	B0MOV A, 0x18
  28BD: 370F       	B0MOV 0x87, #0Fh
- 28BE: 1F09       	MOV 0x09, A
+ 28BE: 1F05       	MOV 0x05, A
 L306:
                   	                  	    lcd4 = DispTable[ R_LCD3 ];
  28BF: 6286       	B0BCLR 0x86.2
@@ -21578,7 +21581,7 @@ L306:
  28D4: 2F83       	B0MOV Z, A
  28D5: FD17       	CALL 0x3D17
  28D6: 370F       	B0MOV 0x87, #0Fh
- 28D7: 1F0A       	MOV 0x0A, A
+ 28D7: 1F04       	MOV 0x04, A
 L307:
                   	                  	}
  28D8: 0E00       	RET
@@ -21623,11 +21626,11 @@ L314:
                   	                  		lcd9 = S_U>>8;
  28E9: 2D0A       	MOV A, #0ah
  28EA: 370F       	B0MOV 0x87, #0Fh
- 28EB: 1F05       	MOV 0x05, A
+ 28EB: 1F09       	MOV 0x09, A
 L315:
                   	                  	    lcd8 = S_U;
  28EC: 2D07       	MOV A, #07h
- 28ED: 1F06       	MOV 0x06, A
+ 28ED: 1F08       	MOV 0x08, A
 L316:
                   	                  		lcd7 = DispTable[ R_LCD1 ] >> 8;
  28EE: 6286       	B0BCLR 0x86.2
@@ -21686,7 +21689,7 @@ L317:
  2921: 2F83       	B0MOV Z, A
  2922: FD17       	CALL 0x3D17
  2923: 370F       	B0MOV 0x87, #0Fh
- 2924: 1F08       	MOV 0x08, A
+ 2924: 1F06       	MOV 0x06, A
 L318:
                   	                  		lcd5 = DispTable[ R_LCD2 ] >> 8;
  2925: 6286       	B0BCLR 0x86.2
@@ -21718,11 +21721,11 @@ L318:
  293F: FDA5       	CALL 0x3DA5
  2940: 2E18       	B0MOV A, 0x18
  2941: 370F       	B0MOV 0x87, #0Fh
- 2942: 1F09       	MOV 0x09, A
+ 2942: 1F05       	MOV 0x05, A
 L319:
                   	                  	    lcd_point_en();
  2943: 2D01       	MOV A, #01h
- 2944: 1909       	OR 0x09, A
+ 2944: 1905       	OR 0x05, A
 L322:
                   	                  	    lcd4 = DispTable[ R_LCD2 ];
  2945: 6286       	B0BCLR 0x86.2
@@ -21749,7 +21752,7 @@ L322:
  295A: 2F83       	B0MOV Z, A
  295B: FD17       	CALL 0x3D17
  295C: 370F       	B0MOV 0x87, #0Fh
- 295D: 1F0A       	MOV 0x0A, A
+ 295D: 1F04       	MOV 0x04, A
 L326:
                   	                  	}
  295E: 0E00       	RET
@@ -21768,49 +21771,49 @@ _Function_Clr_Disp_code:
                   	                  	{
                   	                  		lcd0 = 0x00;
  295F: 370F       	B0MOV 0x87, #0Fh
- 2960: 2B0E       	CLR 0x0E
+ 2960: 2B00       	CLR 0x00
 L332:
                   	                  	    lcd1 = 0x00;
- 2961: 2B0D       	CLR 0x0D
+ 2961: 2B01       	CLR 0x01
 L333:
                   	                  	    lcd2 = 0x00;
- 2962: 2B0C       	CLR 0x0C
+ 2962: 2B02       	CLR 0x02
 L334:
                   	                  	    lcd3 = 0x00;
- 2963: 2B0B       	CLR 0x0B
+ 2963: 2B03       	CLR 0x03
 L335:
                   	                  	    lcd4 = 0x00;
- 2964: 2B0A       	CLR 0x0A
+ 2964: 2B04       	CLR 0x04
 L336:
                   	                  	    lcd5 = 0x00;
- 2965: 2B09       	CLR 0x09
+ 2965: 2B05       	CLR 0x05
 L337:
                   	                  	    lcd6 = 0x00;
- 2966: 2B08       	CLR 0x08
+ 2966: 2B06       	CLR 0x06
 L338:
                   	                  	    lcd7 = 0x00;
  2967: 2B07       	CLR 0x07
 L339:
                   	                  	    lcd8 = 0x00;
- 2968: 2B06       	CLR 0x06
+ 2968: 2B08       	CLR 0x08
 L340:
                   	                  	    lcd9 = 0x00;
- 2969: 2B05       	CLR 0x05
+ 2969: 2B09       	CLR 0x09
 L341:
                   	                  		lcd10 = 0x00;
- 296A: 2B04       	CLR 0x04
+ 296A: 2B0A       	CLR 0x0A
 L342:
                   	                  	    lcd11 = 0x00;
- 296B: 2B03       	CLR 0x03
+ 296B: 2B0B       	CLR 0x0B
 L343:
                   	                  	    lcd12 = 0x00;
- 296C: 2B02       	CLR 0x02
+ 296C: 2B0C       	CLR 0x0C
 L344:
                   	                  	    lcd13 = 0x00;
- 296D: 2B01       	CLR 0x01
+ 296D: 2B0D       	CLR 0x0D
 L345:
                   	                  	    lcd14 = 0x00;
- 296E: 2B00       	CLR 0x00
+ 296E: 2B0E       	CLR 0x0E
 L346:
                   	                  	
                   	                  	}
@@ -21830,22 +21833,22 @@ _Function_Clr_Disp888_code:
                   	                  	{
                   	                  		lcd4 = 0x00;
  2970: 370F       	B0MOV 0x87, #0Fh
- 2971: 2B0A       	CLR 0x0A
+ 2971: 2B04       	CLR 0x04
 L352:
                   	                  	    lcd5 = 0x00;
- 2972: 2B09       	CLR 0x09
+ 2972: 2B05       	CLR 0x05
 L353:
                   	                  	    lcd6 = 0x00;
- 2973: 2B08       	CLR 0x08
+ 2973: 2B06       	CLR 0x06
 L354:
                   	                  	    lcd7 = 0x00;
  2974: 2B07       	CLR 0x07
 L355:
                   	                  		lcd8 = 0x00;
- 2975: 2B06       	CLR 0x06
+ 2975: 2B08       	CLR 0x08
 L356:
                   	                  	    lcd9 = 0x00;
- 2976: 2B05       	CLR 0x05
+ 2976: 2B09       	CLR 0x09
 L357:
                   	                  	}
  2977: 0E00       	RET
@@ -21865,31 +21868,31 @@ _Function_Disp_All_code:
                   	                  	    lcd0 = 0xff;
  2978: 2DFF       	MOV A, #ffh
  2979: 370F       	B0MOV 0x87, #0Fh
- 297A: 1F0E       	MOV 0x0E, A
+ 297A: 1F00       	MOV 0x00, A
 L367:
                   	                  	    lcd1 = 0xff;
  297B: 2DFF       	MOV A, #ffh
- 297C: 1F0D       	MOV 0x0D, A
+ 297C: 1F01       	MOV 0x01, A
 L368:
                   	                  	    lcd2 = 0xff;
  297D: 2DFF       	MOV A, #ffh
- 297E: 1F0C       	MOV 0x0C, A
+ 297E: 1F02       	MOV 0x02, A
 L369:
                   	                  	    lcd3 = 0xff;
  297F: 2DFF       	MOV A, #ffh
- 2980: 1F0B       	MOV 0x0B, A
+ 2980: 1F03       	MOV 0x03, A
 L370:
                   	                  	    lcd4 = 0xff;
  2981: 2DFF       	MOV A, #ffh
- 2982: 1F0A       	MOV 0x0A, A
+ 2982: 1F04       	MOV 0x04, A
 L371:
                   	                  	    lcd5 = 0xff;
  2983: 2DFF       	MOV A, #ffh
- 2984: 1F09       	MOV 0x09, A
+ 2984: 1F05       	MOV 0x05, A
 L372:
                   	                  	    lcd6 = 0xff;
  2985: 2DFF       	MOV A, #ffh
- 2986: 1F08       	MOV 0x08, A
+ 2986: 1F06       	MOV 0x06, A
 L373:
                   	                  	    lcd7 = 0xff;
  2987: 2DFF       	MOV A, #ffh
@@ -21897,31 +21900,31 @@ L373:
 L374:
                   	                  	    lcd8 = 0xff;
  2989: 2DFF       	MOV A, #ffh
- 298A: 1F06       	MOV 0x06, A
+ 298A: 1F08       	MOV 0x08, A
 L375:
                   	                  	    lcd9 = 0xff;
  298B: 2DFF       	MOV A, #ffh
- 298C: 1F05       	MOV 0x05, A
+ 298C: 1F09       	MOV 0x09, A
 L376:
                   	                  	    lcd10 = 0xff;
  298D: 2DFF       	MOV A, #ffh
- 298E: 1F04       	MOV 0x04, A
+ 298E: 1F0A       	MOV 0x0A, A
 L377:
                   	                  	    lcd11 = 0xff;
  298F: 2DFF       	MOV A, #ffh
- 2990: 1F03       	MOV 0x03, A
+ 2990: 1F0B       	MOV 0x0B, A
 L378:
                   	                  	    lcd12 = 0xff;
  2991: 2DFF       	MOV A, #ffh
- 2992: 1F02       	MOV 0x02, A
+ 2992: 1F0C       	MOV 0x0C, A
 L379:
                   	                  	    lcd13 = 0xff;
  2993: 2DFF       	MOV A, #ffh
- 2994: 1F01       	MOV 0x01, A
+ 2994: 1F0D       	MOV 0x0D, A
 L380:
                   	                  	    lcd14 = 0xff;
  2995: 2DFF       	MOV A, #ffh
- 2996: 1F00       	MOV 0x00, A
+ 2996: 1F0E       	MOV 0x0E, A
 L381:
                   	                  		if( uSetFlag.bits.Unit_Change )
  2997: 3700       	B0MOV 0x87, #00h
@@ -21966,11 +21969,11 @@ _Function_Disp_Unit_code:
                   	                  	{
                   	                  		lcd_unit_c_en();
  299C: 370F       	B0MOV 0x87, #0Fh
- 299D: 2B0B       	CLR 0x0B
+ 299D: 2B03       	CLR 0x03
 L399:
                   	                  		lcd_unit_c_en();
  299E: 2D0A       	MOV A, #0ah
- 299F: 190B       	OR 0x0B, A
+ 299F: 1903       	OR 0x03, A
 L400:
                   	                  		if( uSetFlag.bits.Unit )
  29A0: 3700       	B0MOV 0x87, #00h
@@ -21980,11 +21983,11 @@ L404:
                   	                  		{
                   	                  			lcd_unit_f_en();
  29A3: 370F       	B0MOV 0x87, #0Fh
- 29A4: 2B0B       	CLR 0x0B
+ 29A4: 2B03       	CLR 0x03
 L409:
                   	                  			lcd_unit_f_en();
  29A5: 2D06       	MOV A, #06h
- 29A6: 190B       	OR 0x0B, A
+ 29A6: 1903       	OR 0x03, A
 L410:
                   	                  		}
                   	                  	}
@@ -22005,11 +22008,11 @@ _Function_Disp_SmileFace_code:
                   	                  		lcd_badface_clr();	//清哭脸
  29A8: 2DF7       	MOV A, #f7h
  29A9: 370F       	B0MOV 0x87, #0Fh
- 29AA: 290C       	AND 0x0C, A
+ 29AA: 2902       	AND 0x02, A
 L423:
                   	                  		lcd_smileface_en();	//显笑脸
  29AB: 2D04       	MOV A, #04h
- 29AC: 190C       	OR 0x0C, A
+ 29AC: 1902       	OR 0x02, A
 L429:
                   	                  	}
  29AD: 0E00       	RET
@@ -22029,11 +22032,11 @@ _Function_Disp_BadFace_code:
                   	                  		lcd_smileface_clr();	//清笑脸
  29AE: 2DFB       	MOV A, #fbh
  29AF: 370F       	B0MOV 0x87, #0Fh
- 29B0: 290C       	AND 0x0C, A
+ 29B0: 2902       	AND 0x02, A
 L440:
                   	                  		lcd_badface_en();	//显哭脸
  29B1: 2D08       	MOV A, #08h
- 29B2: 190C       	OR 0x0C, A
+ 29B2: 1902       	OR 0x02, A
 L446:
                   	                  	}
  29B3: 0E00       	RET
@@ -22053,11 +22056,11 @@ _Function_Disp_ModeSign_code:
                   	                  		lcd_ear_clr();		//清除耳温标志
  29B4: 2DFE       	MOV A, #feh
  29B5: 370F       	B0MOV 0x87, #0Fh
- 29B6: 290C       	AND 0x0C, A
+ 29B6: 2902       	AND 0x02, A
 L462:
                   	                  		lcd_obj_clr();		//清除物温标志
  29B7: 2DFD       	MOV A, #fdh
- 29B8: 290C       	AND 0x0C, A
+ 29B8: 2902       	AND 0x02, A
 L468:
                   	                  		switch ( eTestmode_num )
  29B9: 3701       	B0MOV 0x87, #01h
@@ -22085,7 +22088,7 @@ L472:
                   	                  				lcd_ear_en();
  29CB: 2D01       	MOV A, #01h
  29CC: 370F       	B0MOV 0x87, #0Fh
- 29CD: 190C       	OR 0x0C, A
+ 29CD: 1902       	OR 0x02, A
 L477:
                   	                  				break;
  29CE: A9D2       	JMP 0x29D2
@@ -22097,7 +22100,7 @@ L456:
                   	                  				lcd_obj_en();
  29CF: 2D02       	MOV A, #02h
  29D0: 370F       	B0MOV 0x87, #0Fh
- 29D1: 190C       	OR 0x0C, A
+ 29D1: 1902       	OR 0x02, A
 L484:
                   	                  				break;
                   	                  		}
@@ -22119,7 +22122,7 @@ _Function_Disp_Age_Segmentation_code:
                   	                  		lcd_age_en();
  29D3: 2D08       	MOV A, #08h
  29D4: 370F       	B0MOV 0x87, #0Fh
- 29D5: 1F04       	MOV 0x04, A
+ 29D5: 1F0A       	MOV 0x0A, A
 L504:
                   	                  		switch ( eAgemode_num )
  29D6: 3700       	B0MOV 0x87, #00h
@@ -22143,11 +22146,11 @@ L508:
                   	                  				lcd_little_age_en();
  29E5: 2D08       	MOV A, #08h
  29E6: 370F       	B0MOV 0x87, #0Fh
- 29E7: 1F04       	MOV 0x04, A
+ 29E7: 1F0A       	MOV 0x0A, A
 L513:
                   	                  				lcd_little_age_en();
  29E8: 2D04       	MOV A, #04h
- 29E9: 1904       	OR 0x04, A
+ 29E9: 190A       	OR 0x0A, A
 L514:
                   	                  				break;
  29EA: A9F6       	JMP 0x29F6
@@ -22156,11 +22159,11 @@ L497:
                   	                  	            lcd_mid_age_en();
  29EB: 2D08       	MOV A, #08h
  29EC: 370F       	B0MOV 0x87, #0Fh
- 29ED: 1F04       	MOV 0x04, A
+ 29ED: 1F0A       	MOV 0x0A, A
 L521:
                   	                  	            lcd_mid_age_en();
  29EE: 2D02       	MOV A, #02h
- 29EF: 1904       	OR 0x04, A
+ 29EF: 190A       	OR 0x0A, A
 L522:
                   	                  	            break;
  29F0: A9F6       	JMP 0x29F6
@@ -22169,11 +22172,11 @@ L498:
                   	                  				lcd_big_age_en();
  29F1: 2D08       	MOV A, #08h
  29F2: 370F       	B0MOV 0x87, #0Fh
- 29F3: 1F04       	MOV 0x04, A
+ 29F3: 1F0A       	MOV 0x0A, A
 L529:
                   	                  				lcd_big_age_en();
  29F4: 2D01       	MOV A, #01h
- 29F5: 1904       	OR 0x04, A
+ 29F5: 190A       	OR 0x0A, A
 L530:
                   	                  				break;
                   	                  		}
@@ -22195,11 +22198,11 @@ _Function_Clr_ModeSign_code:
                   	                  		lcd_ear_clr();		//清除耳温标志
  29F7: 2DFE       	MOV A, #feh
  29F8: 370F       	B0MOV 0x87, #0Fh
- 29F9: 290C       	AND 0x0C, A
+ 29F9: 2902       	AND 0x02, A
 L544:
                   	                  		lcd_obj_clr();		//清除物温标志
  29FA: 2DFD       	MOV A, #fdh
- 29FB: 290C       	AND 0x0C, A
+ 29FB: 2902       	AND 0x02, A
 L550:
                   	                  	}
  29FC: 0E00       	RET
@@ -22218,7 +22221,7 @@ _Function_Disp_LowBat_code:
                   	                  	{
                   	                  		lcd_bat_en();	//显示低电压符号；
  29FD: 2D01       	MOV A, #01h
- 29FE: 1903       	OR 0x03, A
+ 29FE: 190B       	OR 0x0B, A
 L561:
                   	                  	}
  29FF: 0E00       	RET
@@ -22248,14 +22251,14 @@ L572:
  2A07: FDA5       	CALL 0x3DA5
  2A08: 2E18       	B0MOV A, 0x18
  2A09: 370F       	B0MOV 0x87, #0Fh
- 2A0A: 1F05       	MOV 0x05, A
+ 2A0A: 1F09       	MOV 0x09, A
 L573:
                   	                  	    lcd8 = DispTable[0];
  2A0B: 3423       	B0MOV 0x84, #23h
  2A0C: 3347       	B0MOV 0x83, #47h
  2A0D: FD17       	CALL 0x3D17
  2A0E: 370F       	B0MOV 0x87, #0Fh
- 2A0F: 1F06       	MOV 0x06, A
+ 2A0F: 1F08       	MOV 0x08, A
 L574:
                   	                  	    lcd7 = S_F>>8;
  2A10: 2D0E       	MOV A, #0eh
@@ -22263,15 +22266,15 @@ L574:
 L575:
                   	                  	    lcd6 = S_F;
  2A12: 2D08       	MOV A, #08h
- 2A13: 1F08       	MOV 0x08, A
+ 2A13: 1F06       	MOV 0x06, A
 L576:
                   	                  	    lcd5 = S_F>>8;
  2A14: 2D0E       	MOV A, #0eh
- 2A15: 1F09       	MOV 0x09, A
+ 2A15: 1F05       	MOV 0x05, A
 L577:
                   	                  	    lcd4 = S_F;
  2A16: 2D08       	MOV A, #08h
- 2A17: 1F0A       	MOV 0x0A, A
+ 2A17: 1F04       	MOV 0x04, A
 L578:
                   	                  	}
  2A18: 0E00       	RET
@@ -22290,10 +22293,10 @@ _Function_Disp_Lo_code:
                   	                  	{
                   	                  	    lcd9 = 0x00;
  2A19: 370F       	B0MOV 0x87, #0Fh
- 2A1A: 2B05       	CLR 0x05
+ 2A1A: 2B09       	CLR 0x09
 L584:
                   	                  	    lcd8 = 0x00;
- 2A1B: 2B06       	CLR 0x06
+ 2A1B: 2B08       	CLR 0x08
 L585:
                   	                  	    lcd7 = S_L>>8;
  2A1C: 2D0A       	MOV A, #0ah
@@ -22301,23 +22304,23 @@ L585:
 L586:
                   	                  	    lcd6 = S_L;
  2A1E: 2D01       	MOV A, #01h
- 2A1F: 1F08       	MOV 0x08, A
+ 2A1F: 1F06       	MOV 0x06, A
 L587:
                   	                  	    lcd5 = S_o>>8;
  2A20: 2D06       	MOV A, #06h
- 2A21: 1F09       	MOV 0x09, A
+ 2A21: 1F05       	MOV 0x05, A
 L588:
                   	                  	    lcd4 = S_o;
  2A22: 2D03       	MOV A, #03h
- 2A23: 1F0A       	MOV 0x0A, A
+ 2A23: 1F04       	MOV 0x04, A
 L589:
                   	                  	    lcd_badface_clr();      //清笑脸
  2A24: 2DF7       	MOV A, #f7h
- 2A25: 290C       	AND 0x0C, A
+ 2A25: 2902       	AND 0x02, A
 L592:
                   	                  	    lcd_smileface_clr();    //清哭脸
  2A26: 2DFB       	MOV A, #fbh
- 2A27: 290C       	AND 0x0C, A
+ 2A27: 2902       	AND 0x02, A
 L598:
                   	                  	}
  2A28: 0E00       	RET
@@ -22336,10 +22339,10 @@ _Function_Disp_Hi_code:
                   	                  	{
                   	                  	    lcd9 = 0x00;
  2A29: 370F       	B0MOV 0x87, #0Fh
- 2A2A: 2B05       	CLR 0x05
+ 2A2A: 2B09       	CLR 0x09
 L607:
                   	                  	    lcd8 = 0x00;
- 2A2B: 2B06       	CLR 0x06
+ 2A2B: 2B08       	CLR 0x08
 L608:
                   	                  	    lcd7 = S_H>>8;
  2A2C: 2D0E       	MOV A, #0eh
@@ -22347,22 +22350,22 @@ L608:
 L609:
                   	                  	    lcd6 = S_H;
  2A2E: 2D06       	MOV A, #06h
- 2A2F: 1F08       	MOV 0x08, A
+ 2A2F: 1F06       	MOV 0x06, A
 L610:
                   	                  	    lcd5 = S_i>>8;
  2A30: 2D02       	MOV A, #02h
- 2A31: 1F09       	MOV 0x09, A
+ 2A31: 1F05       	MOV 0x05, A
 L611:
                   	                  	    lcd4 = S_i;
- 2A32: 2B0A       	CLR 0x0A
+ 2A32: 2B04       	CLR 0x04
 L612:
                   	                  	    lcd_badface_clr();      //清笑脸
  2A33: 2DF7       	MOV A, #f7h
- 2A34: 290C       	AND 0x0C, A
+ 2A34: 2902       	AND 0x02, A
 L615:
                   	                  	    lcd_smileface_clr();    //清哭脸
  2A35: 2DFB       	MOV A, #fbh
- 2A36: 290C       	AND 0x0C, A
+ 2A36: 2902       	AND 0x02, A
 L621:
                   	                  	}
  2A37: 0E00       	RET
@@ -22381,35 +22384,35 @@ _Function_Disp_Ready_code:
                   	                  	{
                   	                  	    lcd9 = 0x00;
  2A38: 370F       	B0MOV 0x87, #0Fh
- 2A39: 2B05       	CLR 0x05
+ 2A39: 2B09       	CLR 0x09
 L630:
                   	                  	    lcd8 = 0x01;
  2A3A: 2D01       	MOV A, #01h
- 2A3B: 1F06       	MOV 0x06, A
+ 2A3B: 1F08       	MOV 0x08, A
 L631:
                   	                  	    lcd7 = 0x00;			//不清楚为何打开记忆符号 以关闭
  2A3C: 2B07       	CLR 0x07
 L632:
                   	                  	    lcd6 = 0x01;
- 2A3D: 1F08       	MOV 0x08, A
+ 2A3D: 1F06       	MOV 0x06, A
 L633:
                   	                  	    lcd5 = 0x01;
- 2A3E: 1F09       	MOV 0x09, A
+ 2A3E: 1F05       	MOV 0x05, A
 L634:
                   	                  	    lcd4 = 0x01;
- 2A3F: 1F0A       	MOV 0x0A, A
+ 2A3F: 1F04       	MOV 0x04, A
 L635:
                   	                  		lcd_smileface_clr();	//清哭笑脸（从测试态退出）
  2A40: 2DFB       	MOV A, #fbh
- 2A41: 290C       	AND 0x0C, A
+ 2A41: 2902       	AND 0x02, A
 L638:
                   	                  		lcd_badface_clr();
  2A42: 2DF7       	MOV A, #f7h
- 2A43: 290C       	AND 0x0C, A
+ 2A43: 2902       	AND 0x02, A
 L644:
                   	                  	    lcd_mem_clr();   //清M标志（从记忆态退出）
  2A44: 2DFE       	MOV A, #feh
- 2A45: 290E       	AND 0x0E, A
+ 2A45: 2900       	AND 0x00, A
 L650:
                   	                  	}
  2A46: 0E00       	RET
@@ -22437,11 +22440,11 @@ _Function_Disp_FourSecLoop_Init_code:
                   	                  		lcd_badface_clr();
  2A47: 2DF7       	MOV A, #f7h
  2A48: 370F       	B0MOV 0x87, #0Fh
- 2A49: 290C       	AND 0x0C, A
+ 2A49: 2902       	AND 0x02, A
 L663:
                   	                  		lcd_smileface_clr();
  2A4A: 2DFB       	MOV A, #fbh
- 2A4B: 290C       	AND 0x0C, A
+ 2A4B: 2902       	AND 0x02, A
 L669:
                   	                  		nb_FourSecPhase = 0;
  2A4C: 3702       	B0MOV 0x87, #02h
@@ -22525,18 +22528,18 @@ L730:
 L733:
                   	                  					lcd_ear_clr();
  2A79: 2DFE       	MOV A, #feh
- 2A7A: 290C       	AND 0x0C, A
+ 2A7A: 2902       	AND 0x02, A
 L736:
                   	                  					lcd_obj_clr();
  2A7B: 2DFD       	MOV A, #fdh
- 2A7C: 290C       	AND 0x0C, A
+ 2A7C: 2902       	AND 0x02, A
 L742:
                   	                  					lcd9 = 0x04;
  2A7D: 2D04       	MOV A, #04h
- 2A7E: 1F05       	MOV 0x05, A
+ 2A7E: 1F09       	MOV 0x09, A
 L746:
                   	                  					lcd8 = 0x00;
- 2A7F: 2B06       	CLR 0x06
+ 2A7F: 2B08       	CLR 0x08
 L747:
                   	                  				if(eTestmode_num == Insptectmode || eTestmode_num == Blackbodymode)
  2A80: 3701       	B0MOV 0x87, #01h
@@ -22552,7 +22555,7 @@ L690:
                   	                  					lcd_obj_en();
  2A88: 2D02       	MOV A, #02h
  2A89: 370F       	B0MOV 0x87, #0Fh
- 2A8A: 190C       	OR 0x0C, A
+ 2A8A: 1902       	OR 0x02, A
 L753:
                   	                  				}
  2A8B: AA92       	JMP 0x2A92
@@ -22566,7 +22569,7 @@ L759:
                   	                  					lcd_ear_en();
  2A8F: 2D01       	MOV A, #01h
  2A90: 370F       	B0MOV 0x87, #0Fh
- 2A91: 190C       	OR 0x0C, A
+ 2A91: 1902       	OR 0x02, A
 L764:
                   	                  				}
                   	                  				}
@@ -22605,7 +22608,7 @@ L780:
  2AA2: 1F07       	MOV 0x07, A
 L783:
                   	                  					lcd6 = 0x00;
- 2AA3: 2B08       	CLR 0x08
+ 2AA3: 2B06       	CLR 0x06
 L784:
                   	                  				if(eTestmode_num == Insptectmode || eTestmode_num == Blackbodymode)
  2AA4: 3701       	B0MOV 0x87, #01h
@@ -22621,7 +22624,7 @@ L700:
                   	                  					lcd_obj_clr();
  2AAC: 2DFD       	MOV A, #fdh
  2AAD: 370F       	B0MOV 0x87, #0Fh
- 2AAE: 290C       	AND 0x0C, A
+ 2AAE: 2902       	AND 0x02, A
 L790:
                   	                  				}
  2AAF: AAB6       	JMP 0x2AB6
@@ -22635,7 +22638,7 @@ L796:
                   	                  					lcd_ear_clr();
  2AB3: 2DFE       	MOV A, #feh
  2AB4: 370F       	B0MOV 0x87, #0Fh
- 2AB5: 290C       	AND 0x0C, A
+ 2AB5: 2902       	AND 0x02, A
 L801:
                   	                  				}
                   	                  				}
@@ -22671,10 +22674,10 @@ L817:
                   	                  					lcd5 = 0x04;
  2AC4: 2D04       	MOV A, #04h
  2AC5: 370F       	B0MOV 0x87, #0Fh
- 2AC6: 1F09       	MOV 0x09, A
+ 2AC6: 1F05       	MOV 0x05, A
 L820:
                   	                  					lcd4 = 0x00;
- 2AC7: 2B0A       	CLR 0x0A
+ 2AC7: 2B04       	CLR 0x04
 L821:
                   	                  				}
                   	                  				if(++nb_FourSecTick >= 25)
@@ -22711,11 +22714,11 @@ L832:
 L835:
                   	                  					lcd_ear_clr();
  2AD7: 2DFE       	MOV A, #feh
- 2AD8: 290C       	AND 0x0C, A
+ 2AD8: 2902       	AND 0x02, A
 L838:
                   	                  					lcd_obj_clr();
  2AD9: 2DFD       	MOV A, #fdh
- 2ADA: 290C       	AND 0x0C, A
+ 2ADA: 2902       	AND 0x02, A
 L844:
                   	                  				}
                   	                  				if(++nb_FourSecTick >= 25)
@@ -22774,33 +22777,33 @@ _Function_Disp_Null_code:
  2AF0: E970       	CALL 0x2970
 L867:
                   	                  		lcd_pc_clr();
- 2AF1: 2B0D       	CLR 0x0D
+ 2AF1: 2B01       	CLR 0x01
 L870:
                   	                  	    lcd9 = 0x04;
  2AF2: 2D04       	MOV A, #04h
- 2AF3: 1F05       	MOV 0x05, A
+ 2AF3: 1F09       	MOV 0x09, A
 L874:
                   	                  	    lcd8 = 0x00;
- 2AF4: 2B06       	CLR 0x06
+ 2AF4: 2B08       	CLR 0x08
 L875:
                   	                  	    lcd7 = 0x04;
  2AF5: 1F07       	MOV 0x07, A
 L876:
                   	                  	    lcd6 = 0x00;
- 2AF6: 2B08       	CLR 0x08
+ 2AF6: 2B06       	CLR 0x06
 L877:
                   	                  	    lcd5 = 0x04;
- 2AF7: 1F09       	MOV 0x09, A
+ 2AF7: 1F05       	MOV 0x05, A
 L878:
                   	                  	    lcd4 = 0x00;
- 2AF8: 2B0A       	CLR 0x0A
+ 2AF8: 2B04       	CLR 0x04
 L879:
                   	                  	    lcd_mem_en();  //显示M标志
  2AF9: 2D01       	MOV A, #01h
- 2AFA: 190E       	OR 0x0E, A
+ 2AFA: 1900       	OR 0x00, A
 L882:
                   	                  	    lcd_age_clr(); //
- 2AFB: 2B04       	CLR 0x04
+ 2AFB: 2B0A       	CLR 0x0A
 L888:
                   	                  	}
  2AFC: 0E00       	RET
@@ -22825,18 +22828,18 @@ _Function_Disp_ErN_code:
                   	                  		lcd9 = S_E>>8;
  2AFD: 2D0E       	MOV A, #0eh
  2AFE: 370F       	B0MOV 0x87, #0Fh
- 2AFF: 1F05       	MOV 0x05, A
+ 2AFF: 1F09       	MOV 0x09, A
 L897:
                   	                  	    lcd8 = S_E;
  2B00: 2D09       	MOV A, #09h
- 2B01: 1F06       	MOV 0x06, A
+ 2B01: 1F08       	MOV 0x08, A
 L898:
                   	                  	    lcd7 = S_r>>8;
  2B02: 2D06       	MOV A, #06h
  2B03: 1F07       	MOV 0x07, A
 L899:
                   	                  	    lcd6 = S_r;
- 2B04: 2B08       	CLR 0x08
+ 2B04: 2B06       	CLR 0x06
 L900:
                   	                  		lcd5 = (DispTable[ num ] >> 8);
  2B05: 3702       	B0MOV 0x87, #02h
@@ -22849,7 +22852,7 @@ L900:
  2B0C: 2F19       	B0MOV 0x19, A
  2B0D: 2E82       	B0MOV A, R
  2B0E: 370F       	B0MOV 0x87, #0Fh
- 2B0F: 1F09       	MOV 0x09, A
+ 2B0F: 1F05       	MOV 0x05, A
 L901:
                   	                  	    lcd4 = DispTable[ num ];
  2B10: 3702       	B0MOV 0x87, #02h
@@ -22858,7 +22861,7 @@ L901:
  2B13: 3347       	B0MOV 0x83, #47h
  2B14: FB1E       	CALL 0x3B1E
  2B15: 370F       	B0MOV 0x87, #0Fh
- 2B16: 1F0A       	MOV 0x0A, A
+ 2B16: 1F04       	MOV 0x04, A
  2B17: 2E82       	B0MOV A, R
  2B18: 2F19       	B0MOV 0x19, A
 L902:
@@ -22880,11 +22883,11 @@ _Function_Disp_ErrMsg_code:
                   	                  		lcd_badface_clr();
  2B1A: 2DF7       	MOV A, #f7h
  2B1B: 370F       	B0MOV 0x87, #0Fh
- 2B1C: 290C       	AND 0x0C, A
+ 2B1C: 2902       	AND 0x02, A
 L925:
                   	                  		lcd_smileface_clr();
  2B1D: 2DFB       	MOV A, #fbh
- 2B1E: 290C       	AND 0x0C, A
+ 2B1E: 2902       	AND 0x02, A
 L931:
                   	                  		switch (uErrFlag.g_ErrFlag)
  2B1F: 3700       	B0MOV 0x87, #00h
@@ -23040,26 +23043,26 @@ _Function_Disp_CAL_code:
 L962:
                   	                  		lcd9 = S_C>>8;
  2B75: 2D0A       	MOV A, #0ah
- 2B76: 1F05       	MOV 0x05, A
+ 2B76: 1F09       	MOV 0x09, A
 L963:
                   	                  	    lcd8 = S_C;
  2B77: 2D09       	MOV A, #09h
- 2B78: 1F06       	MOV 0x06, A
+ 2B78: 1F08       	MOV 0x08, A
 L964:
                   	                  	    lcd7 = S_A>>8;
  2B79: 2D0E       	MOV A, #0eh
  2B7A: 1F07       	MOV 0x07, A
 L965:
                   	                  	    lcd6 = S_A;
- 2B7B: 1F08       	MOV 0x08, A
+ 2B7B: 1F06       	MOV 0x06, A
 L966:
                   	                  	    lcd5 = S_L>>8;
  2B7C: 2D0A       	MOV A, #0ah
- 2B7D: 1F09       	MOV 0x09, A
+ 2B7D: 1F05       	MOV 0x05, A
 L967:
                   	                  	    lcd4 = S_L;
  2B7E: 2D01       	MOV A, #01h
- 2B7F: 1F0A       	MOV 0x0A, A
+ 2B7F: 1F04       	MOV 0x04, A
 L968:
                   	                  	}
  2B80: 0E00       	RET
@@ -23080,24 +23083,24 @@ _Function_Disp_Ab_code:
  2B81: E95F       	CALL 0x295F
 L974:
                   	                  		lcd9 = 0x00;
- 2B82: 2B05       	CLR 0x05
+ 2B82: 2B09       	CLR 0x09
 L975:
                   	                  	    lcd8 = 0x00;
- 2B83: 2B06       	CLR 0x06
+ 2B83: 2B08       	CLR 0x08
 L976:
                   	                  	    lcd7 = S_A>>8;
  2B84: 2D0E       	MOV A, #0eh
  2B85: 1F07       	MOV 0x07, A
 L977:
                   	                  	    lcd6 = S_A;
- 2B86: 1F08       	MOV 0x08, A
+ 2B86: 1F06       	MOV 0x06, A
 L978:
                   	                  	    lcd5 = S_b>>8;
- 2B87: 1F09       	MOV 0x09, A
+ 2B87: 1F05       	MOV 0x05, A
 L979:
                   	                  	    lcd4 = S_b;
  2B88: 2D03       	MOV A, #03h
- 2B89: 1F0A       	MOV 0x0A, A
+ 2B89: 1F04       	MOV 0x04, A
 L980:
                   	                  	}
  2B8A: 0E00       	RET
@@ -23119,26 +23122,26 @@ _Function_Disp_PAS_code:
 L986:
                   	                  		lcd9 = S_P>>8;
  2B8C: 2D0E       	MOV A, #0eh
- 2B8D: 1F05       	MOV 0x05, A
+ 2B8D: 1F09       	MOV 0x09, A
 L987:
                   	                  	    lcd8 = S_P;
  2B8E: 2D0C       	MOV A, #0ch
- 2B8F: 1F06       	MOV 0x06, A
+ 2B8F: 1F08       	MOV 0x08, A
 L988:
                   	                  	    lcd7 = S_A>>8;
  2B90: 2D0E       	MOV A, #0eh
  2B91: 1F07       	MOV 0x07, A
 L989:
                   	                  	    lcd6 = S_A;
- 2B92: 1F08       	MOV 0x08, A
+ 2B92: 1F06       	MOV 0x06, A
 L990:
                   	                  	    lcd5 = S_S>>8;
  2B93: 2D0C       	MOV A, #0ch
- 2B94: 1F09       	MOV 0x09, A
+ 2B94: 1F05       	MOV 0x05, A
 L991:
                   	                  	    lcd4 = S_S;
  2B95: 2D0B       	MOV A, #0bh
- 2B96: 1F0A       	MOV 0x0A, A
+ 2B96: 1F04       	MOV 0x04, A
 L992:
                   	                  	}
  2B97: 0E00       	RET
@@ -23158,24 +23161,24 @@ _Function_Disp_Err_code:
                   	                  		lcd9 = S_E>>8;
  2B98: 2D0E       	MOV A, #0eh
  2B99: 370F       	B0MOV 0x87, #0Fh
- 2B9A: 1F05       	MOV 0x05, A
+ 2B9A: 1F09       	MOV 0x09, A
 L998:
                   	                  	    lcd8 = S_E;
  2B9B: 2D09       	MOV A, #09h
- 2B9C: 1F06       	MOV 0x06, A
+ 2B9C: 1F08       	MOV 0x08, A
 L999:
                   	                  	    lcd7 = S_r>>8;
  2B9D: 2D06       	MOV A, #06h
  2B9E: 1F07       	MOV 0x07, A
 L1000:
                   	                  	    lcd6 = S_r;
- 2B9F: 2B08       	CLR 0x08
+ 2B9F: 2B06       	CLR 0x06
 L1001:
                   	                  	    lcd5 = S_r>>8;
- 2BA0: 1F09       	MOV 0x09, A
+ 2BA0: 1F05       	MOV 0x05, A
 L1002:
                   	                  	    lcd4 = S_r;
- 2BA1: 2B0A       	CLR 0x0A
+ 2BA1: 2B04       	CLR 0x04
 L1003:
                   	                  	}
  2BA2: 0E00       	RET
@@ -23195,31 +23198,31 @@ _Function_Disp_Debug1_code:
                   	                  		lcd0 = 0x0A;
  2BA3: 2D0A       	MOV A, #0ah
  2BA4: 370F       	B0MOV 0x87, #0Fh
- 2BA5: 1F0E       	MOV 0x0E, A
+ 2BA5: 1F00       	MOV 0x00, A
 L1009:
                   	                  	    lcd1 = 0x07;
  2BA6: 2D07       	MOV A, #07h
- 2BA7: 1F0D       	MOV 0x0D, A
+ 2BA7: 1F01       	MOV 0x01, A
 L1010:
                   	                  	    lcd2 = 0x0A;
  2BA8: 2D0A       	MOV A, #0ah
- 2BA9: 1F0C       	MOV 0x0C, A
+ 2BA9: 1F02       	MOV 0x02, A
 L1011:
                   	                  	    lcd3 = 0x06;
  2BAA: 2D06       	MOV A, #06h
- 2BAB: 1F0B       	MOV 0x0B, A
+ 2BAB: 1F03       	MOV 0x03, A
 L1012:
                   	                  	    lcd4 = 0x0A;
  2BAC: 2D0A       	MOV A, #0ah
- 2BAD: 1F0A       	MOV 0x0A, A
+ 2BAD: 1F04       	MOV 0x04, A
 L1013:
                   	                  	    lcd5 = 0x07;
  2BAE: 2D07       	MOV A, #07h
- 2BAF: 1F09       	MOV 0x09, A
+ 2BAF: 1F05       	MOV 0x05, A
 L1014:
                   	                  	    lcd6 = 0x0A;
  2BB0: 2D0A       	MOV A, #0ah
- 2BB1: 1F08       	MOV 0x08, A
+ 2BB1: 1F06       	MOV 0x06, A
 L1015:
                   	                  	    lcd7 = 0x06;
  2BB2: 2D06       	MOV A, #06h
@@ -23227,31 +23230,31 @@ L1015:
 L1016:
                   	                  	    lcd8 = 0x05;
  2BB4: 2D05       	MOV A, #05h
- 2BB5: 1F06       	MOV 0x06, A
+ 2BB5: 1F08       	MOV 0x08, A
 L1017:
                   	                  	    lcd9 = 0x03;
  2BB6: 2D03       	MOV A, #03h
- 2BB7: 1F05       	MOV 0x05, A
+ 2BB7: 1F09       	MOV 0x09, A
 L1018:
                   	                  	    lcd10 = 0x0A;
  2BB8: 2D0A       	MOV A, #0ah
- 2BB9: 1F04       	MOV 0x04, A
+ 2BB9: 1F0A       	MOV 0x0A, A
 L1019:
                   	                  	    lcd11 = 0x06;
  2BBA: 2D06       	MOV A, #06h
- 2BBB: 1F03       	MOV 0x03, A
+ 2BBB: 1F0B       	MOV 0x0B, A
 L1020:
                   	                  	    lcd12 = 0x0A;
  2BBC: 2D0A       	MOV A, #0ah
- 2BBD: 1F02       	MOV 0x02, A
+ 2BBD: 1F0C       	MOV 0x0C, A
 L1021:
                   	                  	    lcd13 = 0x06;
  2BBE: 2D06       	MOV A, #06h
- 2BBF: 1F01       	MOV 0x01, A
+ 2BBF: 1F0D       	MOV 0x0D, A
 L1022:
                   	                  	    lcd14 = 0x0A;
  2BC0: 2D0A       	MOV A, #0ah
- 2BC1: 1F00       	MOV 0x00, A
+ 2BC1: 1F0E       	MOV 0x0E, A
 L1023:
                   	                  	
                   	                  	}
@@ -23272,31 +23275,31 @@ _Function_Disp_Debug2_code:
                   	                  		lcd0 = 0x05;
  2BC3: 2D05       	MOV A, #05h
  2BC4: 370F       	B0MOV 0x87, #0Fh
- 2BC5: 1F0E       	MOV 0x0E, A
+ 2BC5: 1F00       	MOV 0x00, A
 L1029:
                   	                  	    lcd1 = 0x08;
  2BC6: 2D08       	MOV A, #08h
- 2BC7: 1F0D       	MOV 0x0D, A
+ 2BC7: 1F01       	MOV 0x01, A
 L1030:
                   	                  	    lcd2 = 0x05;
  2BC8: 2D05       	MOV A, #05h
- 2BC9: 1F0C       	MOV 0x0C, A
+ 2BC9: 1F02       	MOV 0x02, A
 L1031:
                   	                  	    lcd3 = 0x09;
  2BCA: 2D09       	MOV A, #09h
- 2BCB: 1F0B       	MOV 0x0B, A
+ 2BCB: 1F03       	MOV 0x03, A
 L1032:
                   	                  	    lcd4 = 0x05;
  2BCC: 2D05       	MOV A, #05h
- 2BCD: 1F0A       	MOV 0x0A, A
+ 2BCD: 1F04       	MOV 0x04, A
 L1033:
                   	                  	    lcd5 = 0x08;
  2BCE: 2D08       	MOV A, #08h
- 2BCF: 1F09       	MOV 0x09, A
+ 2BCF: 1F05       	MOV 0x05, A
 L1034:
                   	                  	    lcd6 = 0x05;
  2BD0: 2D05       	MOV A, #05h
- 2BD1: 1F08       	MOV 0x08, A
+ 2BD1: 1F06       	MOV 0x06, A
 L1035:
                   	                  	    lcd7 = 0x09;
  2BD2: 2D09       	MOV A, #09h
@@ -23304,31 +23307,31 @@ L1035:
 L1036:
                   	                  	    lcd8 = 0x0A;
  2BD4: 2D0A       	MOV A, #0ah
- 2BD5: 1F06       	MOV 0x06, A
+ 2BD5: 1F08       	MOV 0x08, A
 L1037:
                   	                  	    lcd9 = 0x0C;
  2BD6: 2D0C       	MOV A, #0ch
- 2BD7: 1F05       	MOV 0x05, A
+ 2BD7: 1F09       	MOV 0x09, A
 L1038:
                   	                  	    lcd10 = 0x05;
  2BD8: 2D05       	MOV A, #05h
- 2BD9: 1F04       	MOV 0x04, A
+ 2BD9: 1F0A       	MOV 0x0A, A
 L1039:
                   	                  	    lcd11 = 0x09;
  2BDA: 2D09       	MOV A, #09h
- 2BDB: 1F03       	MOV 0x03, A
+ 2BDB: 1F0B       	MOV 0x0B, A
 L1040:
                   	                  	    lcd12 = 0x05;
  2BDC: 2D05       	MOV A, #05h
- 2BDD: 1F02       	MOV 0x02, A
+ 2BDD: 1F0C       	MOV 0x0C, A
 L1041:
                   	                  	    lcd13 = 0x09;
  2BDE: 2D09       	MOV A, #09h
- 2BDF: 1F01       	MOV 0x01, A
+ 2BDF: 1F0D       	MOV 0x0D, A
 L1042:
                   	                  	    lcd14 = 0x05;
  2BE0: 2D05       	MOV A, #05h
- 2BE1: 1F00       	MOV 0x00, A
+ 2BE1: 1F0E       	MOV 0x0E, A
 L1043:
                   	                  	
                   	                  	}
@@ -23355,7 +23358,7 @@ L1051:
 L1052:
                   	                  	    lcd6 = S_t;
  2BE6: 2D01       	MOV A, #01h
- 2BE7: 1F08       	MOV 0x08, A
+ 2BE7: 1F06       	MOV 0x06, A
 L1053:
                   	                  	    lcd5 = DispTable[1]>>8;
  2BE8: 3100       	B0MOV 0x81, #00h
@@ -23367,14 +23370,14 @@ L1053:
  2BEE: FDA5       	CALL 0x3DA5
  2BEF: 2E18       	B0MOV A, 0x18
  2BF0: 370F       	B0MOV 0x87, #0Fh
- 2BF1: 1F09       	MOV 0x09, A
+ 2BF1: 1F05       	MOV 0x05, A
 L1054:
                   	                  	    lcd4 = DispTable[1];
  2BF2: 3423       	B0MOV 0x84, #23h
  2BF3: 3348       	B0MOV 0x83, #48h
  2BF4: FD17       	CALL 0x3D17
  2BF5: 370F       	B0MOV 0x87, #0Fh
- 2BF6: 1F0A       	MOV 0x0A, A
+ 2BF6: 1F04       	MOV 0x04, A
 L1055:
                   	                  	}
  2BF7: 0E00       	RET
@@ -23400,7 +23403,7 @@ L1063:
 L1064:
                   	                  	    lcd6 = S_t;
  2BFB: 2D01       	MOV A, #01h
- 2BFC: 1F08       	MOV 0x08, A
+ 2BFC: 1F06       	MOV 0x06, A
 L1065:
                   	                  	    lcd5 = DispTable[2]>>8;
  2BFD: 3100       	B0MOV 0x81, #00h
@@ -23412,14 +23415,14 @@ L1065:
  2C03: FDA5       	CALL 0x3DA5
  2C04: 2E18       	B0MOV A, 0x18
  2C05: 370F       	B0MOV 0x87, #0Fh
- 2C06: 1F09       	MOV 0x09, A
+ 2C06: 1F05       	MOV 0x05, A
 L1066:
                   	                  	    lcd4 = DispTable[2];
  2C07: 3423       	B0MOV 0x84, #23h
  2C08: 3349       	B0MOV 0x83, #49h
  2C09: FD17       	CALL 0x3D17
  2C0A: 370F       	B0MOV 0x87, #0Fh
- 2C0B: 1F0A       	MOV 0x0A, A
+ 2C0B: 1F04       	MOV 0x04, A
 L1067:
                   	                  	}
  2C0C: 0E00       	RET
@@ -23452,7 +23455,7 @@ L1099:
                   	                  	            lcd1 &= 0x01;
  2C13: 2D01       	MOV A, #01h
  2C14: 370F       	B0MOV 0x87, #0Fh
- 2C15: 290D       	AND 0x0D, A
+ 2C15: 2901       	AND 0x01, A
 L1102:
                   	                  	
                   	                  	            if( L_Mode<16 )
@@ -23465,7 +23468,7 @@ L1103:
                   	                  	                lcd1 |= 0x02;
  2C1B: 2D02       	MOV A, #02h
  2C1C: 370F       	B0MOV 0x87, #0Fh
- 2C1D: 190D       	OR 0x0D, A
+ 2C1D: 1901       	OR 0x01, A
  2C1E: AC2E       	JMP 0x2C2E
 L1077:
                   	                  	            else if( L_Mode<32 )
@@ -23477,7 +23480,7 @@ L1105:
                   	                  	                lcd1 |= 0x04;
  2C23: 2D04       	MOV A, #04h
  2C24: 370F       	B0MOV 0x87, #0Fh
- 2C25: 190D       	OR 0x0D, A
+ 2C25: 1901       	OR 0x01, A
  2C26: AC2E       	JMP 0x2C2E
 L1079:
                   	                  	            else if( L_Mode<48 )
@@ -23489,7 +23492,7 @@ L1107:
                   	                  	                lcd1 |= 0x08;
  2C2B: 2D08       	MOV A, #08h
  2C2C: 370F       	B0MOV 0x87, #0Fh
- 2C2D: 190D       	OR 0x0D, A
+ 2C2D: 1901       	OR 0x01, A
 L1081:
                   	                  	
                   	                  	            L_Mode++;
@@ -23519,7 +23522,7 @@ L1115:
                   	                  	        lcd1 = 0x01;
  2C3C: 2D01       	MOV A, #01h
  2C3D: 370F       	B0MOV 0x87, #0Fh
- 2C3E: 1F0D       	MOV 0x0D, A
+ 2C3E: 1F01       	MOV 0x01, A
 L1118:
                   	                  	
                   	                  	        if( L_Mode<48 )
@@ -23532,7 +23535,7 @@ L1119:
                   	                  	            lcd1 |= 0x08;
  2C44: 2D08       	MOV A, #08h
  2C45: 370F       	B0MOV 0x87, #0Fh
- 2C46: 190D       	OR 0x0D, A
+ 2C46: 1901       	OR 0x01, A
  2C47: AC57       	JMP 0x2C57
 L1085:
                   	                  	        else if( L_Mode<96 )
@@ -23544,7 +23547,7 @@ L1121:
                   	                  	            lcd1 |= 0x04;
  2C4C: 2D04       	MOV A, #04h
  2C4D: 370F       	B0MOV 0x87, #0Fh
- 2C4E: 190D       	OR 0x0D, A
+ 2C4E: 1901       	OR 0x01, A
  2C4F: AC57       	JMP 0x2C57
 L1087:
                   	                  	        else if( L_Mode<144 )
@@ -23556,7 +23559,7 @@ L1123:
                   	                  	            lcd1 |= 0x02;
  2C54: 2D02       	MOV A, #02h
  2C55: 370F       	B0MOV 0x87, #0Fh
- 2C56: 190D       	OR 0x0D, A
+ 2C56: 1901       	OR 0x01, A
 L1089:
                   	                  	
                   	                  	        L_Mode++;
@@ -23611,37 +23614,37 @@ L1141:
                   	                  		lcd_smileface_clr();	//清哭笑脸（从测试态退出）
  2C6A: 2DFB       	MOV A, #fbh
  2C6B: 370F       	B0MOV 0x87, #0Fh
- 2C6C: 290C       	AND 0x0C, A
+ 2C6C: 2902       	AND 0x02, A
 L1144:
                   	                  		lcd_badface_clr();
  2C6D: 2DF7       	MOV A, #f7h
- 2C6E: 290C       	AND 0x0C, A
+ 2C6E: 2902       	AND 0x02, A
 L1150:
                   	                  	    lcd_mem_clr();   //清M标志（从记忆态退出）
  2C6F: 2DFE       	MOV A, #feh
- 2C70: 290E       	AND 0x0E, A
+ 2C70: 2900       	AND 0x00, A
 L1156:
                   	                  		lcd9 = S_C>>8;
  2C71: 2D0A       	MOV A, #0ah
- 2C72: 1F05       	MOV 0x05, A
+ 2C72: 1F09       	MOV 0x09, A
 L1160:
                   	                  	    lcd8 = S_C;
  2C73: 2D09       	MOV A, #09h
- 2C74: 1F06       	MOV 0x06, A
+ 2C74: 1F08       	MOV 0x08, A
 L1161:
                   	                  	    lcd7 = S_A>>8;
  2C75: 2D0E       	MOV A, #0eh
  2C76: 1F07       	MOV 0x07, A
 L1162:
                   	                  	    lcd6 = S_A;
- 2C77: 1F08       	MOV 0x08, A
+ 2C77: 1F06       	MOV 0x06, A
 L1163:
                   	                  	    lcd5 = S_P>>8;
- 2C78: 1F09       	MOV 0x09, A
+ 2C78: 1F05       	MOV 0x05, A
 L1164:
                   	                  	    lcd4 = S_P;
  2C79: 2D0C       	MOV A, #0ch
- 2C7A: 1F0A       	MOV 0x0A, A
+ 2C7A: 1F04       	MOV 0x04, A
 L1165:
                   	                  	}
  2C7B: 0E00       	RET
@@ -23692,14 +23695,14 @@ L1172:
 L1173:
                   	                  	    lcd6 = S_E;
  2C91: 2D09       	MOV A, #09h
- 2C92: 1F08       	MOV 0x08, A
+ 2C92: 1F06       	MOV 0x06, A
 L1174:
                   	                  		lcd5 = S_r >> 8;
  2C93: 2D06       	MOV A, #06h
- 2C94: 1F09       	MOV 0x09, A
+ 2C94: 1F05       	MOV 0x05, A
 L1175:
                   	                  	    lcd4 = S_r;
- 2C95: 2B0A       	CLR 0x0A
+ 2C95: 2B04       	CLR 0x04
 L1176:
                   	                  		lcd3 = DispTable[ R_LCD1 ] >> 8;
  2C96: 3702       	B0MOV 0x87, #02h
@@ -23712,7 +23715,7 @@ L1176:
  2C9D: 2F19       	B0MOV 0x19, A
  2C9E: 2E82       	B0MOV A, R
  2C9F: 370F       	B0MOV 0x87, #0Fh
- 2CA0: 1F0B       	MOV 0x0B, A
+ 2CA0: 1F03       	MOV 0x03, A
 L1177:
                   	                  	    lcd2 = DispTable[ R_LCD1 ];
  2CA1: 3702       	B0MOV 0x87, #02h
@@ -23721,7 +23724,7 @@ L1177:
  2CA4: 3347       	B0MOV 0x83, #47h
  2CA5: FB1E       	CALL 0x3B1E
  2CA6: 370F       	B0MOV 0x87, #0Fh
- 2CA7: 1F0C       	MOV 0x0C, A
+ 2CA7: 1F02       	MOV 0x02, A
  2CA8: 2E82       	B0MOV A, R
  2CA9: 2F19       	B0MOV 0x19, A
 L1178:
@@ -23736,7 +23739,7 @@ L1178:
  2CB1: 2F19       	B0MOV 0x19, A
  2CB2: 2E82       	B0MOV A, R
  2CB3: 370F       	B0MOV 0x87, #0Fh
- 2CB4: 1F0D       	MOV 0x0D, A
+ 2CB4: 1F01       	MOV 0x01, A
 L1179:
                   	                  		lcd0 = DispTable[ R_LCD2 ];
  2CB5: 3702       	B0MOV 0x87, #02h
@@ -23745,7 +23748,7 @@ L1179:
  2CB8: 3347       	B0MOV 0x83, #47h
  2CB9: FB1E       	CALL 0x3B1E
  2CBA: 370F       	B0MOV 0x87, #0Fh
- 2CBB: 1F0E       	MOV 0x0E, A
+ 2CBB: 1F00       	MOV 0x00, A
  2CBC: 2E82       	B0MOV A, R
  2CBD: 2F19       	B0MOV 0x19, A
 L1180:
@@ -24717,11 +24720,11 @@ L35:
                   	                  	//STP
                   	                  			lcd9 = S_S>>8;
  3084: 2D0C       	MOV A, #0ch
- 3085: 1F05       	MOV 0x05, A
+ 3085: 1F09       	MOV 0x09, A
 L36:
                   	                  	        lcd8 = S_S;
  3086: 2D0B       	MOV A, #0bh
- 3087: 1F06       	MOV 0x06, A
+ 3087: 1F08       	MOV 0x08, A
 L37:
                   	                  	        lcd7 = S_t>>8;
  3088: 2D0E       	MOV A, #0eh
@@ -24729,15 +24732,15 @@ L37:
 L38:
                   	                  	        lcd6 = S_t;
  308A: 2D01       	MOV A, #01h
- 308B: 1F08       	MOV 0x08, A
+ 308B: 1F06       	MOV 0x06, A
 L39:
                   	                  	        lcd5 = S_P>>8;
  308C: 2D0E       	MOV A, #0eh
- 308D: 1F09       	MOV 0x09, A
+ 308D: 1F05       	MOV 0x05, A
 L40:
                   	                  	        lcd4 = S_P;
  308E: 2D0C       	MOV A, #0ch
- 308F: 1F0A       	MOV 0x0A, A
+ 308F: 1F04       	MOV 0x04, A
 L41:
                   	                  	#endif
                   	                  	
@@ -26746,7 +26749,7 @@ L111:
                   	                  					lcd_ble_en();
  346E: 2D08       	MOV A, #08h
  346F: 370F       	B0MOV 0x87, #0Fh
- 3470: 190E       	OR 0x0E, A
+ 3470: 1900       	OR 0x00, A
 L114:
                   	                  					g_ble_timeout = 0;
  3471: 3702       	B0MOV 0x87, #02h
@@ -27053,7 +27056,7 @@ L242:
                   	                  				 lcd_ble_clr();			//清蓝牙符号
  34E8: 2DF7       	MOV A, #f7h
  34E9: 370F       	B0MOV 0x87, #0Fh
- 34EA: 290E       	AND 0x0E, A
+ 34EA: 2900       	AND 0x00, A
 L245:
                   	                  				Drv_UartTX_Disable();
  34EB: CBE8       	CALL 0x0BE8
