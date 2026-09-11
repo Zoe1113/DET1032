@@ -83,7 +83,7 @@ void App_MemKeyProcess(void)
     if( uKeyPress.bits.MemKeyPress )									//开机键按下
     {
         uKeyRelease.bits.MemKeyRelease = 0;
-        if( uKeyHold.bits.MemKeyHold && !F_MemKey_Deal && !uErrFlag.bits.Er2 && !uErrFlag.bits.Er6 && eTestmode_num != Insptectmode )			//生产模式无记忆
+        if( uKeyHold.bits.MemKeyHold && !F_MemKey_Deal && !uErrFlag.bits.Er2 && !uErrFlag.bits.Er6 )
         {
             F_MemKey_Deal = 1;
             uKeyHold.bits.MemKeyHold = 0;
