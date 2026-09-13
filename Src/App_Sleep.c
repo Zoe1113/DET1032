@@ -199,7 +199,13 @@ void App_Sleep(void)
                        #endif						//¶þ¼¶µçÑ¹¼ì²â
                        if( uStaFlag.bits.LowBat )
                        {
-                           eSleepTask_Sta = Sleep_true;
+						   Clr_Disp();
+						   Disp_LowBat();
+						   Auto_TurnOff_Time_Sel();
+						   uKeyRelease.bits.TKeyRelease = 1; 
+						   eSleepTask_Sta = Sleep_false;
+						   eInitTask_Sta = Init_Err;
+						   eMain_Task = Task_InitMode;
                        }
                        else
                        {

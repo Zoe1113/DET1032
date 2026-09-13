@@ -1,6 +1,6 @@
 [General]
 TableSize=-1, -1, -1
-BreakpointCount=2
+BreakpointCount=1
 [Breakpoint_0]
 State=0
 LocationType=0

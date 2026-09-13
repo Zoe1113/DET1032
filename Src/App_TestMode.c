@@ -268,6 +268,12 @@ void App_TestingMode(void)
         //显示处理
         case Test_Disp:
             Clr_Disp888();
+            if( uErrFlag.bits.Er2 )
+            {
+                Er2_Display_Sound(RUN);
+                eTestTask_Sta = Test_End;
+                break;
+            }
             //耳温、黑体和生产检验模式需等待5s就绪后再显示模式符号
             if(eTestmode_num == Foreheadmode || eTestmode_num == Objectmode)
             {
@@ -336,6 +342,7 @@ void App_TestingMode(void)
             {
                 eReadyTask_Sta = Ready_Timeout;	//下个任务状态初始化
                 Time_CountDown_5s_timeout(RESET);
+                g_5s_Count = CountDown_5s;
             }
             F_5s_TimeOut = 0;				//请5s到标志位
             g_3s_Count = CountDown_3s;		//开启背光3s倒计时

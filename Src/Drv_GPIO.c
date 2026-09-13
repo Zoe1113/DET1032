@@ -33,6 +33,10 @@ void Cal_Inspect_Detect(void)
 		{
 			eSetTask = Set_Unit;		//设置态恢复状态
 			F_FirstEnter_SetMode = 0;
+			#if Func_Ble
+				F_Ble_En = Disable;
+				Port_Ble_En = 0;
+			#endif
 			eMain_Task = Task_BondTestmode;	//用户模式下短路debug进入绑定检测模式
 		}
 	}

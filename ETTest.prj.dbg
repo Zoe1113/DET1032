@@ -8,7 +8,7 @@ HideCount=0
 Radix=16
 ShowCharacter=0
 [Watch_Window_1]
-Count=8
+Count=9
 Item0=g_Day
 Radix=10
 ShowCharacter=0
@@ -19,7 +19,7 @@ Item4=FP22
 Item5=ble_DayMen
 Item6=ble_HourMen
 Item7=ble_MinuteMen
-Item8=g_Cali25TP	
+Item8=FP52	
 Item9=eAgemode_num
 Item10=uKeyPress.bits.TKeyPress
 Item11=g_MemCount

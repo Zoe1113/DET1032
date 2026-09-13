@@ -65,8 +65,11 @@ void LVD_Chk(void)
 **************************************************************************/
 void LBT_Chk(void)
 {
+	// uStaFlag.bits.MidBat = 0;		
+	// uStaFlag.bits.LowBat = 1 ;
+	// return;		
 	uint8 i=0 ;				
-
+	
 	/*先用2.7V的比较电压检测*/
 	LBTM = 0x14 ;		
 	Delay50us(1) ;

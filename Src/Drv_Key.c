@@ -187,6 +187,7 @@ void App_TKeyProcess(void)
             {
                 uErrFlag.g_ErrFlag = 0;	//清其他错误标志位
                 uErrFlag.bits.Er1 = 1;
+                Time_CountDown_5s_timeout(RUN);
                 //切换模式状态标志处理
                 Adc_Channel_Init(TPTONTC);			//切换到ntc通道
                 eReadyTask_Sta = Ready_DisEr1;	//只要有错需调到错误处理状态

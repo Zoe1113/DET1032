@@ -29,12 +29,12 @@ void App_BondTestMode(void)
 	switch( eBondTestTask )
 	{
 		case BondTest_Init:
+			LED_CloseAll();
 			#if Func_debug
 				Drv_UartTX_Init();
 			#endif
 			Drv_Adc_Init();
 			Drv_Adc_Channel_Set(ACM_ACM);
-			BZ_Beep125();
 			eBondTestTask = BondTest_Disp1;
 			break;
 
@@ -44,6 +44,7 @@ void App_BondTestMode(void)
 			#if Func_3color
 				LED_Green_En();
 			#endif
+			BZ_Beep125();
 			Delay10ms(30);
 			while( !Get_Adc_Avg() )
             {
@@ -80,6 +81,10 @@ void App_BondTestMode(void)
 		//进行Ntc判定显示相应画面
 		case BondTest_Ntc:
 			Clr_Disp();
+			#if Func_3color
+				LED_Yellow_Dis();
+				LED_Red_En();
+			#endif
 			if( Port_Debug == 0 )
 			{
 				//绑定厂检测
@@ -120,10 +125,6 @@ void App_BondTestMode(void)
 				}
 			}
 
-			#if Func_3color
-				LED_Yellow_Dis();
-				LED_Red_En();
-			#endif
 			
 			Drv_PGA_Init(Adc_PGA_Gain);
 			Drv_Adc_Channel_Set(AI3_AI4);		//切换到Tp采集
