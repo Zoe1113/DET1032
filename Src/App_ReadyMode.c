@@ -333,6 +333,8 @@ void Er6_Display_Sound(bit cmd)
         Er6_First_Enter =0;              //提前退出函数，防止在清零该标志位时会蜂鸣。
         goto END;                          //使用跳转语句跳到函数末尾，复位程序时蜂鸣
     }
+    LED_CloseAll();                  //Er6显示期间不点亮背光
+    g_3s_Count = 0;
     Disp_ErrMsg();	//显示错误信息
     lcd_age_clr();
     if(Er6_First_Enter == 0)
